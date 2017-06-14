@@ -1,0 +1,32 @@
+Il est fortement recommander de configurer votre Jeedom en IP fixe.
+
+[TIP]
+Par defaut, votre Jeedom se voit attribué une adresse IP aléatoire sur votre réseau. Il se peut donc qu'elle change (en cas de coupure de courant, reboot, ...).
+
+Il existe 2 méthodes pour configurer une adresse IP fixe :
+
+=== IP Fixe attribué par votre box
+Pour celà il faut connaitre l'IP de votre Jeedom (imaginons pour la suite 192.168.0.15).
+
+Ensuite, Il faut dans une fenêtre dos lancer la commande suivante :
+-----
+arp -a 192.168.0.15
+-----
+
+Dans la réponse on retrouve l'adresse MAC 00-00-0c-07-ac-02.
+
+-----
+Interface : 192.168.0.15 --- 0xc
+Adresse Internet      Adresse physique
+Type  192.168.0.15        00-00-0c-07-ac-02     dynamique
+-----
+
+Il faut donc aller sur votre serveur DHCP (généralement votre box) et demander à ce que l'adresse IP attribué à 00-00-0c-07-ac-02 soit fixé. Le plus simple est de mettre l'adresse IP de la box plus 1 (exemple box en 192.168.0.1 => Jeedom en 192.168.0.2).
+
+=== IP Fixe configuré dans Jeedom (niveau admin système)
+
+Il faut dans ce cas modifier le fichier /etc/network/interfaces.
+[IMPORTANT]
+Utiliser une adresse IP hors de la place DHCP de votre serveur DHCP (généralement la box).
+
+Il faut aussi aller renseigner le serveur DNS dans /etc/resolv.conf (généralement la box).
