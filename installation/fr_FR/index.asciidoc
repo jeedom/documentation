@@ -4,6 +4,10 @@
 include::hardware.asciidoc[]
 
 '''
+== Réseau
+include::network.asciidoc[]
+
+'''
 == Sur Raspberry pi 1 et 2 (mini)
 include::rpi.asciidoc[]
 
