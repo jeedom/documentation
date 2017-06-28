@@ -1,4 +1,8 @@
-Il est fortement recommander de configurer votre Jeedom en IP fixe.
+Pour la stabilité de votre installation, 2 recommandations majeures s'imposent :
+
+- Mettre votre box domotique (Raspberry pi, Jeedomboard, ...) en ethernet (cable) et non en Wifi.
+
+- Il est fortement recommander de configurer votre Jeedom en IP fixe.
 
 [TIP]
 Par defaut, votre Jeedom se voit attribué une adresse IP aléatoire sur votre réseau. Il se peut donc qu'elle change (en cas de coupure de courant, reboot, ...).
