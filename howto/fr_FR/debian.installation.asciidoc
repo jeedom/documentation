@@ -155,4 +155,4 @@ Les Open VMware Tools installent les drivers spécifiques au système d'exploita
 sudo apt-get install -y open-vm-tools
 ----
 
-Il ne vous reste plus qu'à installer jeedom en suivant https://jeedom.github.io/documentation/installation/fr_FR/doc-installation.html#_autre[ceci]
+Il ne vous reste plus qu'à installer jeedom en suivant https://github.com/jeedom/documentation/blob/master/installation/fr_FR/other.asciidoc[ceci]
