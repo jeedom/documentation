@@ -17,7 +17,7 @@ Ensuite il faut récupérer le numéro du port de communication. Allez sur le me
 
 image::../images/gsmonly2.PNG[]
 
-== Téléchargement de Putty
+== Putty herunterladen
 
 Téléchargez ensuite putty https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe[ici] et lancez le fichier téléchargé
 

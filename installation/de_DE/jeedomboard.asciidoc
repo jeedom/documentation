@@ -3,9 +3,9 @@ Hier ist eine Schritt für Schritt Dokumentation um Jeedom auf das Jeedomboard (
 [TIP]
 Der Name des heruntergeladenen Jeedom-Abbilds kann sich von dem in dieser Dokumentation unterscheiden.
 
-=== Etape 1 : Installation de Etcher
+=== Schritt 1 : Etcher installieren 
 
-Vous devez télécharger le logicel Etcher link:https://etcher.io/[ici] puis l'installer sur votre pc
+Sie müssen die Etcher Software link:https://etcher.io/[hier] herunterladen und auf Ihrem PC installieren.
 
 === Schritt 2: Wiederherstellung Jeedom-Abbild
 

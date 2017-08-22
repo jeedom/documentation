@@ -1,7 +1,7 @@
 = Liste der kompatiblen EnOcean-Geräte 
 :linkattrs:
 
-[green]*Derzeit ist Jeedom kompatibel mit* [red]*15* [green]*Marken mit verschiedenen Modulen, d.h. insgesamt* [red]*66* [green]*Modulen.*
+[green]*Actuellement Jeedom est compatible avec* [red]*15* [green]*marques de modules différentes, soit un total de* [red]*67* [green]*modules.*
 
 Andere nicht anwesende Module, auf dieser Liste, können kompatibel sein. 
 
@@ -253,6 +253,9 @@ _[small]#Piles : 1x3V CR1216#_|Mode inclusion auto et appui sur le bouton learn|
 // 
 
 |image:../images/compatibility_list/d2-01-12_micromodule_nodon_2_canaux.jpg[width=150,align="center"]|Nodon|Micromodule commutateur double EnOcean|D2-01-12|Micromodule|Bien s'assurer que le micromodule sort du learn après inclusion. Sinon procédez à une exclusion avant |Mode inclusion auto et triple appui sur le bouton learn| link:++http://www.domadoo.fr/fr/peripheriques/3341-nodon-micromodule-commutateur-double-enocean-3700313920374.html++[Acheter^]
+// 
+
+|image:../images/compatibility_list/d2-01-0f_micromodule_nodon_1_canal.jpg[width=150,align="center"]|Nodon|Micromodule commutateur simple EnOcean|D2-01-0F|Micromodule|Bien s'assurer que le micromodule sort du learn après inclusion. Sinon procédez à une exclusion avant |Mode inclusion auto et triple appui sur le bouton learn| 
 // 
 
 |image:../images/compatibility_list/d2-01-0b_smartplug_nodon_metering.jpg[width=150,align="center"]|Nodon|Prise intelligente + metering|D2-01-0B|Prise|Bien s'assurer que la prise sort du learn après inclusion. Sinon procédez à une exclusion avant |Mode inclusion auto et appui long (2s) sur le bouton learn| link:++http://www.domadoo.fr/fr/peripheriques/2633-nodon-prise-intelligente-metering-enocean-type-eu-3700313920022.html++[Acheter^]

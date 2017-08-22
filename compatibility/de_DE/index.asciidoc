@@ -45,29 +45,29 @@ Z-Wave Controller :
 
 '''
 == Zwave Module
-Vous trouverez la liste https://jeedom.github.io/documentation/zwave/fr_FR/equipement.compatible.html[ici]
+Sie finden die Liste https://jeedom.github.io/documentation/zwave/fr_FR/equipement.compatible.html[hier]
 
 '''
 == EnOcean Module
-Vous trouverez la liste https://jeedom.github.io/documentation/enocean/fr_FR/equipement.compatible.html[ici]
+Sie finden die Liste https://jeedom.github.io/documentation/enocean/fr_FR/equipement.compatible.html[hier]
 
 '''
 == Edisio Module
-Vous trouverez la liste https://jeedom.github.io/documentation/edisio/fr_FR/-equipement.compatible.html[ici]
+Sie finden die Liste https://jeedom.github.io/documentation/edisio/fr_FR/-equipement.compatible.html[hier]
 
 '''
 == RFXcom Module
-Vous trouverez la liste https://jeedom.github.io/documentation/rfxcom/fr_FR/equipement.compatible.html[ici]
+Sie finden die Liste https://jeedom.github.io/documentation/rfxcom/fr_FR/equipement.compatible.html[hier]
 
 '''
 == Kameras
-Vous trouverez la liste https://jeedom.github.io/documentation/camera/fr_FR/equipement.compatible.html[ici]
+Sie finden die Liste https://jeedom.github.io/documentation/camera/fr_FR/equipement.compatible.html[hier]
 
 == Empfohlene Hardware-Plattform
 
 Das Jeedom-Team empfiehlt Ihnen (je nach Geldbeutel) :
 
-- Jeedom Smart (tout est préinstallé, vous n'avez rien à faire)
+- Jeedom Smart (alles ist vorinstalliert, Sie haben nichts zu tun)
 - Odroid C2 (Bestes Preis/Leistungs-Verhältnis)
 -Intel Nuc gen6 (extreme Leistung, lesen Sie in der Anleitung für die Wahl der verschiedenen Modellen und Installation)
 

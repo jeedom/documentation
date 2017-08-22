@@ -1,7 +1,7 @@
-Vous pouvez retrouver toutes les images Jeedom link:https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog[ici], puis dans le dossier Images
+Alle Abbilder von Jeedom finden Sie link:https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog[hier], und dann in dem Images Ordner
 
 [NOTE]
-Une image netinstall va lors du premier démarrage installer la dernière version stable de Jeedom, ce démarrage est donc un peu plus long et nécessite d'avoir accès à internet. Vous pouvez suivre l'avancement de celui-ci en allant sur l'IP de votre Jeedom avec votre navigateur
+Ein Netinstall-Image wird nach dem ersten Start die neueste stabile Version von Jeedom installieren, dieser Start dauert etwas länger und Sie müssen auf das Internet zugreifen können. Sie können den Fortschritt verfolgen, indem Sie auf die IP-Adresse Ihres Jeedom in Ihrem Browser eingeben
 
 [cols="5*", options="header"] 
 |===

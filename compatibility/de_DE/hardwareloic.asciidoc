@@ -4,7 +4,7 @@
 [cols="2*", options="header"] 
 |===
 |Name|Bemerkungen
-|Intel NUC Gen6 i5 avec 16Go de ram, 240Go de SSD le tout sous VMware| Super hardware, performant et pas trop consommateur
+|Intel NUC Gen6 i5 mit 16 GB Ram, 240GB SSD alles unter VmWare|Super Hardware, die leistungsfähig ist und nicht zuviel Verbrauch hat
 |===
 
 === Zwave
@@ -18,7 +18,7 @@
 |Fibaro FGRGB-101 RGBW|
 |FGMS-001 Motion Sensor (Bewegungsmelder)|
 |FGD-211 Dimmer|
-|FGFS-101 ZW5 Flood Sensor 1| Attention lors du redémarrage du réseau le module envoie une alerte alors que ce n'est pas le cas
+|FGFS-101 ZW5 Flood Sensor(Überflutungsensor) 1| Achtung, bei der Wiederbelebung des Netzes sendet das Modul einen Alarm, obwohl das nicht der Fall ist.
 |===
 
 === enOcean
@@ -27,8 +27,8 @@
 |===
 |Name|Bemerkungen
 |USB-Stick EnOcean USB300|
-|Nodon détecteur d'ouverture de porte|
-|Interrupteur double| Nécessite un fort appui pour fonctionner
+|Nodon Türöffnung Sensor|
+|Doppelschalter| Erfordern eine starke Unterstützung, um zu funktionieren
 |Fernbedienung| Wasserdicht, mit einem Magneten
 |Eltako IR Sender| Ein wenig teuer, aber praktisch
 |===
@@ -40,7 +40,7 @@
 |Name|Bemerkungen
 |e-Trendy Fernbedienung|
 |5 Tasten Schalter|
-|Détecteur d'ouverture| Semble avoir quelques ratés de temps en temps (peut-être un soucis de pile)
+|Öffnungsdetektor| Scheint einige Versager von Zeit zu Zeit zu haben (vielleicht probleme mit der Batterie)
 |===
 
 === Rfxcom
@@ -77,7 +77,7 @@
 [cols="2*", options="header"] 
 |===
 |Name|Bemerkungen
-|Neato Connected| Bon aspirateur mais la fonction connectée n'apporte pas tant que ca
+|Neato Connected| Guter Staubsauger, aber die verbundene Funktion bringen nicht so lange wie CA
 |Dotti| LED-Anzeige in Bluetooth, wirklich nett
 |HUAWEI E220| Hatt kein einziges Problem
 |Kartoz|
