@@ -1,4 +1,4 @@
-Jeedom is composed of a central part, the core, responsible for the core functionalities.
+Jeedom is composed of a core which is on charge of basic functions :
 
 * _Scenario,_
 
@@ -23,7 +23,7 @@ image::../images/doc-presentation-maj.png[Page Update]
 image::../images/doc-presentation-sauvegarde.png[Page Backup]
 
 
-Autour de ce noyau viennent se greffer des plugins qui peuvent être de toutes sortes :
+Around this core, plugins of any kind can integrate:
 
 - home automation protocol (Z-Wave, RFXcom, EnOcean...),
 - other protocol IP (KNX, xPL...),
