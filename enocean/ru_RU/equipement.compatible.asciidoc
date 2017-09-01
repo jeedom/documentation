@@ -1,7 +1,7 @@
 = Liste des equipements enocean compatibles 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*15* [green]*marques de modules différentes, soit un total de* [red]*67* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*15* [green]*marques de modules différentes, soit un total de* [red]*68* [green]*modules.*
 
 D'autres modules non présents sur cette liste peuvent être compatibles.
 
@@ -241,6 +241,9 @@ _[small]#Piles : 1x3V CR1216#_|Mode inclusion auto et appui sur le bouton learn|
 |image:../images/compatibility_list/a5-02-05_nodon_capteur_de_temperature_wood.jpg[width=150,align="center"]|Nodon|Capteur de température wood|A5-02-05|Température|Disponible en plusieurs coloris 
 
 _[small]#Piles : 1x3V CR1216#_|Mode inclusion auto et appui sur le bouton learn| link:++http://www.domadoo.fr/fr/peripheriques/2635-nodon-capteur-de-temperature-enocean-wood-3700313920145.html++[Acheter^]
+// 
+
+|image:../images/compatibility_list/a5-07-03_nodon_mouvement.jpg[width=150,align="center"]|Nodon|Détecteur de mouvement et luminosité EnOcean|A5-07-03|Mouvement| |Mode inclusion auto et mode appairage| 
 // 
 
 |image:../images/compatibility_list/f6-02-02_wall_switch_marron.jpg[width=150,align="center"]|Nodon|Interrupteur mural EnOcean - Cozi Grey|F6-02-02|Interrupteur|Disponible en plusieurs coloris. Deux modes de fonctionnement possible dans Jeedom (on/off sur deux boutons ou toggle sur 4 boutons). Les appuis multiples sont gérés. |Mode inclusion auto et appui sur un bouton| link:++http://www.domadoo.fr/fr/peripheriques/2628-nodon-interrupteur-mural-enocean-cozi-grey-3700313920084.html++[Acheter^]
