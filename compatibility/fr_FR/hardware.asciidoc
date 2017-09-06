@@ -10,5 +10,5 @@
 |RPI3|Non officiel/Stable|Attention si vous utilisez un Razberry le wifi/bluetooth ne pourra marcher
 |64 bits|Stable|Attention seulement sous Debian Jessie
 |32 bits|Non supporté|
-|Vmware|Stable|Attention seulement sous Debian Jessie. Pas de support pour VMware, seulement pour Jeedom. ATTENTION VmWare 6.5 n'est pas supporté, certain tests on montrée des soucis avec les clef USB Zwave qui n'existent pas avec VMWare 6.0 ou inférieure.
+|Vmware|Stable|Attention, seulement sous Debian Jessie. Pas de support pour VMware, seulement pour Jeedom. ATTENTION, VmWare 6.5 n'est pas supporté, certains tests ont montré des soucis avec les clefs USB Zwave qui n'existent pas avec VMWare 6.0 ou inférieure.
 |===
