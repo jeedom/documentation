@@ -70,7 +70,7 @@ Changer la valeur de  CONF_SWAPSIZE pour 1024 par exemple, puis reboot.
 
 *Changer la valeur d'appel au swap.*
 
-Par défaut, le système appelle le swap losqu'il reste moins de 40% de Ram.
+Par défaut, le système appelle le swap lorsqu'il reste moins de 40% de Ram.
 [source,]
 ----
 sudo nano /etc/sysctl.conf
