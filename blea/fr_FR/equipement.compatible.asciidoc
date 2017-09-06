@@ -23,7 +23,7 @@ D'autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
 
-|image:../images/compatibility_list/dotti.jpg[width=150,align="center"]|Dotti|Dotti|DOTTI|Afficheur|Fonctionnera beaucoup mieux avec option garder la connection |Mode inclusion| 
+|image:../images/compatibility_list/dotti.jpg[width=150,align="center"]|Dotti|Dotti|DOTTI|Afficheur|Fonctionnera beaucoup mieux avec option 'garder la connection' |Mode inclusion| 
 // 
 
 
@@ -35,7 +35,7 @@ D'autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
 
-|image:../images/compatibility_list/tb05.jpg[width=150,align="center"]|E-Diffuser|Tb05|TB05|Diffuseur|Il est recommandé d'utiliser l'option garder la connection. Obligatoire pour tenter expérimentalement l'accès au couleur direct |Mode inclusion| 
+|image:../images/compatibility_list/tb05.jpg[width=150,align="center"]|E-Diffuser|Tb05|TB05|Diffuseur|Il est recommandé d'utiliser l'option 'garder la connection'. Obligatoire pour tenter expérimentalement l'accès aux couleurs direct |Mode inclusion| 
 // 
 
 
