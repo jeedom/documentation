@@ -27,7 +27,7 @@ Autour de ce noyau viennent se greffer des plugins qui peuvent être de toutes s
 
 - protocole domotique (Z-Wave, RFXcom, EnOcean...),
 - protocole IP (KNX,xPL...),
-- objet communiquant (Nest, Netatmo...),
+- objet communicant (Nest, Netatmo...),
 - haut niveau (alarme, thermostat...),
 - interface (widget),
 - organisation (agenda, Google agenda),
@@ -37,4 +37,4 @@ Ces plugins peuvent être récupérés via Market et permettent d'étendre les p
 
 image::../images/doc-presentation-market.png[Page Market]
 
-Jeedom permet à n'importe quel plugin de discuter avec un autre sur une base normalisée. Cela permet par exemple d'utiliser les plugins thermostat ou alarme avec n'importe quel protocole domotique ou même un plugin IP ou objet communiquant...
+Jeedom permet à n'importe quel plugin de discuter avec un autre sur une base normalisée. Cela permet par exemple d'utiliser les plugins thermostat ou alarme avec n'importe quel protocole domotique ou même un plugin IP ou objet communicant...
