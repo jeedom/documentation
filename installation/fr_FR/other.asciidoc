@@ -1,8 +1,8 @@
-Vous trouverez ici la documentation pour installer Jeedom sur la plupart des systèmes linux (testée et approuvée sur la distribution Debian)
+Vous trouverez ici la documentation pour installer Jeedom sur la plupart des systèmes Linux (testée et approuvée sur la distribution Debian)
 
 [IMPORTANT]
 Debian 8 est la distribution officiellement supportée, l'utilisation d'une autre distribution est à proscrire au risque d'obtenir comme réponse du support de devoir restaurer votre Jeedom sur une image officielle.
-Si vous ne maitriser pas un minimum les environnements Linux, nous vous conseillons de partir sur une image officielle (OVF) ou l'utilisation d'une Mini+ ou Smart (disponible prochainement).
+Si vous ne maitrisez pas un minimum les environnements Linux, nous vous conseillons de partir sur une image officielle (OVF) ou l'utilisation d'une Mini+ ou Smart (disponible prochainement).
 
 Connectez-vous en SSH à votre système et faites : 
 
@@ -20,7 +20,7 @@ Les identifiants par défaut sont admin/admin
 [NOTE]
 Les arguments suivants sont utilisables :
 -w = dossier webserver
--z = installation dependances z-wave
+-z = installation dépendances z-wave
 -m = mot de passe root mysql désiré
 
 -----
