@@ -6,7 +6,7 @@ Debian 8 (jessie) est la distribution officiellement supportée, l'utilisation d
 ====
 Strecht (Debian 9) n'est pas supportée pour le moment. Elle le sera en version 3.1
 ====
-*1/ Télécharger le dernière image "lite", c'est à dire sans interface graphique*
+*1/ Télécharger la dernière image "lite", c'est-à-dire sans interface graphique*
 https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2017-07-05/2017-07-05-raspbian-jessie-lite.zip[Ici]
 
 *2/ Décompresser l'image avec winrar*
@@ -21,11 +21,11 @@ Pour des raisons de sécurité, l'accès SSH n'est plus activé par défaut sur 
 ====
 *4/ Activer un accès SSH*
 
-Il faut créer sur la partition boot (la seule accessible sous windows) un fihier ssh vide.
-Il suffit de faire un clic droit : nouveau / document texte et le renommer en"ssh" *sans aucune extension*
+Il faut créer sur la partition boot (la seule accessible sous windows) un fichier ssh vide.
+Il suffit de faire un clic droit : nouveau / document texte et le renommer en "ssh" *sans aucune extension*
 [IMPORTANT]
 ====
-Sous windows, dans l'explorateur il faut donc vérifier votre paramétrage dans affichage / options / modifier les options de dossiers et de recherche / 
+Sous windows, dans l'explorateur, il faut donc vérifier votre paramétrage dans affichage / options / modifier les options de dossiers et de recherche / 
 ====
 image::../images/ExtensionFichier.PNG[]
 
@@ -44,10 +44,10 @@ Il faut connaitre l'adresse Ip de votre PI. Plusieurs solutions :
 
 [underline]#Etablir la connexion#
 
-Ensuite utiliser par exemple putty pour établir votre connexion 
+Ensuite, utiliser par exemple putty pour établir votre connexion 
 http://www.putty.org/[Ici]
 
-Rentrer l'adresse de Ip de votre PI (ici 192.168.0.10) et cliquez sur open. Accepter le message par défaut relatif à la sécurité lors de la première connexion.
+Rentrer l'adresse Ip de votre PI (ici 192.168.0.10) et cliquez sur open. Accepter le message par défaut relatif à la sécurité lors de la première connexion.
 
 Connectez-vous avec les identifiants *pi / raspberry*
 
@@ -100,4 +100,4 @@ Les arguments suivants sont utilisables :
 
 
 
-Ensuite vous pouvez suivre la documentation https://www.jeedom.fr/doc/documentation/premiers-pas/fr_FR/doc-premiers-pas.html[Premier pas avec Jeedom]
+Ensuite, vous pouvez suivre la documentation https://www.jeedom.fr/doc/documentation/premiers-pas/fr_FR/doc-premiers-pas.html[Premier pas avec Jeedom]
