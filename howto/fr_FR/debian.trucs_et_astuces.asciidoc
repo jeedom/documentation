@@ -71,7 +71,7 @@ apt-get dist-upgrade
 ----
 
 [IMPORTANT]
-Si vous passez de jessie à Stretch sans refaire l'installation de Jeedom il faut desactiver le private tmp d'apache sinon Jeedom ne marchera pas : 
+Si vous passez de jessie à Stretch sans refaire l'installation de Jeedom, il faut désactiver le private tmp d'apache sinon Jeedom ne marchera pas : 
 
 ----
 rm /etc/systemd/system/multi-user.target.wants/apache2.service
