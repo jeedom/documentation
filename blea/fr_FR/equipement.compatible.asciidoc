@@ -101,27 +101,27 @@ _[small]#Piles : 1x3V CR2032#_|Mode inclusion|
 |===
 |Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
 
-|image:../images/compatibility_list/itag_blanc.jpg[width=150,align="center"]|Itag|Itag Blanc|ITAG|Boutons|Attention, pour que le bouton fonctionne, il faut cocher 'garder la connection', à partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisie en émission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
+|image:../images/compatibility_list/itag_blanc.jpg[width=150,align="center"]|Itag|Itag Blanc|ITAG|Boutons|Attention, pour que le bouton fonctionne, il faut cocher 'garder la connection'. A partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisie en émission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
 
 _[small]#Piles : 1x3V CR2032#_|Mode inclusion auto et appui sur le bouton| 
 // 
 
-|image:../images/compatibility_list/itag_bleu.jpg[width=150,align="center"]|Itag|Itag Bleu|ITAG|Boutons|Attention pour que le bouton fonctionne, il faut cocher 'garder la connection', à partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
+|image:../images/compatibility_list/itag_bleu.jpg[width=150,align="center"]|Itag|Itag Bleu|ITAG|Boutons|Attention, pour que le bouton fonctionne, il faut cocher 'garder la connection'. A partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
 
 _[small]#Piles : 1x3V CR2032#_|Mode inclusion auto et appui sur le bouton| 
 // 
 
-|image:../images/compatibility_list/itag.jpg[width=150,align="center"]|Itag|Itag Noir|ITAG|Boutons|Attention, pour que le bouton fonctionne, il faut cocher 'garder la connection', à partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
+|image:../images/compatibility_list/itag.jpg[width=150,align="center"]|Itag|Itag Noir|ITAG|Boutons|Attention, pour que le bouton fonctionne, il faut cocher 'garder la connection'. A partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
 
 _[small]#Piles : 1x3V CR2032#_|Mode inclusion auto et appui sur le bouton| 
 // 
 
-|image:../images/compatibility_list/itag_rose.jpg[width=150,align="center"]|Itag|Itag Rose|ITAG|Boutons|Attention, pour que le bouton fonctionne, il faut cocher 'garder la connection', à partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
+|image:../images/compatibility_list/itag_rose.jpg[width=150,align="center"]|Itag|Itag Rose|ITAG|Boutons|Attention, pour que le bouton fonctionne, il faut cocher 'garder la connection'. A partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
 
 _[small]#Piles : 1x3V CR2032#_|Mode inclusion auto et appui sur le bouton| 
 // 
 
-|image:../images/compatibility_list/itag_vert.jpg[width=150,align="center"]|Itag|Itag Vert|ITAG|Boutons|Attention, pour que le bouton fonctionne, il faut cocher 'garder la connection', à partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
+|image:../images/compatibility_list/itag_vert.jpg[width=150,align="center"]|Itag|Itag Vert|ITAG|Boutons|Attention, pour que le bouton fonctionne, il faut cocher 'garder la connection'. A partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
 
 _[small]#Piles : 1x3V CR2032#_|Mode inclusion auto et appui sur le bouton| 
 // 
@@ -138,13 +138,13 @@ _[small]#Piles : 1x3V CR2032#_|Mode inclusion auto et appui sur le bouton|
 |image:../images/compatibility_list/logiswitch_blanc.jpg[width=150,align="center"]|Logitech|Logitech Pop blanc|LOGISWITCH|Boutons|Ne doit absolument pas être connecté sur un autre appareil |Mode inclusion et appui sur le bouton| 
 // 
 
-|image:../images/compatibility_list/logiswitch_gris.jpg[width=150,align="center"]|Logitech|Logitech Pop gris|LOGISWITCH|Boutons|Ne doit absolument pas être connecté sur un autre appareil |Mode inclusion et appui sur le bouton| 
+|image:../images/compatibility_list/logiswitch_gris.jpg[width=150,align="center"]|Logitech|Logitech Pop gris|LOGISWITCH|Boutons|Ne doit absolument pas être connecté sur un autre appareil. |Mode inclusion et appui sur le bouton| 
 // 
 
-|image:../images/compatibility_list/logiswitch.jpg[width=150,align="center"]|Logitech|Logitech Pop rouge|LOGISWITCH|Boutons|Ne doit absolument pas être connecté sur un autre appareil |Mode inclusion et appui sur le bouton| 
+|image:../images/compatibility_list/logiswitch.jpg[width=150,align="center"]|Logitech|Logitech Pop rouge|LOGISWITCH|Boutons|Ne doit absolument pas être connecté sur un autre appareil. |Mode inclusion et appui sur le bouton| 
 // 
 
-|image:../images/compatibility_list/logiswitch_vert.jpg[width=150,align="center"]|Logitech|Logitech Pop vert|LOGISWITCH|Boutons|Ne doit absolument pas être connecté sur un autre appareil |Mode inclusion et appui sur le bouton| 
+|image:../images/compatibility_list/logiswitch_vert.jpg[width=150,align="center"]|Logitech|Logitech Pop vert|LOGISWITCH|Boutons|Ne doit absolument pas être connecté sur un autre appareil. |Mode inclusion et appui sur le bouton| 
 // 
 
 
