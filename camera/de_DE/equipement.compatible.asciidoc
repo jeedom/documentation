@@ -1,34 +1,34 @@
-= Liste des caméras IP compatibles Jeedom
+= Liste der Jeedom kompatiblen IP Kameras
 
 [cols="3*", options="header"] 
 |===
-|Nom|Remarque|Lien
+|Name|Bemerkung|Link
 
-|Android IP webcam||
-|Alcatel portier vidéo||
+|Android IP Webcam||
+|Alcatel Video Türstation||
 |Axis 207W||
-|Bluestork|Tous les modèles (validé sur BS-IPCAM/TP, BS-IPCAM-W, BS-CAM-IND)|
+|Bluestork|Alle Modelle (überprüft von BS-IPCAM/TP, BS-IPCAM-W, BS-CAM-IND)|
 |D-link DCS||
 |D-Link DCS-5020L||
-|D-Link EyeOn baby Monitor||
-|Ebode exterieure||
-|Ebode motrisée||
-|Ebode HD motorisée||
+|D-Link EyeOn Baby Monitor||
+|Ebode Extern||
+|Ebode motorisiert||
+|Ebode HD motorisiert||
 |Foscam C1||
-|Foscam HD motorisée||
-|Foscam motorisée||
-|Foscam FI9803EP/FI9803P|Attention il faut mettre link::https://drive.google.com/file/d/0B9gdDNCtvjAITEs0UjduRV9zSG8/view?usp=sharing[ce patch] pour que la caméra fonctionne|
+|Foscam HD motorisiert||
+|Foscam motorisiert||
+|Foscam FI9803EP/FI9803P|Achtung, man muss diesen link::https://drive.google.com/file/d/0B9gdDNCtvjAITEs0UjduRV9zSG8/view?usp=sharing[Patch] benutzen, damit die Kamera funktioniert|
 |Heden CAMHED05IPWN (V5.5)||
 |Heden Visioncam 22||
-|Heden VisionCam HD CAMHD08MD0 ||
+|Heden VisionCam HD CAMHD08MD0||
 |Hikvision DS-2CD2132-I||
 |Hikvision DS-2CD3332-I||
 |Hikvision DS-2CD2232-I5||
 |Hikvision DS-2CD2732F-IS||
 |Hikvision.DS-7216HWI-SH-A||
-|IP_Linkcom portier vidéo||
-|Konx portier vidéo||
-|Mustcam HD motorisée||
+|IP_Linkcom Video Türstation||
+|Konx Video Türstation||
+|Mustcam HD motorisiert||
 |Panasonic BL-C121||
 |RPI Cam||
 |Tenvis||
@@ -39,11 +39,11 @@
 |Vivotek 7xxx||
 |Vivotek 8xxx||
 |Wanscam HW00XX||
-|Wanscam motorisée||
+|Wanscam motorisiert||
 |Y-Cam||
 |Zavio F3115||
 
 |===
 
 [NOTE]
-Cette liste est dressée grâce aux retours utilisateurs, l'équipe Jeedom ne peut donc garantir que toutes les caméras de cette liste sont 100% fonctionnelles.
+Diese Liste basiert auf Benutzer Feedback, das Jeedom Team kann nicht garantieren, dass alle Module dieser Liste 100% funktiontüchtig sind.

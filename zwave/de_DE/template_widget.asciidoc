@@ -1,9 +1,9 @@
 :icons:
-==== Visuel Alternatif
+==== Visuelle Alternative
 
 {nbsp} +
 
-Il faut maintenant inclure le module, pour cela, il faut se rendre dans le menu « Plugins », « Protocole Domotique » puis « Z-Wave ».
+Wir müssen jetzt das Modul inkludieren, dazu müssen wir in das Menü gehen « Plugins », « Automatisierungsprotokoll » dann « Z-Wave ».
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/plugin/inclusion1.jpg[width=556]
 
 {nbsp} +
 
-Une fois sur cette page, vous allez trouver une bouton "Mode Inclusion", il suffit de cliquer dessus pour passer en mode inclusion :
+Einmal auf dieser Seite, finden Sie die "Inklusions Modus" Schaltfläche, klicken Sie einfach drauf um in den Inklusions Modus zu wechseln :
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/plugin/bouton_inclusion.jpg[width=256]
 
 {nbsp} +
 
-Après avoir cliqué sur « Mode inclusion », un message apparait pour vous rappeler que vous êtes dans ce mode.
+Nach einem Klick auf « Inklusions Modus », erscheint eine Meldung, die Sie daran erinnert, dass Sie in diesem Modus sind.
 
 {nbsp} +
 
@@ -27,8 +27,8 @@ image::../images/plugin/inclusion3.jpg[width=756]
 
 {nbsp} +
 
-Une fois l’inclusion en cours, un message apparait , il faut donc patienter le temps que Jeedom intègre le module.
-La configuration des commandes se fait automatiquement une fois le module reconnu par Jeedom.
+Sobald die Inklusion läuft, wird eine Meldung angezeigt, das es notwendig ist zu warten, während Jeedom das Modul integriert.
+Die Befehls Konfiguration erfolgt automatisch, sobald Jeedom das Modul erkannt hat.
 
 {nbsp} +
 
@@ -38,7 +38,7 @@ image::../images/plugin/inclusion4.jpg[width=756]
 
 [icon="../images/plugin/tip.png"]
 [TIP]
-Il est préférable d’effectuer une exclusion avant une inclusion. Pour effectuer l’exclusion, rien de bien compliqué,
-il suffit de cliquer sur « Mode exclusion » et d'exclure le module, un message apparaitra vous confirmant l’exclusion du module.
+Am besten ist es eine Exklusion vor der Inklusion zu machen. Die Exclusion ist nicht kompliziert durchzuführen,
+klicken Sie einfach auf « Exklusions Modus » um das Modul zu entfernen, es erscheint eine Nachricht, die das Entfernen des Moduls bestätigt.
 
 {nbsp} +

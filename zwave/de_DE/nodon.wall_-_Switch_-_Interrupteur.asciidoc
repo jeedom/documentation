@@ -3,7 +3,7 @@
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/nodon.wallswitch/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/nodon.wallswitch/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -29,7 +29,7 @@ L’interrupteur possède une platine de fixation pour le monter facilement dans
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -41,17 +41,17 @@ L’interrupteur possède une platine de fixation pour le monter facilement dans
 
 {nbsp} +
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
-* Alimentation : Pile CR2032 – Autonomie 1,5 - 2ans
+* Batterie : CR2032 - Batterie 1,5-2 Jahre
 * 4 boutons
 * Montage mural par adhésif double face (inclus) ou vis (non incluses)
-* Température de fonctionnement : 0°C à 40°C
+* Betriebstemperatur : 0°C bis 40°C
 * Altitude : 2000m
-* Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave Plus® SDK 06.51.06
-* Portée : 40m en intérieur / 70m en extérieur
+* Z-Wave® Funk Protokoll : 868,4MHz - 500 Serie - kompatibel Z-Wave Plus® SDK 06.51.06
+* Reichweite : 40m Innen / 70m Außen
 * Dimensions : 80*80*15mm
 * Garantie 2 ans
 * EN 60950-1:2006 +A11:2009 + A1:2010 + A12:2011 + A2:2013
@@ -62,19 +62,19 @@ L’interrupteur possède une platine de fixation pour le monter facilement dans
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 * Marque : Nodon
-* Nom : CWS-3-1-01 Wall Switch
-* Fabricant ID : 357
-* Type Produit : 2
-* Produit ID : 3
+* Name : CWS-3-1-01 Wandschalter
+* Hersteller-ID : 357
+* Produkttyp : 2
+* Produkt-ID : 3
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -92,7 +92,7 @@ image::../images/nodon.wallswitch/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -100,11 +100,11 @@ image::../images/nodon.wallswitch/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -112,7 +112,7 @@ image::../images/nodon.wallswitch/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -133,7 +133,7 @@ image::../images/nodon.wallswitch/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -145,8 +145,8 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 {nbsp} +
 
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -154,7 +154,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -163,7 +163,7 @@ image::../images/nodon.wallswitch/config1.jpg[Config1,align="center"]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -173,7 +173,7 @@ image::../images/nodon.wallswitch/config1.jpg[Config1,align="center"]
 * 8 : Permet de choisir le mode de fonctionnement de la LED
 
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -212,7 +212,7 @@ A minima Jeedom devrait se retrouver dans le groupe 1
 
 {nbsp} +
 
-=== Wakeup
+=== Wakeup (Aufweckzeit)
 
 {nbsp} +
 
@@ -225,22 +225,22 @@ Pour réveiller ce module il suffit d'appuyer sur un de ces boutons
 {nbsp} +
 
 [panel,primary]
-.J'ai changé la configuration mais elle n'est pas prise en compte.
+Ich habe die Konfiguration geändert, aber es wird nicht berücksichtigt.
 --
-Ce module est un module sur batterie, la nouvelle configuration ne sera prise en compte que si vous réveillez la télécommande.
+Dieses Modul ist ein Batterie-Modul, die neue Konfiguration wird berücksichtigt werden, wenn die Fernbedienung aufwacht.
 --
 
 {nbsp} +
 
-=== Note importante
+=== Wichtiger Hinweis
 {nbsp} +
 
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-[underline]#Il faut réveiller le module :#
- après son inclusion, après un changement de la configuration
-, après un changement de wakeup, après un changement des groupes d'association
+[underline]#Es ist notwendig, das Modul zu aktivieren :#
+ nach seiner Inklusion, nach einer Konfigurationsänderung,
+nach einer Änderung vom Wakeup, nach einer Änderung der Assoziations-Gruppe
 
 {nbsp} +
 

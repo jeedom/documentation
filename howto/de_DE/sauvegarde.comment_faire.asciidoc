@@ -1,4 +1,4 @@
-= Sauvegarde - Comment faire ?
+= Backup - Wie wird es gemacht ?
 
 == Beschreibung
 
@@ -20,7 +20,7 @@ La procédure de restauration de la carte microSD peut-être utile pour restaure
 fournie par l'équipe voir https://www.jeedom.fr/doc/documentation/installation/fr_FR/doc-installation.html[ici]. 
 
 
-== Sauvegarde/Restauration de Jeedom
+== Sicherung/Wiederherstellen von Jeedom
 
 Afin de gérer et paramétrer les sauvegardes, il faut se rendre dans le menu _Général > Administration > Sauvegardes_.
 
@@ -56,7 +56,7 @@ il y a une case à cocher (_"Faire une sauvegarde avant la mise à jour"_) dans 
 +
 image::../images/save-restore03.jpg[align="center"]
 
-. [underline]#Sauvegardes cloud#
+. [underline]#Cloud Backups#
 
 * Sauvegardes disponibles : Permet de voir et sélectionner le fichier de sauvegarde disponible sur le cloud qui sera utilisé pour la restauration.
 * Restaurer la sauvegarde : Le bouton _Restaurer_ permet de lancer une restauration de Jeedom en utilisant le fichier de sauvegarde sélectionné dans la liste _Sauvegardes disponibles_.

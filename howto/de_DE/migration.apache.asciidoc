@@ -1,13 +1,13 @@
-= Migrer de nginx à Apache
+= Migration von nginx zu Apache
 
-== Pourquoi ?
+== Warum?
 
 - Apache va devenir petit à petit la norme avec Jeedom
 - Permet d'avoir les dernières mises à jour de sécurité au niveau de l'accès aux fichiers (grâce au .htaccess) lors des mises à jour de Jeedom
 - Corrige certains soucis d'accès et de stabilité (notamment pour ceux qui ont beaucoup de caméras)
 - Améliore les performances globales de Jeedom.
 
-== Prérequis
+== Voraussetzungen
 
 - Savoir se connecter en SSH sur la box (vous trouverez les identifiants sur la documentation d'installation)
 - Etre connecté à internet.
@@ -18,7 +18,7 @@ En cas de soucis l'équipe Jeedom ne pourra être tenue responsable et pourra re
 [IMPORTANT]
 Attention certains plugins non officiels ne sont pas compatibles Apache, renseignez-vous bien avant.
 
-== Comment faire
+== Wie wird es gemacht
 
 === Désactivation des services Jeedom et nginx
 
@@ -31,7 +31,7 @@ systemctl stop nginx
 systemctl stop mysql
 ----
 
-=== Installation et configuration d'Apache
+=== Installation und Konfiguration von Apache
 
 ----
 mkdir -p /var/www/html/log

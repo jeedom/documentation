@@ -3,7 +3,7 @@
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/swiid.inter/module.jpg[width=356,align="center"]
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/swiid.inter/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -27,7 +27,7 @@ SwiidInter est le premier interrupteur sur cordon dans l'environnement domotique
 et discret pour être comparable à un interrupteur sur cordon ordinaire.
 
 Il peut être utilisé à la fois manuellement comme n'importe quel interrupteur sur cordon ordinaire et à distance via un
-contrôleur Z-Wave.
+Z-Wave Controller.
 
 L'interrupteur SwiidInter offre également des possibilités d'association et ce à double sens.
 Ainsi, il peut être actionné automatiquement par un autre périphérique Z-Wave du même réseau, comme par exemple
@@ -43,13 +43,13 @@ un "réseau" Z-Wave, ce réseau pouvant être aussi simple qu'une seule téléco
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
 * Interrupteur sur cordon utilisable à la fois manuellement (appui court) et par radio à distance (Z-Wave)
 * Utilisation en remplacement d'un interrupteur à cordon standard d'une lampe de chevet, de table ou de bureau
-* Fonction ON/OFF
+* Funktion AN/AUS
 * Activation d'un scénario domotique sur appui long (association Z-Wave)
 * Dimensions comparables à un interrupteur sur cordon ordinaire
 * S'installe comme un interrupteur sur cordon ordinaire
@@ -57,7 +57,7 @@ un "réseau" Z-Wave, ce réseau pouvant être aussi simple qu'une seule téléco
 
 {nbsp} +
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
@@ -67,29 +67,29 @@ un "réseau" Z-Wave, ce réseau pouvant être aussi simple qu'une seule téléco
 * Puissance maxi : 660W
 * Consommation : < 0,08W
 * Indice de protection: IP20
-* Protocole radio: Z-Wave® (SDK 4.55)
-* Fréquence radio : 868,42 MHz (EU)
+* Funkprotokoll : Z-Wave® (SDK 4.55)
+* Funkfrequenz : 868,42MHz (EU)
 * Dist. transmission: Jusqu'à 30m en intérieur (dépend des matériaux)
-* Temp. fonctionnement : 0 – 40°C
+* Betriebstemperatur : 0-40°C
 * Affichage marche/arrêt : LEDs bleues
 * Dimensions : 84 x 32 x 29 mm
 * Normes UE : EN 61058-2-1:2011 EN 55015
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 * Marque : Swiid
 * Nom : Swiidinter
-* Fabricant ID : 358
-* Type Produit : 256
-* Produit ID : 256
+* Hersteller-ID : 358
+* Produkttyp : 256
+* Produkt-ID : 256
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -107,7 +107,7 @@ image::../images/swiid.inter/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -115,11 +115,11 @@ image::../images/swiid.inter/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -127,7 +127,7 @@ image::../images/swiid.inter/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -141,12 +141,12 @@ A noter que sur le dashboard toutes les infos se retrouvent sur le même icone
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -154,7 +154,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -162,7 +162,7 @@ image::../images/swiid.inter/config1.jpg[Config1,align="center"]
 
 {nbsp} +
 
-[underline]#Détails du paramètre :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -177,7 +177,7 @@ Ce paramètre permet de choisir le comportement lorsque vous associez le swiidin
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -203,11 +203,11 @@ Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de l'a
 
 {nbsp} +
 
-=== Bon à savoir
+=== Gut zu wissen
 
 {nbsp} +
 
-==== Visuel alternatif
+==== Visuelle Alternative
 
 {nbsp} +
 

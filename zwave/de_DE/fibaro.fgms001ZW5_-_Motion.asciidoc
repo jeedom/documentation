@@ -1,10 +1,10 @@
 :icons:
-== Fibaro Motion Sensor - FGMS-001
+== Fibaro Bewegungssensor - FGMS-001
 
 {nbsp} +
 
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -14,7 +14,7 @@ image::../images/fibaro.fgms001zw5/module.jpg[width=256,align="center"]
 {nbsp} +
 
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -23,7 +23,7 @@ image::../images/fibaro.fgms001zw5/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 {nbsp} +
 
 Le détecteur de mouvement Fibaro est un détecteur multifonctions Z-Wave. En plus de la détection de mouvement, ce dispositif mesure la température et l'intensité lumineuse. Ce détecteur comporte aussi un accéléromètre intégré afin de détecter toute tentative d'altération du dispositif.
@@ -34,7 +34,7 @@ Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et 
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -54,7 +54,7 @@ Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et 
 {nbsp} +
 
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
@@ -68,26 +68,26 @@ Le détecteur de mouvement peut être utilisé pour les scènes d'éclairage et 
 *	Fréquence : 868,42 Mhz
 *	Distance de transmission : 50m champ libre, 30m en intérieur
 *	Dimensions: 4,4 cm de diamètre
-*	Température de fonctionnement : 0-40°C
+* Betriebstemperatur : 0-40 ° C
 *	Certifications : LVD 2006/95/WE EMC 2004/108/WE R&TTE 1999/5/WE RoHS II
 
 {nbsp} +
 
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 
-* Marque : Fibar Group
-* Nom : Fibaro FGMS-001-ZW5 [Motion Sensor]
-* Fabricant ID : 271
-* Type Produit : 2048
-* Produit ID : 4097
+* Marke : Fibar Group
+* Name : Fibaro FGMS-001-ZW5 [Bewegungsmelder]
+* Hersteller-ID : 271
+* Produkttyp : 2048
+* Produkt-ID : 4097
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -114,7 +114,7 @@ image::../images/fibaro.fgms001zw5/information.jpg[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
@@ -129,7 +129,7 @@ image::../images/fibaro.fgms001zw5/commandes.jpg[Commandes,align="center"]
 {nbsp} +
 
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -144,7 +144,7 @@ image::../images/fibaro.fgms001zw5/commandes.jpg[Commandes,align="center"]
 {nbsp} +
 
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -154,8 +154,8 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 
 {nbsp} +
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -165,7 +165,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -179,7 +179,7 @@ image::../images/fibaro.fgms001zw5/config4.jpg[Config3,align="center"]
 {nbsp} +
 
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -214,7 +214,7 @@ image::../images/fibaro.fgms001zw5/config4.jpg[Config3,align="center"]
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -238,12 +238,12 @@ Les noms des groupes de la version Z-Wave+ sont les suivant:
 {nbsp} +
 
 
-=== Bon à savoir
+=== Gut zu wissen
 
 {nbsp} +
 
 
-==== Spécificités
+==== Spezifikationen
 
 {nbsp} +
 
@@ -257,7 +257,7 @@ selon vos souhaits, et de bien le réveiller pour que la config soit prise en co
 {nbsp} +
 
 
-==== Visuel alternatif
+==== Visuelle Alternative
 
 {nbsp} +
 
@@ -267,12 +267,12 @@ image::../images/fibaro.fgms001zw5/vuewidget.jpg[width=300,align="center"]
 {nbsp} +
 
 
-=== Wakeup
+=== Wakeup (Aufweckzeit)
 
 {nbsp} +
 
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+Um dieses Modul zu wecken, gibt es eine einzige Verfahrensweise :
 
 * appuyer 3 fois sur le bouton d'inclusion (la lumière s'allume en bleue). Même si la lumière
 s'allume, il peut être nécessaire de le faire plusieurs fois de suite (2 ou 3)
@@ -312,16 +312,16 @@ Ce module est un module sur batterie, la nouvelle configuration sera prise en co
 {nbsp} +
 
 
-=== Note importante
+=== Wichtiger Hinweis
 
 {nbsp} +
 
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-[underline]#Il faut réveiller le module :#
- après son inclusion, après un changement de la configuration
-, après un changement de wakeup, après un changement des groupes d'association
+[underline]#Es ist notwendig, das Modul zu aktivieren :#
+ nach seiner Inklusion, nach einer Konfigurationsänderung,
+nach einer Änderung vom Wakeup, nach einer Änderung der Assoziations-Gruppe
 
 {nbsp} +
 

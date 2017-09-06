@@ -1,4 +1,4 @@
-= EmonCMS avec Jeedom
+= EmonCMS mit Jeedom
 
 EmonCMS est une application PHP de supervision de l'énergie (Emon : Energy Monitor)
 
@@ -63,7 +63,7 @@ git clone https://github.com/emoncms/report.git
 
 git clone https://github.com/elyobelyob/mqtt.git
 
-== Configuration Nginx
+== Nginx Konfiguration
 
 Voici une configuration en exemple pour Nginx. Pour Apache il n'y a pas besoin de conf particulière un répertoire classique
 

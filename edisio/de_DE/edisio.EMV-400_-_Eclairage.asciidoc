@@ -1,14 +1,14 @@
-= Edisio EMV-400 "Eclairage"
+= Edisio EMV-400 "Beleuchtung"
 
-* *Le module*
+* *Das Modul*
 
 image::../images/emv.400/module.jpg[width=550,align="center"]
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 image::../images/emv.400/vue_default_eclairage.jpg[align="center"]
 
-== Résumé
+== Zusammenfassung
 
 Le micromodule EMV-400 va vous permettre de gérer un moteur bidirectionnel ou des appareillages électriques. Il permet le contrôle de 2 sorties Marche/Arrêt ou d'un volet roulant Ouvrir/Stop/Fermer.
 
@@ -21,21 +21,21 @@ Pour finir, chaque module peut être utilisé en mode déporté, c'est très pra
 [IMPORTANT] 
 Le neutre est nécessaire que pour le mode "Volet"
 
-== Fonctions
+== Funktionen
 
 * 2 sorties par relais alimentées
 * S'installe dans une boite d'encastrement de 55mm ou directement dans les caissons des ouvrants
 * Mode d'usage: Marche/Arrêt, Ouvrir/Stop/Fermer
 * Compatible avec les moteurs à fin de course électronique et mécanique
-* Mode déporté
+* Remote-Modus
 * Fonction minuterie: Mode Marche/Arrêt: 30min ou 60min
 * Réplique du signal (répéteur)
 * Micromodule bidirectionnel
 * Niveau de batterie faible de l'émetteur
 * Petit, discret et esthétique
-* Facilité d'utilisation et d'installation
+* Einfache Bedienung und Installation
 
-== Caractéristiques Techniques
+== Technische Daten
 
 * Type de module: Récepteur Edisio
 * Alimentation: 230VAC, 50Hz
@@ -45,16 +45,16 @@ Le neutre est nécessaire que pour le mode "Volet"
 * Puissance maximum: 2A par sortie
 * Charge résistive: 460W
 * Autres charges: 100W
-* Température de fonctionnement: -10°C +45°C
+* Betriebstemperatur : -10°C bis +45°C
 * Dimensions: 48x46x26mm
 * Degré de protection: IP20
 
-== Données du module
+== Moduldaten
 
 * Marque : Edisio Smart Home
-* Nom : EMV-400
+* Name  EMV-400
 
-== Configuration générale
+== Hauptkonfiguration
 
 Pour configurer le plugin Edisio et associer un module à Jeedom, référez-vous à cette link:https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html[documentation].
 
@@ -82,16 +82,16 @@ image::../images/emv.400/bouton_r.jpg[align="center"]
 [NOTE]
 Appuyer R 3x permet d'activer le mode déporté. 
 
-=== Diagramme de fonctionnement
+=== Funktionsschema
 
 Suivant si votre émetteur est configuré en mode "1 touche" ou "2 touches", voici le fonctionnement du module:
 
 [NOTE]
-Référez-vous à la documentation du fabricant, afin de pouvoir configurer votre émetteur.
+Lesen Sie in der Dokumentation des Herstellers, wie Ihr Senders zu konfigurieren ist.
 
 image::../images/emv.400/diagramme.jpg[align="center"]
 
-=== Fonction minuterie
+=== Timer-Funktion
 
 La fonction minuterie permet l'extinction automatique des relais au bout de 30 ou 60 minutes.
 
@@ -108,7 +108,7 @@ Le mode "Eclairage" permet de piloter 2 appareils électriques à distance.
 [IMPORTANT]
 Le neutre n'est pas nécessaire
 
-=== Configuration et raccordements électriques :
+=== Konfiguration und elektrische Anschlüsse :
 
 image::../images/emv.400/mode_eclairage.jpg[align="center"]
 
@@ -134,13 +134,13 @@ Dans la liste d'équipements, à droite, sélectionner "Micro-module lumière" :
 
 image::../images/emv.400/infos_equip_eclairage.jpg[align="center"]
 
-=== Commandes
+=== Befehle
 
 Une fois votre équipement sauvegardé, vous devriez obtenir les commandes associées au module :
 
 image::../images/emv.400/commande_eclairage.jpg[Commandes,align="center"]
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 * On : C'est la commande qui permet d'activer le relais 1
 * Off : C'est la commande qui permet de désactiver le relais 1
@@ -151,7 +151,7 @@ image::../images/emv.400/commande_eclairage.jpg[Commandes,align="center"]
 [IMPORTANT]
 Le retour d'état est simulé par Jeedom. Par conséquent, si vous utilisez un autre émetteur, Jeedom ne pourra pas mettre à jour l'état du récepteur.
 
-=== Informations
+=== Information
 
 Une fois votre équipement associé à Jeedom, diverses informations seront disponibles :
 
@@ -195,7 +195,7 @@ Nous en avons parlé au début de cette documentation. Dans le cas, de modules d
 C'est fait, votre Jeedom est à présent associé et sa commande "E" remplace désormais le bouton "R" du récepteur.
 
 * Associer un nouvel émetteur à un récepteur avec Jeedom déjà associé :
-** Sortie 1 : 
+** 1 Ausgang : 
 *** Appuyez 1x sur "Tester" la commande "E" dans Jeedom, simple bip sonore (court en répétition) signale la programmation de la sortie 1 activée.
 *** Dans les 10 sec, appuyez sur une des touches "C" du nouvel émetteur à associer, un bip sonore en continu signale l'association de la sortie 1.
 *** Dans les 10 sec, appuyez à nouveau sur "Tester" de la commande "E" dans Jeedom, pour valider l'association, le bip sonore s'arrête.

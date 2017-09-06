@@ -3,7 +3,7 @@
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/smarthomebyeverspring.AD146-0/module.jpg[width=256,align="cente
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/smarthomebyeverspring.AD146-0/vuedefaut1.jpg[width=200,align="c
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -33,17 +33,17 @@ une alimentation classique du module (Phase + Neutre).
 
 Le Module Variateur Mural est un appareil compatible Z-Wave™ qui est destiné pour fonctionner avec tous les
 réseaux compatibles Z-Wave™. Il peut être contrôlé par une télécommande, un logiciel PC, ou n'importe quel
-contrôleur Z-Wave de votre réseau.
+Z-Wave-Controller in Ihrem Netzwerk.
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
 * Commandez un éclairage/appareil à distance
 * S'installe derrière un interrupteur existant
-* Fonction ON/OFF et variation
+* Funktion AN/AUS und Variationen
 * Faible consommation d'énergie
 * Très petit, dimensions réduites
 * Antenne longue portée
@@ -52,11 +52,11 @@ contrôleur Z-Wave de votre réseau.
 * Utilisation en mode 2 fils (neutre pas nécessaire)
 * Compatible avec les ampoules Led Dimmable
 * Bouton pour inclure/exclure/associer le module
-* Fonction répéteur Z-Wave
+* Z-Wave Repeater-Funktion
 
 {nbsp} +
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
@@ -74,19 +74,19 @@ contrôleur Z-Wave de votre réseau.
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 * Marque : SmartHome by Everspring
 * Nom : In Wall Dimmer
-* Fabricant ID : 96
-* Type Produit : 3
-* Produit ID : 2
+* Hersteller-ID : 96
+* Produkttyp : 3
+* Produkt-ID : 2
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -105,7 +105,7 @@ image::../images/smarthomebyeverspring.AD146-0/inclusion.jpg[width=350,align="ce
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -113,11 +113,11 @@ image::../images/smarthomebyeverspring.AD146-0/information.jpg[Plugin Zwave,alig
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -125,7 +125,7 @@ image::../images/smarthomebyeverspring.AD146-0/commandes.jpg[Commandes,align="ce
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -140,12 +140,12 @@ A noter que sur le dashboard, les infos Etat, ON/OFF, intensité se retrouvent s
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -153,7 +153,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -162,7 +162,7 @@ image::../images/smarthomebyeverspring.AD146-0/config1.jpg[Config1,align="center
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -172,7 +172,7 @@ image::../images/smarthomebyeverspring.AD146-0/config1.jpg[Config1,align="center
 * 4 : Ce paramètre permet de définir le type d'interrupteur (poussoir/bistable)
 * 5 : Ce paramètre permet de définir si l'interrupteur fontionnera en mode variation ou en mode on/off
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -189,11 +189,11 @@ image::../images/smarthomebyeverspring.AD146-0/groupe.jpg[Groupe]
 A minima Jeedom devrait se retrouver dans le groupe 1
 {nbsp} +
 
-=== Bon à savoir
+=== Gut zu wissen
 
 {nbsp} +
 
-==== Spécificités
+==== Spezifikationen
 
 {nbsp} +
 
@@ -201,7 +201,7 @@ A minima Jeedom devrait se retrouver dans le groupe 1
 {nbsp} +
 
 
-==== Visuel alternatif
+==== Visuelle Alternative
 
 {nbsp} +
 

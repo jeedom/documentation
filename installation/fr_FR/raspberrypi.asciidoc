@@ -1,0 +1,103 @@
+Vous trouverez ici la documentation pour installer Jeedom sur un raspberry PI *avec une carte SD.*
+
+[IMPORTANT]
+Debian 8 (jessie) est la distribution officiellement supportée, l'utilisation d'une autre distribution est à proscrire au risque d'obtenir comme réponse du support de devoir restaurer votre Jeedom sur une image officielle.
+[IMPORTANT]
+====
+Strecht (Debian 9) n'est pas supportée pour le moment. Elle le sera en version 3.1
+====
+*1/ Télécharger le dernière image "lite", c'est à dire sans interface graphique*
+https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2017-07-05/2017-07-05-raspbian-jessie-lite.zip[Ici]
+
+*2/ Décompresser l'image avec winrar*
+http://www.win-rar.com[Ici]
+
+*3/ Graver cette image sur une SD avec etcher par exemple*
+https://etcher.io/[ici]
+
+[WARNING]
+====
+Pour des raisons de sécurité, l'accès SSH n'est plus activé par défaut sur cette distribution. Il faut donc l'activer
+====
+*4/ Activer un accès SSH*
+
+Il faut créer sur la partition boot (la seule accessible sous windows) un fihier ssh vide.
+Il suffit de faire un clic droit : nouveau / document texte et le renommer en"ssh" *sans aucune extension*
+[IMPORTANT]
+====
+Sous windows, dans l'explorateur il faut donc vérifier votre paramétrage dans affichage / options / modifier les options de dossiers et de recherche / 
+====
+image::../images/ExtensionFichier.PNG[]
+
+*5/ Démarrer le PI*
+
+Insérer votre carte SD, brancher le cable réseau, brancher l'alimentation.
+
+*6/ Se connecter en SSH*
+
+[underline]#Identifier votre Pi sur le réseau#
+
+Il faut connaitre l'adresse Ip de votre PI. Plusieurs solutions :
+
+* Consulter la configuration DHCP dans votre routeur
+* Utiliser un scanner de port type "angyipscanner" http://angryip.org/download/#windows[ici]
+
+[underline]#Etablir la connexion#
+
+Ensuite utiliser par exemple putty pour établir votre connexion 
+http://www.putty.org/[Ici]
+
+Rentrer l'adresse de Ip de votre PI (ici 192.168.0.10) et cliquez sur open. Accepter le message par défaut relatif à la sécurité lors de la première connexion.
+
+Connectez-vous avec les identifiants *pi / raspberry*
+
+image::../images/putty.png[]
+
+
+[IMPORTANT]
+====
+Si vous choisissez d'ouvrir votre port 22 sur l'extérieur, vous devez impérativement modifier votre mot de passe utilisateur et root !!!!
+(commande passwd et sudo passwd)
+====
+
+
+
+
+*7/ Lancer le script d'installation jeedom*
+
+
+----
+wget https://raw.githubusercontent.com/jeedom/core/stable/install/install.sh
+
+chmod +x install.sh
+
+sudo ./install.sh
+----
+*Le mot de passe sudo est également raspberry*
+
+[NOTE]
+====
+En fonction de votre débit internet, l'installation peut prendre de 45 à 90 minutes. Vous ne devez surtout pas interrompre le processus avant la fin. A défaut, il faudra reprendre la totalité de la procédure.
+====
+
+Il vous suffit ensuite d'aller sur IP_MACHINE_JEEDOM
+
+[NOTE]
+
+Les identifiants par défaut sont admin/admin
+
+[NOTE]
+Les arguments suivants sont utilisables :
+-w = dossier webserver
+-z = installation dependances z-wave
+-m = mot de passe root mysql désiré
+
+-----
+
+./install.sh -w /var/www/html -z -m Jeedom
+
+-----
+
+
+
+Ensuite vous pouvez suivre la documentation https://www.jeedom.fr/doc/documentation/premiers-pas/fr_FR/doc-premiers-pas.html[Premier pas avec Jeedom]

@@ -2,7 +2,7 @@
 
 = Clef Wifi sur mini
 
-== Objectif
+== Aufgabe
 
 Voici, au cas où, une procédure de bout en bout pour installer une clé WiFi de type "Edimax ew-7811n" sur une Jeedom Mini, et en considérant une authentification wifi de type "WPA 2 + AES". 
 

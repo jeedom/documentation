@@ -1,11 +1,9 @@
 Sie werden hier Ihr erstes Objekt erschaffen, aber zuerst muss man wissen was ein objekt ist, in Jeedom kann es alles sein, egal was, aber es wird empfohlen, es entsprechend ihren Räumen zu machen.
 
 [TIP]
-Sie können Beziehungen zwischen Objekten definieren, zB : das Objekt Wohnzimmer gehört zum Erdgeschoss, das wiederum gehört zum Objekt Haus
+Il est possible de définir des relations entre les objets, exemple : le salon appartient à l'objet rez-de-chaussée qui appartient lui-même à l'objet maison
 
-Pour créer un objet rien de plus simple, allez sur Outils → Objets
-
-image::../images/premier-objet.png[]
+Ein Objekt zu erstellen ist einfach, gehen sie dazu auf Werkzeuge → Objekte
 
 Klicken Sie dann auf die Schaltfläche Hinzufügen :
 

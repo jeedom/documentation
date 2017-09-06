@@ -1,14 +1,14 @@
-= Edisio EMV-400 "Volet roulant"
+= Edisio EMV-400 "Rolladen"
 
-* *Le module*
+* *Das Modul*
 
 image::../images/emv.400/module.jpg[width=550,align="center"]
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 image::../images/emv.400/vue_default.jpg[align="center"]
 
-== Résumé
+== Zusammenfassung
 
 Le micromodule EMV-400 va vous permettre de gérer un moteur bidirectionnel ou des appareillages électriques. Il permet le contrôle de 2 sorties Marche/Arrêt ou d'un volet roulant Ouvrir/Stop/Fermer.
 
@@ -21,40 +21,40 @@ Pour finir, chaque module peut être utilisé en mode déporté, c'est très pra
 [IMPORTANT] 
 Le neutre est nécessaire que pour le mode "Volet"
 
-== Fonctions
+== Funktionen
 
-* 2 sorties par relais alimentées
+* 2 angetriebene Ausgangsrelais
 * S'installe dans une boite d'encastrement de 55mm ou directement dans les caissons des ouvrants
-* Mode d'usage: Marche/Arrêt, Ouvrir/Stop/Fermer
-* Compatible avec les moteurs à fin de course électronique et mécanique
-* Mode déporté
-* Fonction minuterie: Mode Marche/Arrêt: 30min ou 60min
-* Réplique du signal (répéteur)
-* Micromodule bidirectionnel
+* Betriebsarten : Ein-/Ausschalter, öffnen/Stop/schließen
+* Kompatibel mit Motoren, die eine elektronische oder mechanische Endabschaltung haben
+* Remote-Modus
+* Zeitschaltuhr Funktion : Modus Ein-/Ausschalten 30min bis 60min
+* Replik des Signals (Repeater)
+* Micromodul Bidirektional
 * Niveau de batterie faible de l'émetteur
-* Petit, discret et esthétique
-* Facilité d'utilisation et d'installation
+* Kleine, diskrete und ästhetische
+* Einfache Bedienung und Installation
 
-== Caractéristiques techniques
+== Technische Daten
 
-* Type de module: Récepteur Edisio
-* Alimentation: 230VAC, 50Hz
+* Modultyp : Edisio Empfänger
+* Stromversorgung : 230VAC, 50Hz
 * Câblage: 4 fils, 2 pour les commandes et 2 pour l'alimentation
-* Fréquence: 868,3 MHz
-* Sorties alimentées: 2 relais
-* Puissance maximum: 2A par sortie
-* Charge résistive: 460W
-* Autres charges: 100W
-* Température de fonctionnement: -10°C +45°C
-* Dimensions: 48x46x26mm
-* Degré de protection: IP20
+* Frequenz : 868,3MHz
+* angetriebene Ausgänge : 2 Relais
+* Maximale Leistung : 2A pro Ausgang
+* Ohmsche Last : 460W
+* Sonstige Belastung : 100W
+* Betriebstemperatur : -10°C bis +45°C
+* Abmessungen : 48x46x26mm
+* Schutzgrad : IP20
 
-== Données du module
+== Moduldaten
 
-* Marque : Edisio Smart Home
-* Nom : EMV-400
+* Marke : Edisio Smart Home
+* Name  EMV-400
 
-== Configuration générale
+== Hauptkonfiguration
 
 Pour configurer le plugin Edisio et associer un module à Jeedom, référez-vous à cette link:https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html[documentation].
 
@@ -82,16 +82,16 @@ image::../images/emv.400/bouton_r.jpg[align="center"]
 [NOTE]
 Appuyer R 3x permet d'activer le mode déporté. 
 
-=== Diagramme de fonctionnement
+=== Funktionsschema
 
 Suivant si votre émetteur est configuré en mode "1 touche" ou "2 touches", voici le fonctionnement du module:
 
 [NOTE]
-Référez-vous à la documentation du fabricant, afin de pouvoir configurer votre émetteur.
+Lesen Sie in der Dokumentation des Herstellers, wie Ihr Senders zu konfigurieren ist.
 
 image::../images/emv.400/diagramme.jpg[align="center"]
 
-=== Fonction minuterie
+=== Timer-Funktion
 
 La fonction minuterie permet l'extinction automatique des relais au bout de 30 ou 60 minutes.
 
@@ -105,7 +105,7 @@ Le mode "Volet" permet de piloter un moteur bidirectionnel à fin de course éle
 [IMPORTANT]
 Le neutre est nécessaire
 
-=== Configuration et raccordements électriques :
+=== Konfiguration und elektrische Anschlüsse :
 
 image::../images/emv.400/mode_moteur.jpg[align="center"]
 
@@ -131,13 +131,13 @@ Dans la liste d'équipements, à droite, sélectionner "Micro-module volet roula
 
 image::../images/emv.400/infos_equip.jpg[align="center"]
 
-=== Commandes
+=== Befehle
 
 Une fois votre équipement sauvegardé, vous devriez obtenir les commandes associées au module :
 
 image::../images/emv.400/commande.jpg[Commandes,align="center"]
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 * Etat : C'est la commande qui permet de simuler le retour d'état 
 * Monter : C'est la commande qui permet d'ouvrir le volet
@@ -148,7 +148,7 @@ image::../images/emv.400/commande.jpg[Commandes,align="center"]
 [IMPORTANT]
 Le retour d'état est simulé par Jeedom. Par conséquent, si vous utilisez un autre émetteur, Jeedom ne pourra pas mettre à jour l'état du récepteur.
 
-=== Informations
+=== Information
 
 Une fois votre équipement associé à Jeedom, diverses informations seront disponibles :
 
@@ -195,12 +195,12 @@ Nous en avons parlé au début de cette documentation, dans le cas de modules d�
 C'est fait, votre Jeedom est à présent associé et sa commande "E" remplace désormais le bouton "R" du récepteur.
 
 * Associer un nouvel émetteur à un récepteur avec Jeedom déjà associé :
-** Sortie 1 : 
+* 1 Ausgang: 
 *** Appuyez 1x sur "Tester" la commande "E" dans Jeedom, simple bip sonore (court en répétition) signale la programmation de la sortie 1 activée.
 *** Dans les 10 sec, appuyez sur une des touches "C" du nouvel émetteur à associer, un bip sonore en continu signale l'association de la sortie 1.
 *** Dans les 10 sec, appuyez à nouveau sur "Tester" de la commande "E" dans Jeedom, pour valider l'association, le bip sonore s'arrête.
 
-** Sortie 2 :
+** 2 Ausgang :
 *** Appuyez 2x sur "Tester" de la commande "E" dans Jeedom, double bip sonore (court en répétition) signale la programmation de la sortie 2 activée.
 *** Dans les 10 sec, appuyez sur une des touches "C" du nouvel émetteur à associer, un bip sonore en continu signale l'association de la sortie 2.
 *** Dans les 10 sec, appuyez à nouveau sur "Tester" de la commande "E" dans Jeedom, pour valider l'association, le bip sonore s'arrête.
@@ -208,7 +208,7 @@ C'est fait, votre Jeedom est à présent associé et sa commande "E" remplace d�
 [NOTE]
 Vous pouvez recommencer autant de fois que vous voulez associer d'émetteurs au récepteur
 
-== Visuel alternatif
+== visuelle Alternative
 
 image::../images/emv.400/vue_alt_moteur.jpg[align="center"]
 
@@ -220,7 +220,7 @@ Appuyez et maintenez 10 sec sur le "R", jusqu'au bip sonore continu.
 Comment piloter le récepteur via un émetteur Z-Wave?::
 Avec le plugin Scénario de Jeedom.
 
-Comment puis-je avoir le même visuel ?::
-Avec le plugin Widgets de Jeedom.
+Wie kann ich die selben Ansicht haben ?::
+Mit dem Jeedom Plugin Widget.
 
 #_@Jamsta_#

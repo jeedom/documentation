@@ -142,7 +142,7 @@ image::../images/secure.srt323/commandes.jpg[Commandes]
 {nbsp} +
 
 Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -158,7 +158,7 @@ image::../images/secure.srt323/config1.jpg[Config1]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 

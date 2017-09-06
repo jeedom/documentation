@@ -6,16 +6,16 @@ Sie finden eine komplette Dokumentation link:https://jeedom.fr/doc[hier] :
 
 image::../images/premier-support1.png[]
 
-Celle-ci se décompose en plusieurs catégories : une partie pour le "coeur" de jeedom, une partie sur les modules (Zwave, mySensors, RFXcom) et une dernière partie pour la documentation des plugins.
+Celle-ci se décompose en plusieurs catégories : une partie pour le "coeur" de Jeedom, une partie sur les modules (Zwave, mySensors, RFXcom) et une dernière partie pour la documentation des plugins.
 
 === Das Forum
 
-Disponible link:https://jeedom.com/forum[ici], le forum est très actif et contient énormément d'informations. Si vous avez une question, n'hésitez pas à la poser, vous aurez une réponse en moins d'une heure (en moyenne).
+Erhältlich link:https://jeedom.com/forum[hier], das Forum ist sehr aktiv und hat viele Informationen. Wenn Sie eine Frage haben, zögern Sie nicht zu fragen, Sie werden eine Antwort in weniger als einer Stunde (im Durchschnitt) haben.
 Attention, le forum est maintenu par la communauté Jeedom, composée de bénévoles, et non par la société Jeedom.
 
 image::../images/premier-support3.png[]
 
-=== Les demandes de support (ou tickets)
+=== Supportanfragen (oder Ticket)
 
 [IMPORTANT]
 Attention, toute demande de support nécessite obligatoirement d'avoir un compte sur le Market.
@@ -26,7 +26,7 @@ Wenn sie keine Lösung für Ihr Problem gefunden haben, können sie als letzten 
 
 image::../images/premier-support4.png[]
 
-- Si pour une raison ou une autre vous n'avez pas accès à votre Jeedom, vous pouvez toujours ouvrir un ticket à partir du market: soit avec le point d'exclamation en haut à droite, soit en allant sur votre profil (cliquez ensuite sur le bouton "Ouvrir une demande de support")
+- Si pour une raison ou une autre vous n'avez pas accès à votre Jeedom, vous pouvez toujours ouvrir un ticket à partir du Market: soit avec le point d'exclamation en haut à droite, soit en allant sur votre profil (cliquez ensuite sur le bouton "Ouvrir une demande de support")
 
 image::../images/premier-support5.png[]
 
@@ -35,7 +35,7 @@ Jedweder Schriftwechsel erfolgt per E-Mail
 Lors de l'ouverture d'un ticket, j'ai une erreur m'indiquant que j'ai atteint mon quota:
 En effet, en fonction de votre service pack vous êtes limité à un certain nombre de demandes de support par mois:
 
-- Gemeinschaft (kostenfrei) : 2 Tickets/Monat
+- Community (gratuit) : 2 tickets/mois (sur plugins payant uniquement)
 - Power : 10 Tickets/Monat
 - Pro : 100 Tickets/Monat
 

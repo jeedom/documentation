@@ -5,7 +5,7 @@
 Voici quelques paquets utiles à mettre sur une installation vierge : 
 
 ----
-apt-get install -y vim fail2ban
+apt-get install -y vim fail2ban net-tools dos2unix
 ----
 
 Si vous êtes sur VMware : 
@@ -19,6 +19,7 @@ apt-get install -y open-vm-tools
 ----
 rm -rf /root/.bashrc
 wget https://raw.githubusercontent.com/jeedom/core/stable/install/bashrc -O /root/.bashrc
+dos2unix /root/.bashrc
 ----
 
 == Autoriser la connexion root en SSH
@@ -70,4 +71,12 @@ apt-get dist-upgrade
 ----
 
 [IMPORTANT]
-Stretch n'est pas une version stable de Debian, en cas de soucis l'équipe Jeedom pourra refuser toute demande de support
+Si vous passez de jessie à Stretch sans refaire l'installation de Jeedom il faut desactiver le private tmp d'apache sinon Jeedom ne marchera pas : 
+
+----
+rm /etc/systemd/system/multi-user.target.wants/apache2.service
+cp /lib/systemd/system/apache2.service /etc/systemd/system/multi-user.target.wants/
+sed -i 's/PrivateTmp=true/PrivateTmp=false/g' /etc/systemd/system/multi-user.target.wants/apache2.service
+----
+
+

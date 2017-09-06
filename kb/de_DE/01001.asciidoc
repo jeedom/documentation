@@ -1,0 +1,17 @@
+= Mehr Kamera-Bilder auf der mobilen App
+
+== Symptome
+
+Mehr Kamera-Bilder auf der mobilen App, während es einige Stunden später funktioniert
+
+== Analyse
+
+== Lösung
+
+Speichern Sie die Kameras erneut auf Ihr Jeedom. 
+
+== Anwendbare Version
+
+Alle
+
+== Siehe auch

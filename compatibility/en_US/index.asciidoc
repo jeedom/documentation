@@ -67,7 +67,7 @@ Vous trouverez la liste https://jeedom.github.io/documentation/camera/fr_FR/equi
 
 L'équipe jeedom vous recommande (en fonction de votre budget) :
 
-- Jeedom mini+ (tout est préinstallé, vous n'avez rien à faire)
+- Jeedom Smart (tout est préinstallé, vous n'avez rien à faire)
 - Odroid C2 (meilleur rapport performance/prix)
 - Intel Nuc gen6 (des performances extrêmes, voir la catégorie tuto pour le choix dans les differents modèles et l'installation)
 

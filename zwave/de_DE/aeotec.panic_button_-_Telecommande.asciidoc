@@ -4,7 +4,7 @@
 {nbsp} +
 
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -14,7 +14,7 @@ image::../images/aeotec.panicbutton/module.jpg[width=256,align="center"]
 {nbsp} +
 
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -23,7 +23,7 @@ image::../images/aeotec.panicbutton/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -37,13 +37,13 @@ Cette télécommande peut également être utilisée comme un bouton d'urgence o
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
-* Télécommande porte-clés
-* Contrôleur principal ou secondaire
-* Ultra compacte et ultra design
+`* Fernbedienung Tür-Schlüssel
+* primär oder sekundär Controller
+* Ultra-kompakt und ultra-Design
 * 1 bouton configurable
 * Gère jusqu'à 2 périphériques/scènes
 * Peut être utilisé comme un bouton d'urgence/panique
@@ -53,7 +53,7 @@ Cette télécommande peut également être utilisée comme un bouton d'urgence o
 {nbsp} +
 
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
@@ -67,20 +67,20 @@ Cette télécommande peut également être utilisée comme un bouton d'urgence o
 {nbsp} +
 
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 
 * Marque : Aeotec
-* Nom : Panic Button
-* Fabricant ID : 134
-* Type Produit : 1
-* Produit ID : 38
+* Name : Panic Button
+* Hersteller-ID : 134
+* Produkttyp : 1
+* Produkt-ID : 38
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -98,7 +98,7 @@ image::../images/aeotec.panicbutton/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -107,12 +107,12 @@ image::../images/aeotec.panicbutton/information.jpg[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -122,7 +122,7 @@ image::../images/aeotec.panicbutton/commandes.jpg[Commandes,align="center"]
 {nbsp} +
 
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -135,7 +135,7 @@ image::../images/aeotec.panicbutton/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -147,8 +147,8 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 {nbsp} +
 
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche „Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -158,7 +158,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -169,7 +169,7 @@ image::../images/aeotec.panicbutton/config1.jpg[Config1,align="center"]
 {nbsp} +
 
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -178,11 +178,11 @@ image::../images/aeotec.panicbutton/config1.jpg[Config1,align="center"]
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
-Ce module possède un seul et unique groupe d'association. Il est indispensable.
+Dieses Modul verfügt über eine einzelne Gruppe mit Assoziation. Es ist von wesentlicher Bedeutung.
 
 {nbsp} +
 
@@ -197,7 +197,7 @@ image::../images/aeotec.panicbutton/groupe.jpg[Groupe]
 {nbsp} +
 
 
-==== Spécificités
+==== Spezifikationen
 
 Pour utiliser ce module en télécommande il faut procéder comme suit :
 
@@ -225,7 +225,7 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 
 
 [panel,primary]
-.J'ai l'impression que le module ne se réveille pas.
+.Ich habe den Eindruck, daß das Modul nicht aufwacht.
 --
 Ce module se réveille en restant appuyer 3 secondes sur le bouton LEARN.
 --
@@ -233,22 +233,22 @@ Ce module se réveille en restant appuyer 3 secondes sur le bouton LEARN.
 {nbsp} +
 
 [panel,primary]
-.J'ai changé la configuration mais elle n'est pas prise en compte.
+Ich habe die Konfiguration geändert, aber es wird nicht berücksichtigt.
 --
-Ce module est un module sur batterie, la nouvelle configuration ne sera prise en compte que si vous réveillez la télécommande.
+Dieses Modul ist ein Batterie-Modul, die neue Konfiguration wird berücksichtigt werden, wenn die Fernbedienung aufwacht.
 --
 
 {nbsp} +
 
-=== Note importante
+=== Wichtiger Hinweis
 {nbsp} +
 
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-[underline]#Il faut réveiller le module :#
- après son inclusion, après un changement de la configuration
-, après un changement de wakeup, après un changement des groupes d'association
+[underline]#Es ist notwendig, das Modul zu aktivieren :#
+ nach seiner Inklusion, nach einer Konfigurationsänderung,
+nach einer Änderung vom Wakeup, nach einer Änderung der Assoziations-Gruppe
 
 {nbsp} +
 

@@ -1,12 +1,8 @@
-We are going to see here how to link your Jeedom to your market account, once connected to your Jeedom you should go on General → Administration → Configuration
+Nous allons voir ici comment lier votre Jeedom à votre compte Market, une fois connecté à votre jeedom vous devez aller sur Général → Administration → Configuration
 
-image::../images/premier-linkmarket.png[]
+Puis cliquez sur "Mise à jour et fichier"
 
-Then click on "Market and Update" 
-
-image::../images/premier-linkmarket2.png[]
-
-Et remplir le champ "Nom d'utilisateur" et "Mot de passe" en fonction de vos identifants du Market (identifiants du market et non pas de Jeedom)
+Et remplir le champ "Nom d'utilisateur" et "Mot de passe" (sur la droite) en fonction de vos identifants du Market (identifiants du Market et non pas de Jeedom)
 
 image::../images/premier-linkmarket3.png[]
 
@@ -16,4 +12,4 @@ image::../images/premier-linkmarket4.png[]
 
 A message will tell you that everything is OK
 
-For details on the configuration page, click  link:https://www.jeedom.fr/doc/documentation/core/en_US/doc-core-administration.html[here]
+Pour plus de détails sur la page de configuration cliquez link:https://jeedom.github.io/documentation/core/fr_FR/administration.html[ici]

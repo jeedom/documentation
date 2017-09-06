@@ -133,7 +133,7 @@ Voilà votre installation de debian est finie. Vous pouvez arrêter le tuto là 
 
 Pour préparer l'installation de Jeedom vous pouvez faire quelques optimisations : 
 
-=== Ajouter vim et sudo
+=== Vim und Sudo hinzufügen
 
 ----
 sudo apt-get install -y vim sudo

@@ -1,8 +1,8 @@
-= Trucs et astuces sur VMware
+= Tipps und Tricks für VMware
 
 Pas vraiment un howto ici mais plus un recueil de trucs et astuces sur VMware
 
-== Ajouter sa licence
+== Lizenz hinzufügen
 
 Une fois connecté sur l'interface web (IP_ESXI/ui) il faut aller sur "Gérer" : 
 
@@ -23,7 +23,7 @@ Pour rappel, si vous ne le faites pas votre ESXi risque de ne plus fonctionner a
 
 On va voir ici comment monter un partage NFS depuis un Synology sur VMware. Cela permet par exemple de mettre les machines virtuelles sur le Synology (qui peut avoir plus de place que l'ESXi) ou d'envoyer les backups des machines sur le Synology
 
-=== Configuration du Synology
+=== Synology Konfiguration
 
 Il faut aller sur le panneau de configuration puis "Services de fichiers" et cocher la case "Activer NFS" : 
 
@@ -43,7 +43,7 @@ image::../images/vmware.tips7.PNG[]
 
 Voilà c'est fini du coté Synology, on va maintenant passer coté ESXi
 
-=== Configuration de l'ESXi
+=== ESXi Konfiguration
 
 Il faut aller sur "Stockage" :
 
@@ -147,7 +147,7 @@ La commande au-dessus ne met à jour que les vib qui en ont besoin mais vous pou
 esxcli software vib install -d /vmfs/volumes/576c8ab3-fdf64d2f-091b-b8aeedeb87fb/ESXi600-201605001.zip
 ----
 
-== Configuration du NTP
+== NTP Konfiguration
 
 Par défaut l'ESXi n'utilise pas le NTP ce qui fait qu'il n'est pas à l'heure et que les VMs ne sont pas à l'heure, pour corriger c'est très simple. Il faut aller à partir de la version web sur Gérer -> Système -> Date et heure, là vous cliquez sur "Modifier les paramètres" :
 
@@ -201,3 +201,27 @@ Si vous passez par le reverse proxy du NAS la console en mode web des VMs ne fon
 
 [NOTE]
 Il existe aussi une application Vmware Watchlist sur Android pour avoir accès à l'ESXi ainsi qu'aux consoles des VMs
+
+
+== SSL-Zertifikat
+
+Il est possible d'importer les certificats de vmware directement dans votre pc pour ne plus avoir l'alerte. 
+
+Dans l'ordre il faut : 
+
+- avoir une url (dns) d'accès a votre esxi, ici on va prendre esxi1.lan
+- configurer le nom de votre esxi, en ssh dessus faire : 
+
+----
+esxcli system hostname set --host=esxi1
+----
+
+- configurer le fqdn :
+
+----
+esxcli system hostname set --fqdn=esxi1.lan
+----
+
+- Récuperer le certificat racine de l'esxi, il est dans /etc/vmware/ssl/castore.pem
+
+Sur poste faite clic droit puis installer le certificat , le mettre dans "Autorité de certification racines de confiance"

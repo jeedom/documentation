@@ -3,14 +3,13 @@ Here is the step by step documentation to install Jeedom on Jeedomboard (or Humm
 [TIP]
 The name of the Jeedom image may be different from that of the catches made in this documentation
 
+=== Etape 1 : Installation de Etcher
 
-=== Step 1 : Installation of win32diskimager
-
-You must download software win32diskimager link:http://sourceforge.net/projects/win32diskimager/[here] then install it on your PC
+Vous devez télécharger le logicel Etcher link:https://etcher.io/[ici] puis l'installer sur votre pc
 
 === Step 2 : Recovery of Jeedom image 
 
-Vous devez aller link:https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog[ici], puis dans le dossier Images récuperer l'image jeedom-jeeboard-*.rar ou Jeedomboard__Debian_Jessie*.rar
+Vous devez aller link:https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog[ici], puis dans le dossier Images récuperer l'image jeedom-jeeboard-\*.rar ou Jeedomboard__Debian_Jessie*.rar
 
 image::../images/install_humming_1.PNG[]
 
@@ -24,25 +23,7 @@ image::../images/install_humming_8.PNG[]
 
 === Step 4 : Burning the image on the SD card
 
-Insert your SD card into your computer and run the software win32diskimager : 
-
-image::../images/install_humming_3.PNG[]
-
-Check in "device" that is your SD card is selected and click the folder icon to specify the path of the image uploaded and uncompressed (step 2 and 3) : 
-
-image::../images/install_humming_4.PNG[]
-
-Click "Write" to write the image, confirm the warning : 
-
-image::../images/install_humming_5.PNG[]
-
-You can follow the progress of the writing of the image (ten minutes) : 
-
-image::../images/install_humming_6.PNG[]
-
-Once finished you will have this message :
-
-image::../images/install_humming_7.PNG[]
+Insérer votre carte SD dans votre ordinateur puis lancer le logiciel Ether, donner lui le chemin de l'image, le chemin de la carte SD et cliquez sur "flash". Le logiciel va graver la carte SD et verifier la gravure 
 
 You just have to put the SD card into the Jeedomboard  (or Hummingboard), to connect the network and power, your will start Jeedom (5 min) and you should see it on the network.
 

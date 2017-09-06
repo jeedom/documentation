@@ -1,9 +1,21 @@
 = Liste des equipements enocean compatibles 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*12* [green]*marques de modules différentes, soit un total de* [red]*61* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*15* [green]*marques de modules différentes, soit un total de* [red]*68* [green]*modules.*
 
 D'autres modules non présents sur cette liste peuvent être compatibles.
+
+== Altecon
+
+[cols=".^3a,.^1s,.^4,.^2,.^2,.^6,.^10,.^2", options="header"]
+|===
+|Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
+
+|image:../images/compatibility_list/a5-11-02_altecon_regulateur_de_climatisation.jpg[width=150,align="center"]|Altecon|Régulateur de climatisaton/chauffage|A5-11-02|Régulateur| |Inclusion auto puis mettre le module en position jour et placer l'aimant| 
+// 
+
+
+|===
 
 == Eltako
 
@@ -231,6 +243,9 @@ _[small]#Piles : 1x3V CR1216#_|Mode inclusion auto et appui sur le bouton learn|
 _[small]#Piles : 1x3V CR1216#_|Mode inclusion auto et appui sur le bouton learn| link:++http://www.domadoo.fr/fr/peripheriques/2635-nodon-capteur-de-temperature-enocean-wood-3700313920145.html++[Acheter^]
 // 
 
+|image:../images/compatibility_list/a5-07-03_nodon_mouvement.jpg[width=150,align="center"]|Nodon|Détecteur de mouvement et luminosité EnOcean|A5-07-03|Mouvement| |Mode inclusion auto et mode appairage| 
+// 
+
 |image:../images/compatibility_list/f6-02-02_wall_switch_marron.jpg[width=150,align="center"]|Nodon|Interrupteur mural EnOcean - Cozi Grey|F6-02-02|Interrupteur|Disponible en plusieurs coloris. Deux modes de fonctionnement possible dans Jeedom (on/off sur deux boutons ou toggle sur 4 boutons). Les appuis multiples sont gérés. |Mode inclusion auto et appui sur un bouton| link:++http://www.domadoo.fr/fr/peripheriques/2628-nodon-interrupteur-mural-enocean-cozi-grey-3700313920084.html++[Acheter^]
 // 
 
@@ -241,6 +256,9 @@ _[small]#Piles : 1x3V CR1216#_|Mode inclusion auto et appui sur le bouton learn|
 // 
 
 |image:../images/compatibility_list/d2-01-12_micromodule_nodon_2_canaux.jpg[width=150,align="center"]|Nodon|Micromodule commutateur double EnOcean|D2-01-12|Micromodule|Bien s'assurer que le micromodule sort du learn après inclusion. Sinon procédez à une exclusion avant |Mode inclusion auto et triple appui sur le bouton learn| link:++http://www.domadoo.fr/fr/peripheriques/3341-nodon-micromodule-commutateur-double-enocean-3700313920374.html++[Acheter^]
+// 
+
+|image:../images/compatibility_list/d2-01-0f_micromodule_nodon_1_canal.jpg[width=150,align="center"]|Nodon|Micromodule commutateur simple EnOcean|D2-01-0F|Micromodule|Bien s'assurer que le micromodule sort du learn après inclusion. Sinon procédez à une exclusion avant |Mode inclusion auto et triple appui sur le bouton learn| 
 // 
 
 |image:../images/compatibility_list/d2-01-0b_smartplug_nodon_metering.jpg[width=150,align="center"]|Nodon|Prise intelligente + metering|D2-01-0B|Prise|Bien s'assurer que la prise sort du learn après inclusion. Sinon procédez à une exclusion avant |Mode inclusion auto et appui long (2s) sur le bouton learn| link:++http://www.domadoo.fr/fr/peripheriques/2633-nodon-prise-intelligente-metering-enocean-type-eu-3700313920022.html++[Acheter^]
@@ -265,6 +283,36 @@ _[small]#Piles : 1x3V CR1216#_|Mode inclusion auto et appui sur le bouton learn|
 // 
 
 |image:../images/compatibility_list/f6-02-02_soft_remote_wasabi.jpg[width=150,align="center"]|Nodon|Soft Remote wasabi|F6-02-02|Télécommande|Disponible en plusieurs coloris. Deux modes de fonctionnement possible dans Jeedom (on/off sur deux boutons ou toggle sur 4 boutons). Les appuis multiples sont gérés. |Mode inclusion auto et appui sur un bouton| link:++http://www.domadoo.fr/fr/peripheriques/2899-nodon-soft-remote-enocean-wasabi-3700313920299.html++[Acheter^]
+// 
+
+
+|===
+
+== PressacSensing
+
+[cols=".^3a,.^1s,.^4,.^2,.^2,.^6,.^10,.^2", options="header"]
+|===
+|Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
+
+|image:../images/compatibility_list/d2-32-02_pressac_3_pinces.jpg[width=150,align="center"]|PressacSensing|Pince Ampérimétrique Enocean 3 voies|D2-32-02|Courant| |Une fois placé attendre 30 secondes et appuyer sur le bouton| 
+// 
+
+|image:../images/compatibility_list/d2-32-00_pressac_1_pince.jpg[width=150,align="center"]|PressacSensing|Pince Ampérimétrique Enocean|D2-32-00|Courant| |Une fois placé attendre 30 secondes et appuyer sur le bouton| 
+// 
+
+|image:../images/compatibility_list/a5-09-04_pressac_co2_humidite_temperature.jpg[width=150,align="center"]|PressacSensing|Sonde Co2 Température Humidité|A5-09-04|Capteur| |Mode inclusion auto et mode appairage| 
+// 
+
+
+|===
+
+== Soda
+
+[cols=".^3a,.^1s,.^4,.^2,.^2,.^6,.^10,.^2", options="header"]
+|===
+|Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
+
+|image:../images/compatibility_list/d2-06-01_poignee_soda_blanc.jpg[width=150,align="center"]|Soda|Poignée intelligente EnOcean|D2-06-01|Poignée|Bien s'assurer que la poignée bippe après inclusion. Sinon procédez à une exclusion avant |Mode inclusion auto poignée à 12h et appui sur le bouton| link:++http://www.domadoo.fr/fr/peripheriques/2.html++[Acheter^]
 // 
 
 

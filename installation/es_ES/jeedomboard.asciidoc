@@ -3,14 +3,13 @@ Encontrarás aquí la documentación paso a paso para instalar Jeedom en las Jee
 [TIP]
 El nombre de la imagen Jeedom puede ser diferente de las fotos puestas en esta documentación
 
+=== Etape 1 : Installation de Etcher
 
-=== Paso 1 : Instalación de Win32diskimager
-
-Debe descargar el software win32diskimage link:http://sourceforge.net/projects/win32diskimager/[ici] e instalarlo en su PC
+Vous devez télécharger le logicel Etcher link:https://etcher.io/[ici] puis l'installer sur votre pc
 
 === Paso 2 : Recuperación de la imagen de Jeedom
 
-Vous devez aller link:https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog[ici], puis dans le dossier Images récuperer l'image jeedom-jeeboard-*.rar ou Jeedomboard__Debian_Jessie*.rar
+Vous devez aller link:https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog[ici], puis dans le dossier Images récuperer l'image jeedom-jeeboard-\*.rar ou Jeedomboard__Debian_Jessie*.rar
 
 image::../images/install_humming_1.PNG[]
 
@@ -24,25 +23,7 @@ imagen::../images/install_humming_8.PNG[]
 
 === Paso 4 : Grabación de la imagen en la tarjeta SD
 
-insertar su tarjeta SD en su ordinador e lanzar el programa win32diskimager : 
-
-imagen::../images/install_humming_3.PNG[]
-
-verificar que en "device" esta bien selectionada su tarjeta SD después pulsar el icono carpeta para indicar el camino de la imagen descargada y descomprimida (etapa 2 y 3) 
-
-image::../images/install_humming_4.PNG[]
-
-Pulsar "Write" para escribir la imagen, validar la advertencia: 
-
-image::../images/install_humming_5.PNG[]
-
-Se puede seguir el adelanto de la escritura de la imagen (más o menos 10 minutos) : 
-
-image::../images/install_humming_6.PNG[]
-
-una ves terminado obtendrá este mensaje :
-
-image::../images/install_humming_7.PNG[]
+Insérer votre carte SD dans votre ordinateur puis lancer le logiciel Ether, donner lui le chemin de l'image, le chemin de la carte SD et cliquez sur "flash". Le logiciel va graver la carte SD et verifier la gravure 
 
 Solo tienes que poner la tarjeta SD en la Jeedomboard (o hummingboard), conectarlo en la red y su alimentación, el jeedom comenzara (5 minutos) y debería ver lo en la red.
 

@@ -1,16 +1,14 @@
-Vous pouvez retrouver toutes les images Jeedom link:https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog[ici], puis dans le dossier Images
+Alle Abbilder von Jeedom finden Sie link:https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog[hier], und dann in dem Images Ordner
 
 [NOTE]
-Une image netinstall va lors du premier démarrage installer la dernière version stable de Jeedom, ce démarrage est donc un peu plus long et nécessite d'avoir accès à internet. Vous pouvez suivre l'avancement de celui-ci en allant sur l'IP de votre Jeedom avec votre navigateur
+Ein Netinstall-Image wird nach dem ersten Start die neueste stabile Version von Jeedom installieren, dieser Start dauert etwas länger und Sie müssen auf das Internet zugreifen können. Sie können den Fortschritt verfolgen, indem Sie auf die IP-Adresse Ihres Jeedom in Ihrem Browser eingeben
 
 [cols="5*", options="header"] 
 |===
 |Abbilder|Hardware|Zustand|SSH Zugang|Bemerkungen
 |Jeedomboard netinstall|Jeedomboard und Hummingboard|Beta|root/Mjeedom96|
-|Odroid c2 netinstall|Odroid C2|Release-Kandidat|root/Mjeedom96|
-|RPI|RPI1, RPI2 und RPI3|nicht offiziell/Stabil|root/Mjeedom96|
-|RPI Netinstall|RPI1, RPI2 und RPI3|OffiziellAlpha|root/Mjeedom96|
-|Virtual Box|Virtual box|Non officiel/Stable|root/Mjeedom96|Non maintenu, il vaut mieux passer par l'installation manuelle de Jeedom pour tout ce qui est VM
 |Jeedomboard|jeedomboard und Hummingboard|Stabil|root/Mjeedom96|
 |Docker||Beta|root/Mjeedom96|
 |===
+
+Toutes les autres images téléchargeables précédemment ne sont plus maintenues, il vaut mieux passer par l'installation manuelle de Jeedom link:https://jeedom.github.io/documentation/installation/fr_FR/#_autre_diy[Doc] après avoir installé une distribution linux correspondant à votre matériel : Debian (vm, pc,...), Raspbian Lite (Raspberry pi), Armbian (Ordoid,...), ...

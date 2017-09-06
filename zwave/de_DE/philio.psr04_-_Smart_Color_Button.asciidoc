@@ -4,7 +4,7 @@
 {nbsp} +
 
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -14,7 +14,7 @@ image::../images/philio.psr04/module.jpg[width=256,align="center"]
 {nbsp} +
 
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -23,7 +23,7 @@ image::../images/philio.psr04/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -39,13 +39,13 @@ Il utilise la dernière puce Z-Wave série 500, offrant une augmentation de la p
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
 * Interrupteur multifonctions
 * Technologie Z-Wave+
-* Fonction ON/OFF et variation (éclairage ou volets)
+* Funktion AN/AUS und Variationen (Beleuchtung oder Rollläden)
 * Fonction minuterie intégrée
 * Etanche
 * S'adapte à tout style de décoration
@@ -54,12 +54,12 @@ Il utilise la dernière puce Z-Wave série 500, offrant une augmentation de la p
 * Longue durée de vie de la batterie (6 mois par charge)
 * Support magnétique
 * LED d'indication RGBW
-* Facile à installer
+* Einfache Installation
 
 {nbsp} +
 
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
@@ -84,20 +84,20 @@ FCC Part 15 B, FCC Part 15 C
 {nbsp} +
 
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 
 * Marque : Philio
-* Nom : PSR04 Smart Color Button
-* Fabricant ID : 316
-* Type Produit : 9
-* Produit ID : 34
+* Name: PSR04 Smart Color Button
+* Hersteller-ID : 316
+* Produkttyp : 9
+* Produkt-ID : 34
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -115,7 +115,7 @@ image::../images/philio.psr04/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -124,12 +124,12 @@ image::../images/philio.psr04/information.jpg[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -139,7 +139,7 @@ image::../images/philio.psr04/commandes.jpg[Commandes,align="center"]
 {nbsp} +
 
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -150,7 +150,7 @@ image::../images/philio.psr04/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -162,8 +162,8 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 {nbsp} +
 
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -173,7 +173,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -184,7 +184,7 @@ image::../images/philio.psr04/config1.jpg[Config1,align="center"]
 {nbsp} +
 
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -196,7 +196,7 @@ image::../images/philio.psr04/config1.jpg[Config1,align="center"]
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -224,12 +224,12 @@ Pour utiliser ce module en télécommande il faut procéder comme suit :
 
 En effet ce type de module n'est pas fait pour interagir directement avec une box mais directement avec d'autres modules. Cependant en rajoutant Jeedom au groupe 2, cela permet de recevoir la position du bouton et donc de s'en servir pour contrôller un scénario (régler un volume par exemple)
 
-=== Wakeup
+=== Wakeup (Aufweckzeit)
 
 {nbsp} +
 
 
-Pour réveiller ce module il y a une seule et unique façon de procéder :
+Um dieses Modul zu wecken, gibt es eine einzige Verfahrensweise :
 
 * mettre le module en position basse et appuyer sur le bouton
 
@@ -246,22 +246,22 @@ Pour réveiller ce module il y a une seule et unique façon de procéder :
 {nbsp} +
 
 [panel,primary]
-.J'ai changé la configuration mais elle n'est pas prise en compte.
+Ich habe die Konfiguration geändert, aber es wird nicht berücksichtigt.
 --
-Ce module est un module sur batterie, la nouvelle configuration ne sera prise en compte que si vous réveillez le module.
+Dieses Modul ist ein Batterie-Modul, die neue Konfiguration wird berücksichtigt werden, wenn das Modul aufwacht.
 --
 
 {nbsp} +
 
-=== Note importante
+=== Wichtiger Hinweis
 {nbsp} +
 
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-[underline]#Il faut réveiller le module :#
- après son inclusion, après un changement de la configuration
-, après un changement de wakeup, après un changement des groupes d'association
+[underline]#Es ist notwendig, das Modul zu aktivieren :#
+ nach seiner Inklusion, nach einer Konfigurationsänderung,
+nach einer Änderung vom Wakeup, nach einer Änderung der Assoziations-Gruppe
 
 {nbsp} +
 

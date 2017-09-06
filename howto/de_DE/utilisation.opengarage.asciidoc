@@ -1,4 +1,4 @@
-= OpenGarage avec Jeedom
+= OpenGarage mit Jeedom
 
 OpenGarage est un objet de type DIY mais aussi disponible monté sur commande et qui sert dans le garage.
 

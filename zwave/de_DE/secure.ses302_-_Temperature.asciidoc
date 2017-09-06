@@ -1,9 +1,9 @@
 :icons:
-== Secure SES 302 "Température"
+== Secure SES 302 "Temperatur"
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/secure.ses302/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/secure.ses302/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -36,20 +36,20 @@ On peut facilement l'inclure / l'exclure dans un réseau Z-Wave.
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
 * Mesure précise de la température
 * Application dans des systèmes de contrôle dynamique de réservoirs/tubes/planchers chauffants/...
 * Possibilité de brancher des sonde externes
-* Interopérable avec les produits et systèmes Z-Wave certifiés
+* Interoperabilität mit zertifizierten Z-Wave Produkten und Systemen 
 * Installation facile et rapide
-* Rapport de batterie faible
+* Bericht bei schwacher Batterie 
 
 {nbsp} +
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
@@ -58,25 +58,25 @@ On peut facilement l'inclure / l'exclure dans un réseau Z-Wave.
 * Puce Z-Wave Plus
 * Fréquence : 868,42 Mhz
 * Alimentation: 2x piles AA (LR6)
-* Portée : jusqu'à 100 m en champ libre
+* Reichweite : bis zu 100 m im Freien
 * Indice de protection : IP30
 * Dimensions : 86 x 85 x 30 mm
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 * Marque : Horstmann
-* Nom : SES 302 Temperature Sensor
-* Fabricant ID : 89
-* Type Produit : 13
-* Produit ID : 2
+* Name : SES 302 Temperatur Sensor
+* Hersteller-ID : 89
+* Produkttyp : 13
+* Produkt-ID : 2
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -94,7 +94,7 @@ image::../images/secure.ses302/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -102,11 +102,11 @@ image::../images/secure.ses302/information.jpg[Plugin Zwave]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -114,7 +114,7 @@ image::../images/secure.ses302/commandes.jpg[Commandes]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -125,7 +125,7 @@ Plusieurs températures nons visibles sont aussi disponibles et seront utiles si
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -136,7 +136,7 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 {nbsp} +
 
 Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -144,7 +144,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -152,7 +152,7 @@ image::../images/secure.ses302/config1.jpg[Config1]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -163,7 +163,7 @@ Tous les autres paramètres sont identiques et correspondent à toutes les sonde
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -191,7 +191,7 @@ image::../images/secure.ses302/widget1.jpg[width=350,align="center"]
 
 {nbsp} +
 
-=== Wakeup
+=== Wakeup (Aufweckzeit)
 
 {nbsp} +
 
@@ -212,22 +212,22 @@ Ce module se réveille en appuyant 1 fois sur son bouton d'inclusion.
 {nbsp} +
 
 [panel,primary]
-.J'ai changé la configuration mais elle n'est pas prise en compte.
+Ich habe die Konfiguration geändert, aber es wird nicht berücksichtigt.
 --
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wake up.
 --
 
 {nbsp} +
 
-=== Note importante
+=== Wichtiger Hinweis
 
 {nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-[underline]#Il faut réveiller le module :#
- après son inclusion, après un changement de la configuration
-, après un changement de wake up, après un changement des groupes d'association
+[underline]#Es ist notwendig, das Modul zu aktivieren :#
+ nach seiner Inklusion, nach einer Konfigurationsänderung,
+nach einer Änderung vom Wakeup, nach einer Änderung der Assoziations-Gruppe
 
 {nbsp} +
 

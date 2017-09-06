@@ -1,0 +1,17 @@
+= Erreur 400 lors de l'achat Paypal sur le Market
+
+== Symptôme
+
+Lors de l'achat d'un plugin sur le Market vous obtenez l'erreur : "Got Http response code 400 when accessing https://api.paypal.com/v1/payments/payment/xxxxxx/execute"
+
+== Analyse
+
+== Résolution
+
+Il faut tester avec un autre navigateur et/ou sur un autre poste
+
+== Versions applicables
+
+Toutes
+
+== Voir aussi

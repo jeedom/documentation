@@ -1,9 +1,9 @@
 :icons:
-== Fibaro FGFS-101 "Flood Sensor"
+== Fibaro FGFS-101 "Überflutungssensor"
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/fibaro.fgfs101/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/fibaro.fgfs101/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -37,7 +37,7 @@ Ce capteur intègre un testeur de portée de réseau Z-Wave,ce qui vous assure d
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -51,41 +51,41 @@ Ce capteur intègre un testeur de portée de réseau Z-Wave,ce qui vous assure d
 
 {nbsp} +
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
 * Type de module : Emetteur Z-Wave
 * Module pouvant être alimenté en externe : 12 – 24 VDC
 * Type de batterie : CR123A
-* Autonomie de la batterie : 2 ans
+* Batterielaufzeit  : 2 Jahre
 * Consommation sur alimentation externe : 0,4W
 * Courant maximal supporté en sortie (ALARM NC, TAMP NC) :25mA
 * Tension maximale supportée en sortie : 40V (AC ou DC)
 * Fréquence : 868,42 MHz
 * Distance de transmission : 50m champ libre, 30m en intérieur
 * Dimensions : 72 x 28 mm (diamètre x hauteur)
-* Température de fonctionnement : 0-40°C (-20°C à 70°C si alimentation externe)
+* Betriebstemperatur : 0-40°C (-20°C bis 70°C mit externer Stromversorgung)
 * Gamme de mesure de la température : -20 à 100°C
 * Précision de la mesure : 0,5°C (dans une gamme de 0 à 40°C)
 * Normes : EMC 2004/108/EC et R&TTE 199/5/WE
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
-* Marque : Fibar Group
+* Marke : Fibar Group
 * Modèle : FGFS101 Flood Sensor
-* Fabricant : FIBARO System
-* Fabricant ID : 271
-* Type Produit : 2816
-* Produit ID : 4097
+* Hersteller : FIBARO Systems
+* Hersteller-ID : 271
+* Produkttyp : 2816
+* Produkt-ID : 4097
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -103,7 +103,7 @@ image::../images/fibaro.fgfs101/Vue_interieur.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -111,11 +111,11 @@ image::../images/fibaro.fgfs101/information.jpg[Plugin Zwave]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -123,7 +123,7 @@ image::../images/fibaro.fgfs101/commandes.jpg[Commandes]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -134,7 +134,7 @@ image::../images/fibaro.fgfs101/commandes.jpg[Commandes]
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -145,7 +145,7 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 {nbsp} +
 
 Ensuite il est nécessaire d’effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -153,7 +153,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -162,7 +162,7 @@ image::../images/fibaro.fgfs101/config2.jpg[Config2]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -192,7 +192,7 @@ image::../images/fibaro.fgfs101/config2.jpg[Config2]
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -204,7 +204,7 @@ image::../images/fibaro.fgfs101/groupe.jpg[Groupe]
 
 {nbsp} +
 
-=== Bon à savoir
+=== Gut zu wissen
 Alimenté par l'extérieur ce module permet de faire office de répéteur Z-wave (information non confirmée actuellement)
 
 Le cablage pour une alimentation extérieure.
@@ -235,22 +235,22 @@ Ce module se réveille en appuyant 3 fois sur son bouton d'inclusion.
 {nbsp} +
 
 [panel,primary]
-.J'ai changé la configuration mais elle n'est pas prise en compte.
+Ich habe die Konfiguration geändert, aber es wird nicht berücksichtigt.
 --
 Ce module est, par défaut, un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
 --
 
 {nbsp} +
 
-=== Note importante
+=== Wichtiger Hinweis
 
 {nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-[underline]#Il faut réveiller le module :#
- après son inclusion, après un changement de la configuration
-, après un changement de wakeup, après un changement des groupes d'association
+[underline]#Es ist notwendig, das Modul zu aktivieren :#
+ nach seiner Inklusion, nach einer Konfigurationsänderung,
+nach einer Änderung vom Wakeup, nach einer Änderung der Assoziations-Gruppe
 
 {nbsp} +
 

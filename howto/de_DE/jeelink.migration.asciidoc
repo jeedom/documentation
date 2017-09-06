@@ -22,7 +22,7 @@ NOTE: Pour une meilleure lecture et compréhension de ce tutoriel, voici les ter
 
 image::../images/jeelink.migration9.png[]
 
-=== Mises à jour et Vérification de la Configuration
+=== Updates und Überprüfung der Konfiguration
 * Mettre à jour le *Jeedom Maître* à la dernière version (même si aucune mise à jour ne vous est proposée).
 * Mettre à jour les plugins du *Jeedom Maître* aux dernières versions disponibles.
 * Vérifier dans la page Santé que la configuration réseau interne du *Jeedom Maître* est OK (Et externe si vos *Jeedoms Sources* seront distants).
@@ -30,7 +30,7 @@ image::../images/jeelink.migration9.png[]
 === Rassemblement des informations utiles
 En fonction des plugins installés sur votre *Jeedom Esclave*, il est nécessaire de récupérer les informations suivantes :
 
-==== Plugin Zwave
+==== Zwave Plugin
 * Dans la page santé du plugin Zwave sur le *Jeedom Maître*, choisir votre *Esclave* dans le menu déroulant et faire une copie d'écran, ceci afin de disposer d'une liste des équipements qui viennent de celui-ci.
 * Noter pour chaque équipement venant de *l'Esclave* : l'objet parent, le nom, l'ID (Node), le modèle.
 * Récupérer le fichier Zwcfg : __Plugins => Gestion des Plugins => Z-wave__. Cliquer sur le bouton rouge __Zwcfg__ et copier le contenu dans un fichier texte sur votre ordinateur.
@@ -67,7 +67,7 @@ NOTE: si vous utilisez le Raspberry Pi existant qui est actuellement un *Jeedom 
 * Mettre à jour le *Jeedom Source* à la dernière version (même si aucune mise à jour ne vous est proposée).
 * Vérifier dans la page Santé que la configuration réseau interne (et externe si besoin) du *Jeedom Source* est OK.
 
-=== Configuration du Jeedom Source
+=== Jeedom Quellen Konfiguration 
 
 * Changer le mot de passe de l'utilisateur admin ou/et configurer un nouvel utilisateur.
 * Configurer votre compte Jeedom Market (__Configuration => Mises à jour et fichiers => onglet "Market"__). Cliquer sur tester après avoir sauvegardé, pour valider la saisie de vos identifiants Jeedom Market).
@@ -105,7 +105,7 @@ NOTE: Vous pouvez aussi au fur et à mesure assigner les équipements aux objets
 * Définir le nom, l'ID, l'objet parent, le type d'équipement et le modèle en vous aidant de votre mémo de migration.
 * Recommencer pour tous vos équipements de ce type.
 
-=== Configuration du plugin "Jeedom Link"
+=== "Jeedom Link" Plugin Konfiguration
 
 Le plugin "Jeedom Link" installé sur le *Jeedom Source* permettra la remontée des équipements sur le *Jeedom Cible* (Votre ancien Maître).
 
@@ -121,7 +121,7 @@ Sur le *Jeedom Source*, https://jeedom.github.io/documentation/plugins/jeelink/f
 * L'adresse IP ou le nom DNS du *Jeedom Cible*.
 * La clé API du *Jeedom Cible*.
 
-Et sauvegarder la configuration.
+Und die Konfiguration speichern.
 
 image::../images/jeelink.migration3.png[]
 

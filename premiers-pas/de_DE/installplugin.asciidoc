@@ -1,15 +1,13 @@
-Un plugin permet d'ajouter des fonctionnalités à Jeedom, il en existe des centaines, certains peuvent être payants. Pour accéder à la page des plugins aller sur Général → Plugins
+Un plugin permet d'ajouter des fonctionnalités à Jeedom, il en existe des centaines, certains peuvent être payants. Pour accéder à la page des plugins aller sur Plugins → Gestion des plugins
 
-image::../images/premier-plugin.png[]
-
-Dann klicken Sie einfach auf Markt :
+Il vous suffit ensuite de cliquer sur Market :
 
 image::../images/premier-plugin2.png[]
 
-Vous allez ensuite avoir la liste de tous les plugins qu'il est possible d'installer.
+Sie erhalten dann eine Liste mit allen Plugins, die installiert werden können.
 
 [IMPORTANT]
-Attention, certains sont officiels et d'autres non, en cas de souci avec un plugin non officiel l'équipe Jeedom ne pourra être tenue pour responsable.
+Achtung, einige Plugins sind offiziell und andere nicht, bei Problemen mit einem nicht offiziellen Plugin kann das Jeedom Team nicht verantwortlich gemacht werden.
 
 image::../images/premier-plugin3.png[]
 
@@ -17,6 +15,6 @@ Auf ein Plugin klickend, erhalten Sie eine Karteikarte :
 
 image::../images/premier-plugin4.png[]
 
-Vous avez ici des boutons pour installer le plugin (la version stable est fortement recommandée) ainsi qu'une brève description et surtout un lien vers la documentation du plugin. Il est important de consulter cette documentation car beaucoup des problèmes que vous pourriez rencontrer sont expliqués dans celle-ci.
+Hier finden Sie die Schaltfläche, um das Plugin zu installieren (die stabile Version wird dringend empfohlen), eine kurze Beschreibung und einen Link speziell zur Plugin-Dokumentation. Es ist wichtig, diese Dokumentation zu konsultieren, da viele der Probleme, die auftreten können, dort erklärt werden. 
 
-Pour plus d'informations sur cette page cliquez link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-plugin.html[ici]
+Für weitere Informationen klicken Sie auf dieser Seite link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-plugin.html[hier]

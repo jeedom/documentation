@@ -1,39 +1,29 @@
 Jeedom can be installed on various hardware components : 
 
-- Raspberry pi 1 or 2
-- Jeeboard (hummingboard) i1, i2 or i4
+- un Raspberry pi 2 ou 3
 - un NAS Synology
-- Any Linux system (Debian-based preferred)
+- tout système Linux basé sur Debian
 
 You can also buy a ready-made box with preinstalled Jeedom which additionally contains a service pack (more support and service) and offer plugins : 
 
-- link:http://www.domadoo.fr/fr/box-domotique/2747-jeedom-pack-de-demarrage-jeedom-mini-compatible-z-wave.html[Mini+ Z-Wave] (french site, new partners comming soon)
-- link:http://www.domadoo.fr/fr/box-domotique/2749-jeedom-pack-de-demarrage-jeedom-mini-compatible-z-wave-et-interface-rfxcom.html[Mini+ RFXCOM and Z-Wave] (french site, new partners comming soon)
-- link:http://www.domadoo.fr/fr/box-domotique/2984-jeedom-pack-de-demarrage-jeedom-mini-compatible-enocean.html[Mini+ EnOcean] (french site, new partners comming soon)
-- link:http://www.domadoo.fr/fr/box-domotique/2990-jeedom-pack-de-demarrage-jeedom-mini-compatible-enocean-et-interface-rfxcom.html[Mini+ EnOcean and rfxcom] (french site, new partners comming soon)
+- link:https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html[Jeedom Smart Z-Wave+]
+- link:https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-et-interface-rfxcom.html[Jeedom Smart Z-Wave+ et RFXCOM]
+- link:https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html[Jeedom Smart EnOcean]
+- link:https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-et-interface-rfxcom.html[Jeedom Smart EnOcean et RFXCOM]
 
-Here are 2 configurations "type" for good start with Jeedom Z-Wave :
+Voici 1 configurations "type" pour bien débuter avec Jeedom en Z-Wave :
 
-. Raspberry pi 2 : 
+. Raspberry pi 3 : 
 
-- a Raspberry ~ 40 €
--  a Razberry ~ 60 €
+- Un raspberry+casing ~ 50 €
+- Une clef Aeon Gen 5 ~ 60 €
 - a micro SD card ~ 7 €
 - USB power supply -8 € 
 
-Soit un total de 115 € pour une box domotique open source avec une maîtrise complète de son installation
-
-. Jeedomboard dual
-
-- A Jeedomboard dual ~ 119 € link:http://www.domadoo.fr/fr/informatique/2762-jeedom-ordinateur-monocarte-jeedomboard-dual.html[here] (french site, new partners comming soon)
--  a Razberry ~ 60 €
-- a micro SD card ~ 7 €
-- USB power supply -8 € 
-
-Soit un total de 195 € pour une box domotique open source avec une maîtrise complète de son installation
+Soit un total de 125 € pour une box domotique open source avec une maîtrise complète de son installation.
 
 [TIP]
-You can change the Razberry by a Z-Wave USB stick (though it will openzwave the plugin and more under Jeedom) or if you do not want a Z-Wave, a RFXCOM, or EnOcean key (or even piOcean )
+Il est possible d'ajouter ou de changer par un Rfxcom, ou une clef enOcean.
 
 [TIP]
 Jeedom est un logiciel qui est et restera open source, son utilisation est entièrement gratuite et ne dépend pas d'un cloud ou d'un abonnement. Cependant certains plugins qui permettent d'augmenter les capacités de Jeedom ou son utilisation peuvent être payants *et peuvent avoir besoin d'une connexion internet*. Vous pouvez retrouver la liste des plugins link:http://market.jeedom.fr/index.php?v=d&p=market&type=plugin[ici]

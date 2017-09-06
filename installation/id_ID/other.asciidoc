@@ -19,14 +19,13 @@ Les identifiants par défaut sont admin/admin
 
 [NOTE]
 Les arguments suivants sont utilisables :
--v = version jeedom désirer
 -w = dossier webserver
 -z = installation dependances z-wave
 -m = mot de passe root mysql désiré
 
 -----
 
-./install.sh -v x.y.zz -w /var/www/html -z -m Jeedom
+./install.sh -w /var/www/html -z -m Jeedom
 
 -----
 

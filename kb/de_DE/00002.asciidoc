@@ -1,0 +1,21 @@
+= Backup Wiederherstellungs Probleme
+
+== Symptome
+
+Es kann kein Backup wiederhergestellt werden, es endet immer mit einem Dekompression Fehler.
+
+== Analyse
+
+Das Problem kann 2 Ursachen haben : 
+
+- Problem im Namen der Sicherung, wenn vor dem 3.X ein Leerzeichen im Backup-Namen ist, dann kann die Wiederherstellung nicht gehen.
+- Sie haben das Backup in Jeedom durch die Web-Schnittstelle geladen, aber dieses ist zu groß und der Download ist nicht vollständig.
+
+== Lösung
+
+- Entfernen Sie das Leerzeichen in dem Backup-Namen 
+- Laden Sie das Backup mit SFTP (zum Beispiel mit der WinSCP Software), speichern in /var/www/html/backup
+
+== Anwendbare Version
+
+== Siehe auch

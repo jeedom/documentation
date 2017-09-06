@@ -3,10 +3,9 @@ Hier ist eine Schritt für Schritt Dokumentation um Jeedom auf Raspberry Pi 1 od
 [TIP]
 Der Name des heruntergeladenen Jeedom-Abbilds kann sich von dem in dieser Dokumentation unterscheiden.
 
+=== Etape 1 : Installation de Etcher
 
-=== Schritt 1 : Installieren mit win32diskimager
-
-Sie müssen den Win32diskimager link:http://sourceforge.net/projects/win32diskimager/[hier] herunterladen und ihn auf Ihrem PC installieren
+Vous devez télécharger le logicel Etcher link:https://etcher.io/[ici] puis l'installer sur votre pc
 
 === Schritt 2: Wiederherstellung Jeedom-Abbild
 
@@ -24,35 +23,20 @@ image::../images/install_humming_8.PNG[]
 
 === Schritt 4 : Das Abbild auf die SD-Karte brennen
 
-Legen Sie die SD-Karte in den Computer ein und starten Sie die Win32diskimager Software : 
-
-image::../images/install_humming_3.PNG[]
-
-Vérifier que dans "Device" c'est bien votre carte SD qui est sélectionnée puis cliquez sur l'icône Dossier pour indiquer le chemin de l'image téléchargée et decompressée (étape 2 et 3) : 
-
-image::../images/install_humming_4.PNG[]
-
-Klicken Sie auf "Write", um das Abbild zu schreiben, bestätigen Sie die Warnmeldung: 
-
-image::../images/install_humming_5.PNG[]
-
-Sie können den Fortschritt des Schreibens des Abbildes verfolgen (etwa zehn Minuten) : 
-
-image::../images/install_humming_6.PNG[]
-
-Sobald Sie fertig sind werden Sie diese Nachricht bekommen :
-
-image::../images/install_humming_7.PNG[]
+Insérer votre carte SD dans votre ordinateur puis lancez le logiciel Ether, donnez lui le chemin de l'image, le chemin de la carte SD et cliquez sur "flash". Le logiciel va graver la carte SD et verifier la gravure 
 
 Sie müssen nur die SD-Karte in den Raspberry-Pi stecken, sobald sie das Board mit Strom und dem Netzwerk verbinden, wird Ihre Jeedom (5 min) starten und Sie sollten ihn im Netzwerk sehen.
 
+[IMPORTANT]
+L'installation se lance automatiquement et vous pouvez la suivre en vous rendant depuis votre navigateur sur l'adresse http://IP_RASPBERRY/. Quand l'installation sera terminée, vous vous retrouverez sur l'interface de connexion Jeedom.
+
 [TIP]
-Les identifiants SSH sont root/Mjeedom96
+Les identifiants SSH sont root/Mjeedom96. Néanmoins, vous n'avez pas besoin de vous connecter en SSH pour une installation simple.
+
+[TIP]
+L'installation à partir de l'image netinstall réalise les étapes suivantes à votre place : mise à jour du système et des paquets, extension de la partition de la SD au maximum de la capacité de celle-ci.
 
 [IMPORTANT]
-Attention si vous avez une carte SD de plus de 4go n'oubliez pas d'étendre la partition avec la commande raspi-config en SSH ou sudo raspi-config si nécessaire
-
-[IMPORTANT]
-Si vous êtes sur rpi2 IL NE FAUT SURTOUT PAS L'OVERCLOCKER sous peine d'avoir un système instable avec de nombreuses corruptions de carte SD
+Wenn Sie einen rpi2 haben, VOR ALLEM NICHT ÜBERTACKTEN, das könnte ein instabiles System zur folge haben mit zahlreicher Beschädigung der SD Karte
 
 Ensuite vous pouvez suivre la documentation https://www.jeedom.fr/doc/documentation/premiers-pas/fr_FR/doc-premiers-pas.html[Premier pas avec Jeedom]

@@ -1,10 +1,10 @@
 :icons:
-=== Installation du plugin Z-wave
+=== Installation des Z-wave plugin
 
 {nbsp} +
 
-Si vous n’en disposez pas encore, il va vous falloir installer le plugin Z-Wave, pas d’inquiétude, cela ne demande que quelques secondes.
-Pour ce faire, il suffit de se rendre dans le menu « Général », puis « Plugins »
+Wenn Sie noch kein Z-Wave-Plugin haben, werden Sie es  installieren müssen, keine Sorge, es dauert nur ein paar Sekunden.
+Hierzu gehen Sie einfach auf das Menü « Plugins » dann « Plugin Verwaltung »
 
 {nbsp} +
 
@@ -12,7 +12,7 @@ image::../images/plugin/innstallationzwave1.jpg[width=180]
 
 {nbsp} +
 
-Enfin, cliquez sur le bouton « Market » situé en haut à gauche.
+Schließlich klicken Sie auf die Schaltfläche "Markt" die sich oben links befindet.
 
 {nbsp} +
 

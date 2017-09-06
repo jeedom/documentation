@@ -1,8 +1,8 @@
-= Installation de VMware sur un NUC Intel (gen6)
+= Vmware Installation auf einem Intel-nuc (Gen6)
 
 Voici un tuto pour installer VMware sur un Intel NUC (gen6). Nous verrons par la suite comment ajouter Jeedom dessus
 
-== Le matériel
+== Material
 
 === Intel NUC
 
@@ -53,6 +53,9 @@ Attention pour la mémoire il faut absolument de la DDR4 en So-DIMM 260 pins, il
 Avant de lancer l'installation a proprement parlé il va d'abord falloir récupérer VMware et le mettre sur une clef USB.
 
 === Téléchargement de VMware
+
+[IMPORTANT]
+Si vous mettez vmware 6.5, il y a un soucis avec la nouvelle gestion de l'USB et les clefs Zwave, pour que cela marche il faut appliquer ce https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2147650[KB]
 
 C'est le plus dur en fait je crois, pour vous simplifier la vie il faut : 
 

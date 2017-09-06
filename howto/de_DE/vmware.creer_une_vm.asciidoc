@@ -1,4 +1,4 @@
-= Création d'une VM sur VMware
+= Erstellen einer VM auf VMware
 
 Nous allons voir ici comment créer une VM sous VMware.
 

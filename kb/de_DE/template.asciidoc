@@ -1,0 +1,11 @@
+= #titre#
+
+== Symptome
+
+== Analyse
+
+== Lösung
+
+== Anwendbare Version
+
+== Siehe auch

@@ -2,7 +2,7 @@
 
 == Recherche de l’ID de la télécommande
 
-=== Aller dans "Plugins", "Gestion des plugins", "RFX COM"
+=== Gehen auf "Plugins", "Plugin Verwaltung", "RFX COM"
 
 image::../images/volet.ematronic/image07.png[]
 

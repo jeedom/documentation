@@ -23,7 +23,7 @@ service mysql stop
 rm /var/lib/mysql/ib_logfile*
 ----
 
-Puis faite :
+Dann machen Sie :
 
 ----
 touch /etc/mysql/conf.d/jeedom_my.cnf

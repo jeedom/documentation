@@ -19,7 +19,7 @@ Il faut récupérer ce https://raw.githubusercontent.com/lamw/ghettoVCB/master/g
 [NOTE]
 Dans la suite de ce tuto je considère que vous avez mis le script ghettoVCB.sh dans /vmfs/volumes/Backup/ghettoVCB.sh. A vous d’adapter en fonction de votre configuration les commandes/scripts fournis.
 
-== Connexion en ssh
+== SSH-Verbindung
 
 Il va falloir vous connecter en SSH sur l’ESXi, pour ce faire il faut à partir de l’interface
 

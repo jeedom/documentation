@@ -1,14 +1,14 @@
-= Edisio EOS-200 "Capteur d'ouverture"
+= Edisio EOS-200 "Öffnungssensor"
 
-* *Le module*
+* *Das Modul*
 
 image::../images/eos200/eos200.module.jpg[width=350,align="center"]
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 image::../images/eos200/eos200.vue-defaut.jpg[align="center"]
 
-== Résumé
+== Zusammenfassung
 
 Placé sur une porte, fenêtre, porte de garage, tiroir, tous ouvrants, ce capteur compact et discret vous permettra de connaitre l'état d'ouverture ou de fermeture de ce dernier.
 
@@ -16,7 +16,7 @@ Suivant l'état, le capteur contrôle l'allumage ou l'extinction de vos éclaira
 
 Le signal est uniquement envoyé à la séparation du capteur de son élément magnétique. L'indicateur LED intégré signale tous changements d'état. Niveau de batterie faible signalé par 3 "bip" sonores sur le récepteur
 
-== Fonctions
+=== Funktionen
 
 * Capteur magnétique sans fil alimenté par piles
 * Détecte les ouvertures/fermetures
@@ -27,23 +27,23 @@ Le signal est uniquement envoyé à la séparation du capteur de son élément m
 * Informations sur le niveau de la batterie
 * Montage au mur par des vis ou par un adhésif double face
 
-== Caractéristiques Techniques
+== Technische Daten
 
 * Type de module : Emetteur Edisio
 * Alimentation : 3VDC (Pile Lithium ER14250)
 * Fréquence : 868,3 MHz
-* Température de fonctionnement : 0°C +45°C
-* Portée en champs libre : 100M
+* Betriebstemperatur : 0°C bis 45°C
+* Reichweite im freien Feld : 100M
 * Dimensions : 25x79x19mm
 * Degré de protection : IP20
 * Utilisation : En intérieur
 
-== Données du module
+== Moduldaten
 
 * Marque : Edisio Smart Home
-* Nom : EOS-200
+* Name : EOS-200
 
-== Configuration générale
+== Hauptkonfiguration
 
 Pour configurer le plugin Edisio et associer un module à Jeedom, référez-vous à cette link:https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html[documentation].
 
@@ -56,7 +56,7 @@ Vous trouverez dessous le bouton "E" qui est le bouton d'association du capteur 
 
 image::../images/eos200/eos200.bouton-e.jpg[align="center"]
 
-=== Configuration
+=== Konfiguration
 
 Par défaut, le capteur est configuré en NO (Normalement Ouvert)
 
@@ -78,18 +78,18 @@ image::../images/eos200/eos200.general.jpg[align="center"]
 [TIP]
 Afin que le widget soit présent sur le dashboard, pensez à placer votre équipement dans un objet.
 
-=== Commandes
+=== Befehle
 
 Une fois votre équipement créé, vous devriez obtenir les commandes associées au module :
 
 image::../images/eos200/eos200.commandes.jpg[Commandes,align="center"]
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 * Porte : C'est la commande qui indique si la porte est ouverte ou fermée
 * Batterie : Indique l'état de la batterie
 
-=== Informations
+=== Information
 
 Une fois votre équipement associé à Jeedom, diverses informations seront disponibles :
 
@@ -100,7 +100,7 @@ image::../images/eos200/eos200.informations.jpg[Commandes,align="center"]
 * Batterie : Indique l'état de la batterie des modules à piles
 * Status : Retourne le status du module
 
-== Visuel alternatif
+== visuelle Alternative
 
 image::../images/eos200/eos200.vue-alternative.jpg[align="center"]
 

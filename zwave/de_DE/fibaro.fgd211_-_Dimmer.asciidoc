@@ -3,7 +3,7 @@
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/fibaro.fgd211/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom Sichtbar*
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/fibaro.fgd211/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -38,7 +38,7 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres mod
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -49,11 +49,11 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres mod
 * Détection automatique de la charge
 * Protégé contre les surcharges
 * Petit, discret et esthétique
-* Facilité d'utilisation et d'installation
+* Einfache Bedienung und Installation
 
 {nbsp} +
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
@@ -67,25 +67,25 @@ Chaque module Z-Wave fonctionne comme un répéteur sans fil avec les autres mod
 * Fréquence : 868,42 Mhz
 * Distance de transmission : 50m champ libre, 30m en intérieur
 * Dimensions: 15 x 42 x 36 mm
-* Température de fonctionnement : 0-40°C
+* Betriebstemperatur : 0-40 ° C
 * Température limite : 105°C
 * Normes : EN 55015 et EN 60669-2-1
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
-* Marque : Fibar Group
-* Nom : Fibaro FGMS-001 [Motion Sensor]
-* Fabricant ID : 271
-* Type Produit : 256
-* Produit ID : 4106
+* Marke : Fibar Group
+* Name : Fibaro FGMS-001 [Bewegungsmelder]
+* Hersteller-ID : 271
+* Produkttyp : 256
+* Produkt-ID : 4106
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -109,7 +109,7 @@ Si vous avez déjà intégré votre module au mur, vous pouvez l'inclure en fais
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -117,11 +117,11 @@ image::../images/fibaro.fgd211/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -129,7 +129,7 @@ image::../images/fibaro.fgd211/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -142,12 +142,12 @@ A noter que sur le dashboard toutes les infos se retrouvent sur le même icone
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -155,7 +155,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -165,7 +165,7 @@ image::../images/fibaro.fgd211/config3.jpg[Config3,align="center"]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -191,11 +191,11 @@ image::../images/fibaro.fgd211/config3.jpg[Config3,align="center"]
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
-Ce module possède trois groupes d'association, seul le troisième est indispensable.
+Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist unerlässlich.
 
 {nbsp} +
 
@@ -203,11 +203,11 @@ image::../images/fibaro.fgd211/groupe.jpg[Groupe]
 
 {nbsp} +
 
-=== Bon à savoir
+=== Gut zu wissen
 
 {nbsp} +
 
-==== Spécificités
+==== Spezifikationen
 
 {nbsp} +
 
@@ -222,7 +222,7 @@ d'interrupteur bi stable)
 
 {nbsp} +
 
-==== Visuel alternatif
+==== Visuelle Alternative
 
 {nbsp} +
 
@@ -230,7 +230,7 @@ image::../images/fibaro.fgd211/vuewidget.jpg[width=200,align="center"]
 
 {nbsp} +
 
-=== Wakeup
+=== Wakeup (Aufweckzeit)
 
 {nbsp} +
 

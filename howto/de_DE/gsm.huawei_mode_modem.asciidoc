@@ -1,23 +1,23 @@
 = Forcer le mode GSM seulement sur une clef Huawei
 
-Dans 90% des cas il n'est pas nécessaire de forcer les clef GSM en mode GSM seulement (au lieu de GSM + cdrom + lecteur de carte), le seul cas où c'est obligatoire c'est si vous voulez utiliser la clef dans un Jeedom sur une VM (VMware ESXi). En effet si vou ne la passez pas en mode GSM seulement la clef n'apparaitra pas dans la liste des périphérique USB que vous pouvez faire passer à la VM.
+Dans 90% des cas il n'est pas nécessaire de forcer les clefs GSM en mode GSM seulement (au lieu de GSM + cdrom + lecteur de carte), le seul cas où c'est obligatoire c'est si vous voulez utiliser la clef dans un Jeedom sur une VM (VMware ESXi). En effet si vous ne la passez pas en mode GSM seulement la clef n'apparaîtra pas dans la liste des périphériques USB que vous pouvez faire passer à la VM.
 
 [IMPORTANT]
-Ce tuto a été fait sur un Windows 10
+Dieses Tutorial wurde auf Windows 10 gemacht.
 
-== Installation des drivers
+== Installation von Treibern
 
-Une fois la clef connecter à un PC Windows 10 vous devez avoir un nouveau lecteur CD-ROM il faut double cliquer dessus et installer le logiciel proposé (il n'y a rien à changer faites juste suivant tout le long).
+Une fois la clef connectée à un PC Windows 10 vous devez avoir un nouveau lecteur CD-ROM. Il faut double-cliquer dessus et installer le logiciel proposé (il n'y a rien à changer faîtes juste suivant tout le long).
 
 image::../images/gsmonly.PNG[]
 
 == Récupération du port COM
 
-Ensuite il faut récupérer le numéro du port de communication. Allez sur le menu "Démarrer" et recherchez "Gestionnaire de périphérique", lancer celui-ci puis dépliez la partie "Ports (COM et LPT)", vous devriez avoir un item contenant "HUAWEI", il faut ensuite juste retenir le numéro du port COM : 
+Ensuite il faut récupérer le numéro du port de communication. Allez sur le menu "Démarrer" et recherchez "Gestionnaire de périphériques", lancer celui-ci puis dépliez la partie "Ports (COM et LPT)", vous devriez avoir un item contenant "HUAWEI", il faut ensuite juste retenir le numéro du port COM : 
 
 image::../images/gsmonly2.PNG[]
 
-== Téléchargement de Putty
+== Putty herunterladen
 
 Téléchargez ensuite putty https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe[ici] et lancez le fichier téléchargé
 
@@ -27,14 +27,14 @@ Une fois lancé configurez putty comme cela (en mettant bien votre numéro de po
 
 image::../images/gsmonly3.PNG[]
 
-Vous allez avoir une fenêtre noire qui va apparaitre (il peut de temps en temps y avoir un message "boot...", c'est normal, cela veut dire que vous êtes bien connecté à la clef GSM). Dans cette fenêtre il faut taper puis appuyez sur la touche "Entrée" : 
+Une fenêtre noire va apparaître (il peut de temps en temps y avoir un message "boot...", c'est normal, cela veut dire que vous êtes bien connecté à la clef GSM). Dans cette fenêtre il faut taper puis appuyez sur la touche "Entrée" : 
 
 ----
 AT^u2diag=0
 ----
 
 [IMPORTANT]
-Attention quand vous allez taper le texte vous n'allez rien voir à l'écran c'est normal, le texte est quand même bien pris en compte.
+Attention quand vous allez taper le texte vous n'allez rien voir à l'écran, c'est normal, le texte est quand même bien pris en compte.
 
 Normalement en retour vous devez avoir un OK.
 

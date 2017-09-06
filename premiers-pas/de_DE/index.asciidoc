@@ -17,10 +17,10 @@ include::findJeedom.asciidoc[]
 == Mein Jeedom mit meinem Markt Konto verbinden
 include::linkmarket.asciidoc[]
 
-== Obtenir mon URL d'accès direct
+== Holen Sie sich Ihre direkte Zugangs URL
 include::dnsaccess.asciidoc[]
 
-== Changer le mot de passe par défaut de Jeedom
+== Jeedom Standard Anmeldungskennwort ändern
 include::changeuser.asciidoc[]
 
 == Mein erstes Objekt erstellen

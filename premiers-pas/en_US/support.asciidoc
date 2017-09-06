@@ -6,7 +6,7 @@ You will find a complete documentation on link:https://jeedom.fr/doc[ici] :
 
 image::../images/premier-support1.png[]
 
-Celle-ci se décompose en plusieurs catégories : une partie pour le "coeur" de jeedom, une partie sur les modules (Zwave, mySensors, RFXcom) et une dernière partie pour la documentation des plugins.
+Celle-ci se décompose en plusieurs catégories : une partie pour le "coeur" de Jeedom, une partie sur les modules (Zwave, mySensors, RFXcom) et une dernière partie pour la documentation des plugins.
 
 === The forum
 
@@ -26,7 +26,7 @@ Si vous n'avez pas trouvé de solution à votre problème, vous pouvez en dernie
 
 image::../images/premier-support4.png[]
 
-- Si pour une raison ou une autre vous n'avez pas accès à votre Jeedom, vous pouvez toujours ouvrir un ticket à partir du market: soit avec le point d'exclamation en haut à droite, soit en allant sur votre profil (cliquez ensuite sur le bouton "Ouvrir une demande de support")
+- Si pour une raison ou une autre vous n'avez pas accès à votre Jeedom, vous pouvez toujours ouvrir un ticket à partir du Market: soit avec le point d'exclamation en haut à droite, soit en allant sur votre profil (cliquez ensuite sur le bouton "Ouvrir une demande de support")
 
 image::../images/premier-support5.png[]
 
@@ -35,7 +35,7 @@ The rest of exchanges will be by email.
 Lors de l'ouverture d'un ticket, j'ai une erreur m'indiquant que j'ai atteint mon quota:
 En effet, en fonction de votre service pack vous êtes limité à un certain nombre de demandes de support par mois:
 
-- Community (free) : 2 tickets/month
+- Community (gratuit) : 2 tickets/mois (sur plugins payant uniquement)
 - Power : 10 tickets/month
 - Pro : 100 tickets/month
 

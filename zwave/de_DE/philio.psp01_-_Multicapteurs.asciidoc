@@ -4,7 +4,7 @@
 {nbsp} +
 
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -14,7 +14,7 @@ image::../images/philio.psp01/module.jpg[width=256,align="center"]
 {nbsp} +
 
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -23,7 +23,7 @@ image::../images/philio.psp01/vuedefaut1.jpg[width=350,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -48,7 +48,7 @@ si vous avez déjà un réseau existant.
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -61,12 +61,12 @@ si vous avez déjà un réseau existant.
 * Autoprotection
 * Indication de batterie faible
 * Petit, discret et esthétique
-* Facilité d'utilisation et d'installation
+* Einfache Bedienung und Installation
 
 {nbsp} +
 
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
@@ -79,10 +79,10 @@ si vous avez déjà un réseau existant.
 * Capteur de température : -10 à 70° C
 * Capteur de luminosité : 0 à 500 lux
 * Angle de détection PIR : 90°
-* Portée de détection PIR : 8 à 10m
+PIR Erfassungsbereich : 8 bis 10 m
 * Dimensions : 28 x 96 x 23 mm
 * Poids : 39g
-* Température de fonctionnement : -10 à 40° C
+* Betriebstemperatur : -10°C bis 40°C
 * Humidité de fonctionnement : 85%RH max
 * Norme CE : EN300 220-1
 * Certification Z-Wave : ZC08-13050003
@@ -90,20 +90,20 @@ si vous avez déjà un réseau existant.
 {nbsp} +
 
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 
 * Marque : Philio Technology Corporation
-* Nom : Philio PSP01
-* Fabricant ID : 316
-* Type Produit : 2
-* Produit ID : 2
+* Name : Philio PSP01
+* Hersteller-ID : 316
+* Produkttyp : 2
+* Produkt-ID : 2
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -121,7 +121,7 @@ image::../images/philio.psp01/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -130,12 +130,12 @@ image::../images/philio.psp01/information.jpg[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -145,7 +145,7 @@ image::../images/philio.psp01/commandes.jpg[Commandes,align="center"]
 {nbsp} +
 
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -155,13 +155,13 @@ image::../images/philio.psp01/commandes.jpg[Commandes,align="center"]
 * Température : c'est la commande qui permet de remonter la température
 * Luminosité : c'est la commande qui permet de remonter la luminosité
 * Sabotage : c'est la commande sabotage (elle est déclenchée en cas d'arrachement)
-* Batterie : c'est la commande batterie
+* Batterie: Dies ist der Batterie-Befehl
 
 {nbsp} +
 
 Tous les modules de la gamme ayant les mêmes ids, à vous d'afficher ceux correspondant à votre module.
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -174,8 +174,8 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 {nbsp} +
 
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -185,7 +185,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -197,7 +197,7 @@ image::../images/philio.psp01/config2.jpg[Config2,align="center"]
 {nbsp} +
 
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -215,7 +215,7 @@ image::../images/philio.psp01/config2.jpg[Config2,align="center"]
 
 
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -229,12 +229,12 @@ image::../images/philio.psp01/groupe.jpg[Groupe]
 {nbsp} +
 
 
-=== Bon à savoir
+=== Gut zu wissen
 
 {nbsp} +
 
 
-==== Spécificités
+==== Spezifikationen
 
 {nbsp} +
 
@@ -248,7 +248,7 @@ si vous utilisez cette commande en déclencheur de scénario.
 {nbsp} +
 
 
-==== Visuel alternatif
+==== Visuelle Alternative
 
 {nbsp} +
 
@@ -258,7 +258,7 @@ image::../images/philio.psp01/vuewidget.jpg[width=300,align="center"]
 {nbsp} +
 
 
-=== Wakeup
+=== Wakeup (Aufweckzeit)
 
 {nbsp} +
 
@@ -294,7 +294,7 @@ Cochez la case "Evènement sur changement".
 
 
 [panel,primary]
-.J'ai changé la configuration mais elle n'est pas prise en compte.
+Ich habe die Konfiguration geändert, aber es wird nicht berücksichtigt.
 --
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wakeup.
 --
@@ -302,15 +302,15 @@ Ce module est un module sur batterie, la nouvelle configuration sera prise en co
 {nbsp} +
 
 
-=== Note importante
+=== Wichtiger Hinweis
 {nbsp} +
 
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-[underline]#Il faut réveiller le module :#
- après son inclusion, après un changement de la configuration
-, après un changement de wakeup, après un changement des groupes d'association
+[underline]#Es ist notwendig, das Modul zu aktivieren :#
+ nach seiner Inklusion, nach einer Konfigurationsänderung,
+nach einer Änderung vom Wakeup, nach einer Änderung der Assoziations-Gruppe
 
 {nbsp} +
 

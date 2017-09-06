@@ -20,7 +20,7 @@ Il est possible de déclarer Nodered comme un service pour qu'il soit démarré 
 
 https://gist.github.com/bigmonkeyboy/9962293
 
-== Configuration d'Apache
+==  Apache Konfiguration
 
 Voici un exemple de fichier pour avoir accès à Nodered via un reverse proxy.
 
@@ -33,7 +33,7 @@ ProxyPass http://localhost:1880/jeedom/nodered/
 </Location>
 ----
 
-== Configuration de Nginx
+== Nginx Konfiguration
 
 Voici un exemple de fichier pour avoir accès à Nodered via un reverse proxy.
 

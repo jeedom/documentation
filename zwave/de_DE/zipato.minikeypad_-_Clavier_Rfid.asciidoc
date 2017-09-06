@@ -3,7 +3,7 @@
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/zipato.minikeypad/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/zipato.minikeypad/vuedefaut1.jpg[width=256,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -31,7 +31,7 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -46,38 +46,38 @@ En plus d'utiliser le clavier numérique, vous pouvez aussi passer un badge RFID
 
 {nbsp} +
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
 *	Type : Esclave Z-Wave
 *	Alimentation : 2x AA 1,5V batteries
 *	Fréquence : 868.42 MHz
-*	Portée radio : 30m en champ libre
+* Reichweite : 30m im Freien
 *	Protocole RFID : ISO15693, ISO18000-3, Tag-it™, RFID
 *	Buzzer : 60dBa à 10 cm de distance
 *	Température de stockage : -5°C à +65°C
 *	Humidité pour stockage : 10% à 70%
-*	Température de fonctionnement : 10°C à 40°C
+* Betriebstemperatur : 10°C bis 40°C
 *	Humidité en fonctionnement : 30% à 80%
 *	Dimensions : 62 x 62 x 20 mm
 *	Certifications :	Sécurité : UL EMC : FCC, CE RoHS
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 * Marque : Zipato
-* Nom : Zipato Mini Keypad RFID
-* Fabricant ID : 151
-* Type Produit : 24881
-* Produit ID : 17665
+* Name : Zipato Mini Keypad RFID
+* Hersteller-ID : 151
+* Produkttyp : 24881
+* Produkt-ID : 17665
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -95,7 +95,7 @@ image::../images/zipato.minikeypad//inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -103,11 +103,11 @@ image::../images/zipato.minikeypad/information.jpg[align="center"]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -115,7 +115,7 @@ image::../images/zipato.minikeypad/commandes.jpg[align="center"]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -126,7 +126,7 @@ image::../images/zipato.minikeypad/commandes.jpg[align="center"]
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -137,8 +137,8 @@ Lors d'une première inclusion réveillez toujours le module juste après l'incl
 {nbsp} +
 
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -146,7 +146,7 @@ image::../images/plugin/bouton_configuration.jpg[align="center"]
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -154,7 +154,7 @@ image::../images/zipato.minikeypad/config1.jpg[align="center"]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -166,7 +166,7 @@ image::../images/zipato.minikeypad/config1.jpg[align="center"]
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -218,7 +218,7 @@ Pensez à réveiller le module après l'ajout d'un code ou badge.
 
 {nbsp} +
 
-=== Exemples d'utilisation
+=== Anwendungsbeispiele
 
 {nbsp} +
 
@@ -249,7 +249,7 @@ Le keypad lit les codes/badges de deux manières :
 
 {nbsp} +
 
-=== Wakeup
+=== Wakeup (Aufweckzeit)
 
 {nbsp} +
 
@@ -275,22 +275,22 @@ Ce module se réveille en appuyant sur le bouton tamper et en le relachant. Il p
 {nbsp} +
 
 [panel,primary]
-.J'ai changé la configuration mais elle n'est pas prise en compte.
+Ich habe die Konfiguration geändert, aber es wird nicht berücksichtigt.
 --
 Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wake up.
 --
 
 {nbsp} +
 
-=== Note importante
+=== Wichtiger Hinweis
 
 {nbsp} +
 
 [icon="../images/plugin/important.png"]
 [IMPORTANT]
-[underline]#Il faut réveiller le module :#
- après son inclusion, après un changement de la configuration
-, après un changement de wake up, après un changement des groupes d'association
+[underline]#Es ist notwendig, das Modul zu aktivieren :#
+ nach seiner Inklusion, nach einer Konfigurationsänderung,
+nach einer Änderung vom Wakeup, nach einer Änderung der Assoziations-Gruppe
 
 {nbsp} +
 

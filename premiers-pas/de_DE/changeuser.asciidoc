@@ -1,7 +1,5 @@
 Einer der wichtigsten Schritte ist dann, das Standardpasswort Ihres Jeedom Kontos zu ändern, dafür klicken Sie auf Allgemein  → Konfiguration  → Benutzer :
 
-image::../images/premier-changeuser.png[]
-
 Erst einmal müssen Sie nur die Zeile mit dem Benutzer "admin" wählen und auf Passwort ändern klicken :
 
 image::../images/premier-changeuser2.png[]

@@ -36,11 +36,14 @@ docker pull mysql:latest
 Puis la lancer : 
 
 ----
-docker run --name some-mysql -v /my/own/datadir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:latest
+sudo docker run --name jeedom-mysql -v /opt/jeedom/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=your-mysql-password -d mysql:latest
 ----
 
-[TIP]
-N'oubliez pas de remplacer "my-secret-pw" par le mot de passe root mysql voulu et some-mysql par le nom du docker mysql voulu
+Avec : 
+
+- jeedom-mysql : le nom du conteneur mysql
+- /opt/jeedom/mysql : le dossier de l'hote ou l'on doit stoker les données de MySql
+- your-mysql-password : le mot de passe root de l'instance MySql
 
 === Etape 3 : Installation d'une image Jeedom
 
@@ -53,18 +56,20 @@ docker pull jeedom/jeedom
 Puis lancez la : 
 
 ----
-docker run --name some-jeedom --privileged -v /dev/tty*:/dev -v /my/jeedom/data:/var/www/html -e ROOT_PASSWORD=todo -p 9080:80 -p 9022:22 jeedom/jeedom
+sudo docker run --name jeedom-server --link jeedom-mysql:mysql --privileged -v /your/jeedom/path:/var/www/html -e ROOT_PASSWORD=your-root-password -p 9080:80 -p 9022:22 jeedom/jeedom
 ----
 
-N'oubliez pas de changer la ligne de commande pour configurer : 
+Avec : 
 
-- some-jeedom : nom du docker jeedom voulu
-- /my/jeedom/data : répertoire où les données de Jeedom sont mise sur l'hôte
-- ROOT_PASSWORD : mot de passe root pour accéder à Jeedom en SSH
-- vous pouvez aussi changer la configuration des redirections de ports
+- jeedom-server : nom du docker jeedom voulu
+- /your/jeedom/path : répertoire où les données de Jeedom sont mise sur l'hôte
+- your-root-password : mot de passe root pour accéder à Jeedom en SSH
 
 Il vous faut ensuite installer Jeedom en allant sur : IP_DOCKER:9080 et entrer les informations de connexion vers mysql :
 
 image::../images/install_other.PNG[]
 
 Pour la suite vous pouvez suivre la documentation https://www.jeedom.fr/doc/documentation/premiers-pas/fr_FR/doc-premiers-pas.html[Premier pas avec Jeedom]
+
+[IMPORTANT]
+Pour le nom de l'hote MySql il faut mettre jeedom-mysql

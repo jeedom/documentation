@@ -1,9 +1,9 @@
-== Fibaro FGRWPE-101 "Wall plug"
+== Fibaro FGRWPE-101 "Wall Plug" (Steckdosenstecker)
 
 {nbsp} +
 
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -13,7 +13,7 @@ image::../images/fibaro.fgwpe101/module.jpg[width=256,align="center"]
 {nbsp} +
 
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -22,7 +22,7 @@ image::../images/fibaro.fgwpe101/vuedefaut1.jpg[width=250,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -33,7 +33,7 @@ Le Wall Plug Fibaro peut être contrôlé par un bouton sur son carter ou bien d
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -44,7 +44,7 @@ Le Wall Plug Fibaro peut être contrôlé par un bouton sur son carter ou bien d
 
 {nbsp} +
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
@@ -55,25 +55,25 @@ Le Wall Plug Fibaro peut être contrôlé par un bouton sur son carter ou bien d
 * Fréquence : 868,42 Mhz EU
 * Distance de transmission : 50m champ libre, 30m en intérieur
 * Dimensions: 17 x 42 x 37 mm
-* Température de fonctionnement : 0-40°C
+* Betriebstemperatur : 0-40 ° C
 * Température limite : 105°C
 * Normes : LVD (2006/95/WE), EMC (2004/108/EC), R&TTE(1999/5/WE)
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
-* Marque : Fibar Group
-* Nom : Wall Plug FGWPE-101
-* Fabricant ID : 271
-* Type Produit : 1536
-* Produit ID : 4096
+* Marke : Fibar Group
+* Name : FGWPE-101  (Netzstecker-Adapter)
+* Hersteller-ID : 271
+* Produkttyp : 1536
+* Produkt-ID : 4096
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -91,7 +91,7 @@ image::../images/fibaro.fgwpe101/inclusion.jpg[width=250,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -99,12 +99,12 @@ image::../images/fibaro.fgwpe101/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -114,7 +114,7 @@ image::../images/fibaro.fgwpe101/commandes.jpg[Commandes,align="center"]
 {nbsp} +
 
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -131,12 +131,12 @@ A noter que sur le dashboard les commandes ON/OFF/ETAT sont regroupées en un se
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -146,7 +146,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -160,7 +160,7 @@ image::../images/fibaro.fgwpe101/config4.jpg[Config4,align="center"]
 {nbsp} +
 
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -188,11 +188,11 @@ image::../images/fibaro.fgwpe101/config4.jpg[Config4,align="center"]
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
-Ce module possède 3 groupes d'association, seul le troisième est indispensable.
+Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist unerlässlich.
 
 {nbsp} +
 
@@ -202,11 +202,11 @@ image::../images/fibaro.fgwpe101/groupe.jpg[Groupe]
 {nbsp} +
 
 
-=== Bon à savoir
+=== Gut zu wissen
 
 {nbsp} +
 
-==== Reset
+==== Zurücksetzen
 
 {nbsp} +
 
@@ -247,7 +247,7 @@ Pas de notion de wakeup sur ce module.
 [panel,primary]
 .Je veux remettre à 0 mon compteur de consommation comment faire.
 --
-Lire la section Reset de cette doc.
+Lesen Sie den Abschnitt "Zurücksetzen" dieser Doc.
 --
 
 {nbsp} +

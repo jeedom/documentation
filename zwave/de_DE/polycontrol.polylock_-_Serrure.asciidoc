@@ -4,7 +4,7 @@
 {nbsp} +
 
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -14,7 +14,7 @@ image::../images/polycontrol.polylock/module.jpg[width=256,align="center"]
 {nbsp} +
 
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -23,7 +23,7 @@ image::../images/polycontrol.polylock/vuedefaut1.jpg[width=220,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 {nbsp}
 
 Sécurisez votre maison en utilisant la serrure électronique Z-Wave de Poly-Control !
@@ -38,7 +38,7 @@ Le système Poly-Control peut être utilisé dans un environnement domestique ou
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -52,33 +52,33 @@ Le système Poly-Control peut être utilisé dans un environnement domestique ou
 {nbsp} +
 
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
 * Alimentation : Pile Lithium-Chloride 3.6V
 * Fréquence : 868,42 Mhz
-* Portée : jusqu'à 100 m à l'extérieur, jusqu'à 30 m dans les bâtiments
+* Reichweite : bis zu 100 m im Freien, bis zu 30 m in Gebäuden
 * Dimensions : 120 x 52 x 60 mm (L x l x h)
 * Poids : 370g
 
 {nbsp} +
 
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 
 * Marque : Poly-Control
-* Nom : Polylock
-* Fabricant ID : 270
-* Type Produit : 1
-* Produit ID : 1
+* Name : Polylock
+* Hersteller-ID : 270
+* Produkttyp : 1
+* Produkt-ID : 1
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -96,7 +96,7 @@ image::../images/polycontrol.polylock/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -105,12 +105,12 @@ image::../images/polycontrol.polylock/information.jpg[Plugin Zwave,align="center
 {nbsp} +
 
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -120,7 +120,7 @@ image::../images/polycontrol.polylock/commandes.jpg[Commandes,align="center"]
 {nbsp} +
 
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -133,7 +133,7 @@ image::../images/polycontrol.polylock/commandes.jpg[Commandes,align="center"]
 {nbsp} +
 
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
@@ -146,8 +146,8 @@ de wake up et de réveil. Il récupérera toutes modifications de configutation 
 {nbsp} +
 
 
-Si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -157,7 +157,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -166,7 +166,7 @@ image::../images/polycontrol.polylock/config1.jpg[Config1,align="center"]
 {nbsp} +
 
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -181,7 +181,7 @@ image::../images/polycontrol.polylock/config1.jpg[Config1,align="center"]
 
 
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -196,7 +196,7 @@ image::../images/polycontrol.polylock/groupe.jpg[Groupe]
 
 {nbsp} +
 
-=== Exemples d'utilisation
+=== Anwendungsbeispiele
 
 {nbsp} +
 
@@ -210,12 +210,12 @@ Sinon (forcément 5) on ouvre la porte à clé et 2 minutes après on la referme
 
 {nbsp} +
 
-=== Bon à savoir
+=== Gut zu wissen
 
 {nbsp} +
 
 
-==== Spécificités
+==== Spezifikationen
 
 {nbsp} +
 

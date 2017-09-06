@@ -3,14 +3,13 @@ Hier ist eine Schritt für Schritt Dokumentation um Jeedom auf das Jeedomboard (
 [TIP]
 Der Name des heruntergeladenen Jeedom-Abbilds kann sich von dem in dieser Dokumentation unterscheiden.
 
+=== Schritt 1 : Etcher installieren 
 
-=== Schritt 1 : Installieren mit win32diskimager
-
-Sie müssen den Win32diskimager link:http://sourceforge.net/projects/win32diskimager/[hier] herunterladen und ihn auf Ihrem PC installieren
+Sie müssen die Etcher Software link:https://etcher.io/[hier] herunterladen und auf Ihrem PC installieren.
 
 === Schritt 2: Wiederherstellung Jeedom-Abbild
 
-Vous devez aller link:https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog[ici], puis dans le dossier Images récuperer l'image jeedom-jeeboard-*.rar ou Jeedomboard__Debian_Jessie*.rar
+Vous devez aller link:https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog[ici], puis dans le dossier Images récuperer l'image jeedom-jeeboard-\*.rar ou Jeedomboard__Debian_Jessie*.rar
 
 image::../images/install_humming_1.PNG[]
 
@@ -24,25 +23,7 @@ image::../images/install_humming_8.PNG[]
 
 === Schritt 4: Das Abbild auf die SD-Karte brennen
 
-Legen Sie die SD-Karte in den Computer ein und starten Sie die Win32diskimager Software : 
-
-image::../images/install_humming_3.PNG[]
-
-Überprüfen Sie in "Device", das die SD-Karte ausgewählt ist und klicken Sie auf das Ordnersymbol, um den Pfad des heruntergeladenen und unkomprimierten Abbildes (Schritt 2 und 3)  auszuwählen : 
-
-image::../images/install_humming_4.PNG[]
-
-Klicken Sie auf "Write", um das Abbild zu schreiben, bestätigen Sie die Warnmeldung: 
-
-image::../images/install_humming_5.PNG[]
-
-Sie können den Fortschritt des Schreibens des Abbildes verfolgen (etwa zehn Minuten) : 
-
-image::../images/install_humming_6.PNG[]
-
-Sobald Sie fertig sind werden Sie diese Nachricht bekommen :
-
-image::../images/install_humming_7.PNG[]
+Insérer votre carte SD dans votre ordinateur puis lancer le logiciel Ether, donner lui le chemin de l'image, le chemin de la carte SD et cliquez sur "flash". Le logiciel va graver la carte SD et verifier la gravure 
 
 Sie müssen nur die SD-Karte in das  Jeedomboard (oder Hummingboard) stecken, sobald sie das Board mit Strom und dem Netzwerk verbinden, wird Ihre Jeedom (5 min) starten und Sie sollten es im Netzwerk sehen.
 

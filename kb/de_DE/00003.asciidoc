@@ -1,0 +1,24 @@
+= Samba Backup Fehler
+
+== Symptome
+
+Während einer Samba Sicherung erscheint folgende Fehlermeldung : 
+
+----
+Error on shell exec, return value : 1. Details : Array ( [0] => session setup failed: NT_STATUS_LOGON_FAILURE )
+Error on shell exec, return value : 1. Details : Array ( [0] => session setup failed: NT_STATUS_BAD_NETWORK_NAME )
+----
+
+== Analyse
+
+Wenn es keinen Fehler im Benutzernamen und Passwort gibt (Achtung,  es bedarf unbedingt einen Benutzernamen und ein Passwort). Dann kann das Problem von einem speziellen Charakter im Passwort kommt.
+
+== Lösung
+
+Ändern Sie das Passwort, indem Sie nur Buchstaben/Zahlen und keine Sonderzeichen (Akzent, Sonderzeichen, Satzzeichen oder Leerzeichen) eingeben.
+
+== anwendbare Version
+
+Alle
+
+== Siehe auch

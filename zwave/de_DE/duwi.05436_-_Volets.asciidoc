@@ -1,9 +1,9 @@
-== DUWI 05436 "Volet roulant"
+== DUWI 05436 "Rolladen"
 
 {nbsp} +
 
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/duwi.05436/1-Module.PNG[width=512,align="center"]
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom Sichtbar*
 
 {nbsp} +
 
@@ -20,7 +20,7 @@ image::../images/duwi.05436/Visuel_defaut.PNG[width=250,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -37,11 +37,11 @@ Attention: ce module n'envoie pas son état au contrôleur z-wave lorsque l'util
 {nbsp} +
 
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
-* Montée / descente
+* Auf / Ab
 * Un fil commun qui sera commuté sur montée ou descente
 * Nécessite le neutre pour fonctionner
 * Protection par fusible
@@ -50,7 +50,7 @@ Attention: ce module n'envoie pas son état au contrôleur z-wave lorsque l'util
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Technische Daten
 
 {nbsp} +
 
@@ -65,15 +65,15 @@ Attention: ce module n'envoie pas son état au contrôleur z-wave lorsque l'util
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 * Marque : Popp/Duwi
-* Nom : ZW ESJ Blind Control
-* Fabricant ID : 100
-* Type produit : 16385
-* Produit ID : 0
+* Name : ZW ESJ 300 Funk-EInbauschalter Jalousie 
+* Hersteller-ID : 100
+* Produkttyp : 16385
+* Produkt-ID : 0
 
 {nbsp} +
 
@@ -83,7 +83,7 @@ image::../images/duwi.05436/2-Montage.PNG[width=712,align="center"]
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -97,7 +97,7 @@ Pour mettre le module en mode inclusion, il faut appuyer trois fois sur la mont�
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -105,12 +105,12 @@ image::../images/duwi.05436/3-Inclusion.PNG[Plugin Zwave,align="center"]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -120,7 +120,7 @@ image::../images/duwi.05436/4-Commandes.PNG[Commandes,align="center"]
 {nbsp} +
 
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -147,12 +147,12 @@ Recommencer l'opération dans l'autre sens.
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -162,7 +162,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -172,7 +172,7 @@ image::../images/duwi.05436/5-Paramètres.PNG[Config1,align="center"]
 {nbsp} +
 
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -197,7 +197,7 @@ Sert à indiquer si un appui dans la direction opposée pendant un déplacement 
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -227,7 +227,7 @@ image::../images/duwi.05436/7-Poll.PNG[Groupe]
 
 {nbsp} +
 
-==== Visuel alternatif
+==== Visuelle Alternative
 
 {nbsp} +
 

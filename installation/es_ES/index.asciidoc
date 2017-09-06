@@ -4,12 +4,12 @@
 include::hardware.asciidoc[]
 
 '''
-== En Raspberry pi 1 y 2 (mini)
-include::rpi.asciidoc[]
-
-'''
 == En Jeedomboard (hummingboard,mini+)
 include::jeedomboard.asciidoc[]
+
+'''
+== Sur Jeedomboard (hummingboard,mini+ via un script)
+include::Miniplushumingboard.asciidoc[]
 
 '''
 == En un NAS Synology
@@ -19,5 +19,9 @@ include::synology.asciidoc[]
 include::docker.asciidoc[]
 
 '''
-== Otro
+== Autre/DIY
 include::other.asciidoc[]
+
+'''
+== PI/ Sur une carte SD
+include::raspberrypi.asciidoc[]

@@ -1,47 +1,47 @@
-= Edisio EMS-200 "Capteur de mouvement"
+= Edisio EMS-200 "Bewegungssensor"
 
-* *Le module*
+* *Das Modul*
 
 image::../images/ems200/ems200.module.jpg[width=350,align="center"]
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 image::../images/ems200/ems200.vue-defaut.jpg[align="center"]
 
-== Résumé
+== Zusammenfassung
 
 Placé dans un couloir, le salon, le garage de votre maison par exemple, le capteur de mouvement détecte une présence, le changement d'état est instantané.
 
 Grâce à son angle de vision étendu et sa portée, il permet de sécuriser un large périmètre. L'indicateur LED intégré signale tout changement d'état. 
 
-== Fonctions
+== Funktionen
 
 * Détecte les mouvements, même dans le noir complet
 * Ultra compact 
 * Signal transmis instantanément lors d'une détection
 * Auto-protection à l'arrachage
-* Facilité d'utilisation et d'installation
+* Einfache Bedienung und Installation
 * Montage au mur par des vis ou par double face
 * Informations sur le niveau de la batterie
 
-== Caractéristiques techniques
+== Technische Daten
 
 * Type de module : Emetteur Edisio
 * Alimentation : 3VDC (Pile Lithium ER14250)
 * Fréquence : 868,3 MHz
-* Température de fonctionnement : 0°C +45°C
-* Portée en champs libre : 100M
-* Portée de détection : 6M
+* Betriebstemperatur : 0°C bis 45°C
+* Reichweite im freien Feld : 100M
+ * Portée de détection : 6M
 * Dimensions : 25x79x19mm
 * Degré de protection : IP20
 * Utilisation : En intérieur
 
-== Données du module
+== Moduldaten
 
 * Marque : Edisio Smart Home
-* Nom : EMS-200
+* Name : EMS-200
 
-== Configuration générale
+== Hauptkonfiguration
 
 Pour configurer le plugin Edisio et associer un module à Jeedom, référez-vous à cette link:https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html[documentation].
 
@@ -80,18 +80,18 @@ image::../images/ems200/ems200.general.jpg[align="center"]
 [TIP]
 Afin que le widget soit présent sur le dashboard, pensez à placer votre équipement dans un objet.
 
-=== Commandes
+=== Befehle
 
 Une fois votre équipement créé, vous devriez obtenir les commandes associées au module :
 
 image::../images/ems200/ems200.commande.jpg[Commandes,align="center"]
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 * Présence : C'est la commande qui indique si une présence est détectée
 * Batterie : Indique l'état de la batterie
 
-=== Informations
+=== Information
 
 Une fois votre équipement associé à Jeedom, diverses informations seront disponibles :
 
@@ -102,7 +102,7 @@ image::../images/ems200/ems200.informations.jpg[Commandes,align="center"]
 * Batterie : Indique l'état de la batterie des modules à piles
 * Status : Retourne le status du module
 
-== Visuel alternatif
+== visuelle Alternative
 
 image::../images/ems200/ems200.vue-alternative.jpg[align="center"]
 

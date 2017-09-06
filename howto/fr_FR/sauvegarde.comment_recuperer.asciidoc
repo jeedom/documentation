@@ -1,0 +1,47 @@
+= Sauvegarde - Comment récupérer vos sauvegardes en SFTP ?
+
+== Description
+
+La procédure va permettre de se connecter en SFTP à votre box afin d'aller récupérer les backups quotidiens effectués par la box.
+
+[TIP]
+Attention, afin que cette procédure fonctionne, il est nécessaire que le serveur SSH de la box soit toujours fonctionnel. 
+
+
+== Installation de Filezilla
+
+Filezilla est un logiciel gratuit et disponible sur toutes les plateformes. Il permet de transférer des fichiers via différents protocoles (FTP, FTPS, SFTP...)
+Il est téléchargeable via ce lien : https://filezilla-project.org/download.php?type=client
+
+
+== Connexion à la box
+
+Pour se connecter à votre box, il suffit de renseigner les champs d'information en haut de la fenêtre Filezilla :
+
+image::../images/restore-filezilla01.jpg[align="center"]
+
+* Hôte : Adresse IP de Jeedom (sftp:// est rajouté automatiquement)
+* Identifiant : jeedom
+* Mot de passe : Mjeedom96
+* Port : 22
+
+Puis de cliquer sur "Connexion rapide"
+
+== Navigation vers le répertoire de sauvegarde
+
+Une fois la connexion établie, il est nécessaire de se rendre dans le répertoire de sauvegarde de Jeedom.
+
+2 cas de figures :
+
+* Serveur Apache (Box Jeedom Smart) : /var/www/html/backup
+* Serveur Nginx (Box Jeedom Mini+) : /usr/share/nginx/www/jeedom/backup
+
+Le chemin d'accès se renseigne dans la partie site distant.
+
+image::../images/restore-filezilla02.jpg[align="center"]
+
+== Téléchargement du backup
+
+Sur la liste des backups, en faisant un clic droit, il est possible de lancer le téléchargement du backup.
+
+image::../images/restore-filezilla03.jpg[align="center"]

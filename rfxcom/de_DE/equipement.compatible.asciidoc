@@ -1,8 +1,8 @@
-= Liste des équipements compatibles RFXcom
+= Liste der RFXCOM-kompatiblen Geräte
 
 [cols="5|*", options="header"] 
 |===
-|Nom|Type|Protocole|Remarque|Lien
+|Name|Typ|Protokoll|Bemerkung|Link
 
 |Alteco WS-1700|Station météo|Rubicson/Alecto||
 

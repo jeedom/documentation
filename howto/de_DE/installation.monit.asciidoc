@@ -1,28 +1,28 @@
-= Monit avec Jeedom
+= Monit mit Jeedom
 
-Monit est un service de supervision de services. Il se charge de vérifier qu'un service est toujours démarré.
+Monit ist ein Überwachungsservice der Dienste. Es ist zuständig zu überprüfen, dass ein Dienst ausgeführt wird.
 
-Pour cela on lui indique les critères d'évaluation et les actions à prendre.
+Hierfür gibt man ihm die Bewertungskriterien und die zu ergreifenden Maßnahmen an.
 
-== Installation de Monit
+== Monit Installation
 
-Voici les commandes à lancer pour installer monit :
+Hier sind die Befehle, um die Monit Installation zu starten :
 
 ----
 sudo apt-get -y monit
 ----
 
-== Exemples de conf
+== Beispiel conf
 
-Voici des exemples de configuration pour Monit avec Jeedom.
+Einige Beispiele für Konfiguration für Monit mit Jeedom.
 
 
-== Supervision Apache
+== Apache Überprüfen
 
 ----
-# Apache (test sur port 80)
-check process apache2 with pidfile /var/run/apache2/apache2.pid
-    start program = "/etc/init.d/apache2 start"
+# Apache (Test auf Port 80)
+Apache2 Prozess überprüfen mit pidfile /var/run/apache2/apache2.pid
+     Programm start = "/etc/init.d/apache2 start"
     stop  program = "/etc/init.d/apache2 stop"
        if failed port 80 for 2 cycles then restart
 ----
@@ -33,7 +33,7 @@ check process apache2 with pidfile /var/run/apache2/apache2.pid
 # Php-fpm
 check process php5-fpm with pidfile /var/run/php5-fpm.pid
    start program = "/etc/init.d/php5-fpm start"
-   stop  program = "/etc/init.d/php5-fpm stop"
+   Programm Stopp = "/etc/init.d/php5-fpm Stop"
    if failed unixsocket /var/run/php5-fpm.sock
           for 2 cycles
           then restart

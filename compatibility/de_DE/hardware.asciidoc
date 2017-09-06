@@ -3,11 +3,12 @@
 |Hardware|Zustand|Bemerkungen
 |Jeedomboard|Stabil|
 |Hummingboard|Stabil|
-|Odroid C2|Release-Kandidat|
+|Odroid C2|Stabil|
+|Smart|Stabil|
 |RPI1|Stabil|
 |RPI2|nicht offiziell/Stabil|
-|RPI3|Non officiel/Stable|Attention si vous utilisez un Razberry le wifi/bluetooth ne pourra marcher
-|64 bits|Stable|Attention seulement sous Debian Jessie
+|RPI3|nicht offiziell/Stabil|Achtung, wenn Sie einen Razberry mit WiFi/Bluetooth benutzen, daß funktioniert nicht
+|64-bit|Stabil|Achtung, ausschließlich mit Debian Jessie
 |32-bit|Nicht unterstützt|
 |Vmware|Stable|Attention seulement sous Debian Jessie. Pas de support pour VMware, seulement pour Jeedom. ATTENTION VmWare 6.5 n'est pas supporté, certain tests on montrée des soucis avec les clef USB Zwave qui n'existent pas avec VMWare 6.0 ou inférieure.
 |===

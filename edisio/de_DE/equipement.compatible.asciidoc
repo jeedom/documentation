@@ -1,8 +1,8 @@
-= Liste des équipements compatible Edisio
+= Liste der  Edisio-kompatiblen Geräte
 
 [cols="3*", options="header"] 
 |===
-|Nom|Remarque|Lien
+|Name|Bemerkung|Link
 
 |DIO2 - Module pour Luminaire||link:++http://www.domadoo.fr/fr/peripheriques/3161-dio2-module-sans-fil-pour-luminaire-5411478001423.html++[Acheter]
 

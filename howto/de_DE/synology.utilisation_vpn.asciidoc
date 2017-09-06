@@ -2,7 +2,7 @@
 
 = Mise en place du VPN Synology pour l'accès à Jeedom
 
-== Installer VPN Server
+== VPN Server installieren
 
 Depuis un navigateur Web sur un ordinateur connecté au même réseau que le Synology
 
@@ -63,7 +63,7 @@ Sélectionner le mode avancé
 
 image::../images/synology.utilisation_vpn7.png[]
 
-Sélectionner Gestion de port
+Wählen Sie Port-Verwaltung
 
 image::../images/synology.utilisation_vpn8.png[]
 

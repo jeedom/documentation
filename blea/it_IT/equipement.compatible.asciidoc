@@ -1,7 +1,7 @@
 = Liste des equipements blea compatibles 
 :linkattrs:
 
-[green]*Actuellement Jeedom est compatible avec* [red]*16* [green]*marques de modules différentes, soit un total de* [red]*41* [green]*modules.*
+[green]*Actuellement Jeedom est compatible avec* [red]*19* [green]*marques de modules différentes, soit un total de* [red]*46* [green]*modules.*
 
 D'autres modules non présents sur cette liste peuvent être compatibles.
 
@@ -24,6 +24,18 @@ D'autres modules non présents sur cette liste peuvent être compatibles.
 |Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
 
 |image:../images/compatibility_list/dotti.jpg[width=150,align="center"]|Dotti|Dotti|DOTTI|Afficheur|Fonctionnera beaucoup mieux avec option garder la connection |Mode inclusion| 
+// 
+
+
+|===
+
+== E-Diffuser
+
+[cols=".^3a,.^1s,.^4,.^2,.^2,.^6,.^10,.^2", options="header"]
+|===
+|Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
+
+|image:../images/compatibility_list/tb05.jpg[width=150,align="center"]|E-Diffuser|Tb05|TB05|Diffuseur|Il est recommandé d'utiliser l'option garder la connection. Obligatoire pour tenter expérimentalement l'accès au couleur direct |Mode inclusion| 
 // 
 
 
@@ -205,6 +217,20 @@ _[small]#Piles : 1x3V CR2032#_|Mode inclusion et appui sur le bouton|
 
 |===
 
+== Noke
+
+[cols=".^3a,.^1s,.^4,.^2,.^2,.^6,.^10,.^2", options="header"]
+|===
+|Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
+
+|image:../images/compatibility_list/noke.jpg[width=150,align="center"]|Noke|Noke|NOKE|Cadenas|Visible que sur appui du bouton (peut fonctionner via un hack des trames pour récupérer la clé) mais ne sera pas fait car illégal 
+
+_[small]#Piles : 1x3V CR2032#_|Mode inclusion| 
+// 
+
+
+|===
+
 == Nut
 
 [cols=".^3a,.^1s,.^4,.^2,.^2,.^6,.^10,.^2", options="header"]
@@ -235,6 +261,9 @@ _[small]#Piles : 1x3V CR2032#_|Mode inclusion|
 // 
 
 |image:../images/compatibility_list/color.jpg[width=150,align="center"]|Playbulb|Color|COLOR|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant |Mode inclusion| 
+// 
+
+|image:../images/compatibility_list/garden19.jpg[width=150,align="center"]|Playbulb|Garden v1.9|GARDEN19|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant |Mode inclusion| 
 // 
 
 |image:../images/compatibility_list/garden.jpg[width=150,align="center"]|Playbulb|Garden|GARDEN|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant |Mode inclusion| 
@@ -299,22 +328,39 @@ _[small]#Piles : 4x1.5V AA#_|Mode inclusion|
 
 |image:../images/compatibility_list/mibandcolor.jpg[width=150,align="center"]|Xiaomi|Miband (avec led couleur)|MIBANDCOLOR|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth 
 
-_[small]#Piles : 1x3V CR2032#_|Mode inclusion| 
+_[small]#Piles : Batterie#_|Mode inclusion| 
 // 
 
 |image:../images/compatibility_list/miband1s.jpg[width=150,align="center"]|Xiaomi|Miband1s|MIBAND1S|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth 
 
-_[small]#Piles : 1x3V CR2032#_|Mode inclusion| 
+_[small]#Piles : Batterie#_|Mode inclusion| 
+// 
+
+|image:../images/compatibility_list/miband2.jpg[width=150,align="center"]|Xiaomi|Miband2|MIBAND2|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth 
+
+_[small]#Piles : Batterie#_|Mode inclusion| 
 // 
 
 |image:../images/compatibility_list/miband1.jpg[width=150,align="center"]|Xiaomi|Miband|MIBAND1|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth 
 
-_[small]#Piles : 1x3V CR2032#_|Mode inclusion| 
+_[small]#Piles : Batterie#_|Mode inclusion| 
 // 
 
 |image:../images/compatibility_list/miflora.jpg[width=150,align="center"]|Xiaomi|Miflora|MIFLORA|Capteurs|Capteurs de plantes 
 
 _[small]#Piles : 1x3V CR2032#_|Mode inclusion| 
+// 
+
+
+|===
+
+== Yeelight
+
+[cols=".^3a,.^1s,.^4,.^2,.^2,.^6,.^10,.^2", options="header"]
+|===
+|Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
+
+|image:../images/compatibility_list/yeelight_bed.jpg[width=150,align="center"]|Yeelight|Bed|YEELIGHT BED|Lumières|Il faut valider l'appairage en appuyant sur le bouton. Si éteint il faut allumer avant de choisir une couleur |Mode inclusion| 
 // 
 
 

@@ -1,9 +1,9 @@
 :icons:
-== Everspring Miniplug On/Off - AN180-6
+== Everspring Steckdosenmodul On/Off - AN180-6
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/everspring.AN180-6/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/everspring.AN180-6/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -29,11 +29,11 @@ jusqu'à 1500W (résistance), 800W (incandescence), 200W (moteur, fluorescent, L
 
 La Mini Prise On/Off est un appareil compatible Z-Wave™ qui est destiné pour fonctionner avec tous les
  réseaux compatibles Z-Wave™. Elle peut être contrôlée par une télécommande, un logiciel PC, ou n'importe quel
- contrôleur Z-Wave de votre réseau.
+ Z-Wave-Controller in Ihrem Netzwerk.
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
@@ -44,11 +44,11 @@ La Mini Prise On/Off est un appareil compatible Z-Wave™ qui est destiné pour 
 * Technologie Z-Wave Plus
 * Dimensions réduites pour passer presque inaperçu
 * LED de statut sur le bouton intégré
-* Fonction répéteur Z-Wave
+* Z-Wave Repeater-Funktion
 
 {nbsp} +
 
-=== Caractéristiques Techniques
+=== Technische Daten
 
 {nbsp} +
 
@@ -57,25 +57,25 @@ La Mini Prise On/Off est un appareil compatible Z-Wave™ qui est destiné pour 
 * Consommation : 0.6W
 * Puissance maximum : Charge résistive : 1500W, Ampoule à incandesence : 800W, Ampoule Fluocompacte : 200W, Ampoule Led (non dimmable) : 200W
 * Fréquence : 868,42 Mhz
-* Portée : jusqu'à  70 m à l'extérieur, jusqu'à 30 m dans les bâtiments
+* Reichweite : bis zu 70 m im Freien, bis zu 30 m in Gebäuden
 * Affichage: LED sur le bouton
 * Dimensions : Longueur (prise incluse) : 74mm Diamètre : 52mm
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 * Marque : Everspring
-* Nom : Miniplug On/Off
-* Fabricant ID : 96
-* Type Produit : 4
+* Name : Miniplug ein-/ausschalten
+* Hersteller-ID : 96
+* Produkttyp : 4
 * Produit ID : 7
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -94,7 +94,7 @@ image::../images/everspring.AN180-6/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -102,11 +102,11 @@ image::../images/everspring.AN180-6/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées aux modules seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -114,7 +114,7 @@ image::../images/everspring.AN180-6/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -128,12 +128,12 @@ A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur la même 
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -141,7 +141,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page#  (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -150,7 +150,7 @@ image::../images/everspring.AN180-6/config1.jpg[Config1,align="center"]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :# 
+[underline]#Parameterdetails :# 
 
 {nbsp} +
 
@@ -158,7 +158,7 @@ image::../images/everspring.AN180-6/config1.jpg[Config1,align="center"]
 * 2 : Ce paramètre définit le délai d'envoit du changement d'état au groupe 1 (valeur comprise entre 3 et 25 secondes)
 * 3 : Ce paramètre permet de définir si la prise reprendra son statut (ON ou OFF) après une reprise de courant.
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -186,7 +186,7 @@ A minima Jeedom devrait se retrouver dans le groupe 1
 * Le retour d'état ne peut pas être configuré en dessous de 3 secondes.
 {nbsp} +
 
-=== Wakeup
+=== Wakeup (Aufweckzeit)
 
 {nbsp} +
 

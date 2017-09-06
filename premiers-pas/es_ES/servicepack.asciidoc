@@ -20,7 +20,7 @@ introduzca su codigo de Service Pack y pulse validar:
 
 image::../images/premier-servicepack3.png[]
 
-Voilà votre service pack est enregistré. Pour plus de details sur le market cliquez link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html[ici]
+Voilà votre service pack est enregistré. Pour plus de details sur le Market cliquez link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html[ici]
 
 [icon="../images/plugin/tip.png"]
 [TIP]

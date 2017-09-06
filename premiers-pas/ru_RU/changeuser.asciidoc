@@ -1,7 +1,5 @@
 Ensuite une des étapes importantes est de changer le mot de passe par défaut de votre compte Jeedom, pour cela cliquez sur Général → Administration → Utilisateurs :
 
-image::../images/premier-changeuser.png[]
-
 Une fois dessus vous avez juste à choisir la ligne avec l'utilisateur "admin" et à cliquer sur changer de mot de passe :
 
 image::../images/premier-changeuser2.png[]

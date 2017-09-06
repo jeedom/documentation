@@ -1,9 +1,9 @@
 :icons:
-== Greenwave PowerNode - 1 prise
+== Greenwave PowerNode (Funksteckdose) - 1 Steckdose
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/greenwave.Powernode1/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/greenwave.Powernode1/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -37,14 +37,14 @@ Le module prise PowerNode est équipé d'une protection contre les surintensité
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
 * Commander une lampe ou un appareil à distance
 * Module prise s'intégrant directement entre une prise électrique et la charge à commander
 * Permet le suivi de consommation de l'appareil branché
-* Fonction ON/OFF
+* Funktion AN/AUS
 * Possibilité de lui affecter un numéro et une couleur afin de différencier les différentes PowerNode d'une même installation
 * Bouton On/Off directement sur la prise
 * Protection contre les surintensités
@@ -52,39 +52,39 @@ Le module prise PowerNode est équipé d'une protection contre les surintensité
 
 {nbsp} +
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
 * Alimentation : 250V ~ AC, 50Hz
-* Courant de charge maximum : 10A
+* Maximaler Laststrom : 10A
 * Puissance de charge maximale : 2400W (@ 240V)
 * Consommation en veille : 0,4 W
 * Précision de mesure : ± 0.1W
 * Protection contre les surintensités : 10A fusible interne
 * Type de prise : DIN49440 / CEE 7/7 (Schuko)
-* Radio Fréquence Z-Wave : 868.42MHz
-* Portée maximale Z-Wave : 30m
-* Température de fonctionnement : 0 ° C à + 25 ° C
+* Z-Wave Funkfrequenz : 868,42MHz
+* Maximale Z-Wave-Reichweite : 30m
+* Betriebstemperatur : 0°C bis +25°C
 * Température de stockage : -20 ° C à + 60 ° C
 * Humidité maximale : 5% à 90%
 * Classe IP (Tolérance d'humidité) : IP20
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 * Marque : GreenWave
-* Nom : GreenWave[1 x prise]
-* Fabricant ID : 153
-* Type Produit : 2
-* Produit ID : 2
+* Name : GreenWave PowerNodes NS310-F Zwischenstecker
+* Hersteller-ID : 153
+* Produkttyp : 2
+* Produkt-ID : 2
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -102,7 +102,7 @@ image::../images/greenwave.Powernode1/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -110,11 +110,11 @@ image::../images/greenwave.Powernode1/information.jpg[Plugin Zwave,align="center
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -122,7 +122,7 @@ image::../images/greenwave.Powernode1/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -138,12 +138,12 @@ A noter que sur le dashboard les commandes ON/OFF/ETAT sont regroupées en un se
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -151,7 +151,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -163,7 +163,7 @@ Comme vous pourrez le constater il n'y a pas beaucoup de configuration pour ce m
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -172,7 +172,7 @@ Comme vous pourrez le constater il n'y a pas beaucoup de configuration pour ce m
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -184,7 +184,7 @@ image::../images/greenwave.Powernode1/groupe.jpg[Groupe]
 
 {nbsp} +
 
-=== Bon à savoir
+=== Gut zu wissen
 
 {nbsp} +
 
@@ -192,7 +192,7 @@ Contrairement à sa grande soeur multiprise, cette prise ne nécessite pas de po
 
 {nbsp} +
 
-==== Reset
+==== Zurücksetzen
 
 {nbsp} +
 

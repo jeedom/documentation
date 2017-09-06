@@ -1,0 +1,24 @@
+= Erreur backup samba
+
+== Symptôme
+
+Lors d'un backup samba l'erreur suivante apparait : 
+
+----
+Error on shell exec, return value : 1. Details : Array ( [0] => session setup failed: NT_STATUS_LOGON_FAILURE )
+Error on shell exec, return value : 1. Details : Array ( [0] => session setup failed: NT_STATUS_BAD_NETWORK_NAME )
+----
+
+== Analyse
+
+Si il n'y a pas d'erreur dans le nom d'utilisateur et le mot de passe (attention il faut absolument un nom d'utilisateur et un mot de passe). Alors le soucis vient peut etre de caractères spéciaux dans le mot de passe
+
+== Résolution
+
+Changer le mot de passe en ne mettant que des lettre/chiffre et aucun caracteres spéciaux (accent, signe, ponctuation ou espace)
+
+== Version applicable
+
+Toute
+
+== Voir aussi

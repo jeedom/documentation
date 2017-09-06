@@ -4,11 +4,14 @@ Une fois Jeedom branché électriquement et connecté à votre réseau local, vo
 
 ==== Par le market
 
-Solution la plus simple (mais ne marche pas dans 100% des cas en fonction de la configuration de votre accès internet), il faut démarrer la box, attendre environ 10 minutes (attention si vous utilisez une image type netinstallation il faut attendre 30min) et ensuite aller sur https://www.jeedom.com/market/index.php?v=d&p=find[ici] (attention il faut être sur le même réseau que la box Jeedom pour que ça marche)
+Solution la plus simple (mais ne marche pas dans 100% des cas en fonction de la configuration de votre accès internet), il faut démarrer la box, attendre environ 10 minutes (attention si vous utilisez une image type netinstallation il faut attendre 30min) et ensuite aller https://www.jeedom.com/market/index.php?v=d&p=find[ici] (attention il faut être sur le même réseau que la box Jeedom pour que ça marche)
+
+[IMPORTANT]
+En fonction de votre box ADSL cette fonctionalité peut ne pas marcher, si c'est le cas rien de grave il vous suffit de vous connecter à votre box ADSL et de trouver l'IP de jeedom dans celle-ci. Cette étape ne fait rien d'autre que de vous donner l'ip local de votre Jeedom, ce n'est pas a ce moment la que l'ajout de votre Jeedom à votre compte market est fait.
 
 ==== Par votre box internet
 
-Il vous suffit d'aller sur l'interface d'administration de votre box internet et de rechercher un périphérique jeedom, ensuite de récuperer son IP. Enfin vous mettez cette IP dans votre navigateur internet et c'est bon vous êtes sur Jeedom. 
+Il vous suffit d'aller sur l'interface d'administration de votre box internet et de rechercher un périphérique Jeedom, ensuite de récupérer son IP. Enfin vous mettez cette IP dans votre navigateur internet et c'est bon vous êtes sur Jeedom. 
 
 === Premiere connexion
 

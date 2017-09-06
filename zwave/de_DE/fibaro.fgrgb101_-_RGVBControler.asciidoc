@@ -1,9 +1,9 @@
 :icons:
-== Fibaro RGVB Controler - FGRGB-101
+== Fibaro RGBW Controller - FGRGB-101
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/fibaro.fgrgb101/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom Sichtbar*
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/fibaro.fgrgb101/Visuel_jeedom.png[width=200,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 
 Le micromodule Z-Wave Fibaro FGRGB-101 permet, au choix, de commander des éclairages basse tension 12/24V (halogène ou LED), un ruban LED RVB ou RVB+blanc ou bien encore de relier des sondes analogiques utilisant la norme 0-10V.
@@ -34,22 +34,22 @@ Le micromodule Z-Wave Fibaro FGRGB-101 permet, au choix, de commander des éclai
 
 * Nécessite une alimentation 12/24V séparée.
 * Mesure de consommation globale ou par canal instantanée ou cumulée.
-* Fonction répéteur (routeur) pour étendre le réseau Z-Wave.
+* Repeater-Funktion (Router), um das Z-Wave-Netzwerk zu erweitern.
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 * Commander des éclairages basse tension 12/24V (halogène ou LED)
 * S'installe derrière un interrupteur existant
 * Simulation lumineuse précédemment programmée
-* Fonction ON/OFF et Variation
+* Funktion AN/AUS und Variationen
 * Petit, discret et esthétique
-* Facilité d'utilisation et d'installation
+* Einfache Bedienung und Installation
 
 {nbsp} +
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 * Alimentation : 12 V ou 24 V continu
 * Puissance maximale de sortie :
@@ -60,27 +60,27 @@ Le micromodule Z-Wave Fibaro FGRGB-101 permet, au choix, de commander des éclai
 * * 24V - 288W total (tous canaux)
 * Fréquence de modulation PWM : 244 Hz
 * Consommation : 0,3W
-* Protocole radio : Z-Wave à 868,4 MHz (EU)
+* Funkprotokoll : Z-Wave 868,4MHz (EU)
 * Puissance d'émission Z-Wave : 1mW
-* Température de fonctionnement : 0 - 40 C
+* Betriebstemperatur : 0-40 ° C
 * Pour installation dans des boites : Ø≥50 mm
 * Dimensions : 42 x 37 x 17 mm 
 * Normes Européenes : EMC 2004/108/EC R&TTE 199/5/WE
-* Ce module nécessite un contrôleur Z-Wave pour fonctionner. 
+* Dieses Modul erfordert einen Z-Wave-Controller um zu funktionieren.  
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
-* Marque : Fibar Group
-* Nom : Fibaro FGRGB-101 RGBW
-* Fabricant ID : 271
-* Type Produit : 2304
-* Produit ID : 4096
+* Marke : Fibar Group
+* Name : Fibaro FGRGB-101 RGBW
+* Hersteller-ID : 271
+* Produkttyp : 2304
+* Produkt-ID : 4096
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette link:https://jeedom.fr/doc/documentation/plugins/openzwave/fr_FR/openzwave.html[documentation].
@@ -97,7 +97,7 @@ image::../images/fibaro.fgrgb101/vue_bp_inclusion.png[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -105,10 +105,10 @@ image::../images/fibaro.fgrgb101/configuration.png[Plugin Zwave,align="center"]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -117,7 +117,7 @@ image::../images/fibaro.fgrgb101/commande_2.png[Commandes,align="center"]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 * Couleur : C'est la commande qui permet de régler le code couleur à afficher
 * Cheminée : C'est la commande qui permet de simuler une ambiance de cheminée
@@ -135,10 +135,10 @@ A noter que sur le dashboard toutes les infos se retrouvent sur le même icone
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin OpenZwave de Jeedom.
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -146,7 +146,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet Paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -154,13 +154,13 @@ image::../images/fibaro.fgrgb101/parametres.png[Config1,align="center"]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 Merci de vous rapporter à la capture d'écran précédente, les paramètres étant traduit en francais.
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 Ce module possède cinq groupes d'association, seul le cinquième est indispensable.
 
@@ -169,12 +169,12 @@ Ce module possède cinq groupes d'association, seul le cinquième est indispensa
 image::../images/fibaro.fgrgb101/groupes.png[Groupe]
 
 
-=== Bon à savoir
+=== Gut zu wissen
 
 
-==== Spécificités
+==== Spezifikationen
 
-Utilisation des capteurs 0-10V.
+Benutzung der 0-10V Sensoren. 
 
 {nbsp} +
 

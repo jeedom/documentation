@@ -1,4 +1,4 @@
-Si vous voulez découvrir Jeedom vous pouvez aussi le virtualiser sur votre poste, voici la démarche à suivre :
+Si vous voulez découvrir Jeedom, vous pouvez aussi le virtualiser sur votre poste, voici la démarche à suivre :
 
 === Etape 1 : Téléchargement et installation de VMware Player
 
@@ -10,7 +10,7 @@ Vous devez aller link:https://app.box.com/s/ijyxkntjjip9x4oue2xqdi53r4sh8ent[ici
 
 === Etape 3 : Décompression de l'image de la VM
 
-Décompressez l'image de la VM Jeedom (si vous n'avez rien pour la décompresser vous pouvez installer link:http://www.clubic.com/telecharger-fiche9632-winrar.html[winrar])
+Décompressez l'image de la VM Jeedom (si vous n'avez rien pour la décompresser, vous pouvez installer link:http://www.clubic.com/telecharger-fiche9632-winrar.html[winrar])
 
 === Etape 4 : Lancement de la VM
 
@@ -26,4 +26,4 @@ image::../images/installation_vmware2.jpg[]
 Les identifiants SSH sont jeedom/Mjeedom96 ou root/Mjeedom96
 L'utilisateur root ne peut étre utilisé à distance
 
-Per il resto della documentazione è possibile accedere a https://www.jeedom.fr/doc/documentation/premiers-pas/en_US/doc-premiers-pas.html[Inizia con Jeedom]
+Pour la suite, vous pouvez suivre la documentation https://www.jeedom.fr/doc/documentation/premiers-pas/fr_FR/doc-premiers-pas.html[Premier pas avec Jeedom]

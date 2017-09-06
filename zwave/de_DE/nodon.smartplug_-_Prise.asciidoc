@@ -3,7 +3,7 @@
 
 {nbsp} +
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -11,7 +11,7 @@ image::../images/nodon.smartplug/module.jpg[width=256,align="center"]
 
 {nbsp} +
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -19,7 +19,7 @@ image::../images/nodon.smartplug/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 
@@ -33,46 +33,46 @@ L’apprentissage de la prise avec son contrôleur nécessite seulement quelqu
 
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
 * Détection perte de courant secteur
 * Ergonomique: Possibilité de brancher la prise tête en haut/tête en bas
 * Gestion intelligente des alarmes
-* Portée radio améliorée
+* verbesserte Funkreichweite  
 * Ampérage maximum: 16A
 
 {nbsp} +
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
 * Alimentation : 230V AC +/-10% - 50Hz
 * Puissance maximum : 3000W en continue / 3500W cyclique (Charge résistive) Consommation intrinsèque : <1W
-* Température de fonctionnement : 0°C à 40°C - Altitude : 2000m
-* Protocole radio Z-Wave® : 868.4MHz – 500 Series – Compatible Z-Wave Plus® SDK 06.51.01
-* Portée: 40m indoor / 80m outdoor
+* Betriebstemperatur: 0°C bis 40°C - Höhe: 2000 m
+* Z-Wave® Funk Protokoll : 868,4MHz - 500 Serie - kompatibel Z-Wave Plus® SDK 06.51.01
+* Reichweite : 40m Innen / 80m Außen
 * Dimensions: 104*51*36mm
 * Garantie 2 ans
 * Type EU
 
 {nbsp} +
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 * Marque : Nodon
-* Nom : Smartplug
-* Fabricant ID : 357
-* Type Produit : 1
-* Produit ID : 1
+* Name : SmartPlug
+* Hersteller-ID : 357
+* Produkttyp : 1
+* Produkt-ID : 1
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -90,7 +90,7 @@ image::../images/nodon.smartplug/inclusion.jpg[width=350,align="center"]
 
 {nbsp} +
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -98,11 +98,11 @@ image::../images/nodon.smartplug/information.jpg[Plugin Zwave,align="center"]
 
 {nbsp} +
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -110,7 +110,7 @@ image::../images/nodon.smartplug/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-[underline]#Voici la liste des commandes :#
+[underline]#Hier ist die Liste der Befehle :#
 
 {nbsp} +
 
@@ -125,12 +125,12 @@ A noter que sur le dashboard, les infos Etat, ON/OFF se retrouvent sur le même 
 
 {nbsp} +
 
-==== Configuration du module
+==== Modulkonfiguration
 
 {nbsp} +
 
 Vous pouvez effectuer la configuration du module en fonction de votre installation.
-Il faut pour cela passer par le bouton "Configuration" du plugin Zwave de Jeedom.
+erfolgt das in Jeedom über die Schaltfläche "Konfiguration“, des Zwave Plugin.
 
 {nbsp} +
 
@@ -138,7 +138,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 
 {nbsp} +
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -148,7 +148,7 @@ image::../images/nodon.smartplug/config2.jpg[Config1,align="center"]
 
 {nbsp} +
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -159,7 +159,7 @@ image::../images/nodon.smartplug/config2.jpg[Config1,align="center"]
 * Paramètres 5 à 20 : Au travers des paramètres de conﬁgurations #5 à #20, il est possible de conﬁgurer jusqu’à 8 alarmes différentes. Aﬁn de bien conﬁgurer vos alarmes, le formulaire en ligne: www.nodon.fr/support/asp3/alarm vous guidera
 
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
@@ -203,7 +203,7 @@ Lorsque la Smart Plug détecte un retour du courant, elle désactive les apparei
 A minima Jeedom devrait se retrouver dans les groupes 1 et 4
 {nbsp} +
 
-=== Bon à savoir
+=== Gut zu wissen
 
 {nbsp} +
 

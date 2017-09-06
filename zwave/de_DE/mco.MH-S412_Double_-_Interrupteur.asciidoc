@@ -1,10 +1,10 @@
 :icons:
-== MCO MH-S412 Double
+== MCO MH-S412 2-Tasten
 
 {nbsp} +
 
 
-* *Le module*
+* *Das Modul*
 
 {nbsp} +
 
@@ -14,7 +14,7 @@ image::../images/mco.mhs412/module.jpg[width=256,align="center"]
 {nbsp} +
 
 
-* *Le visuel Jeedom*
+* *In Jeedom sichtbar*
 
 {nbsp} +
 
@@ -23,7 +23,7 @@ image::../images/mco.mhs412/vuedefaut1.jpg[width=200,align="center"]
 
 {nbsp} +
 
-=== Résumé
+=== Zusammenfassung
 
 {nbsp} +
 L’interrupteur MH-S412-EU permet de commuter les 2 charges connectées, soit manuellement comme un interrupteur classique, ou à distance via le protocole sans fil Z-Wave.
@@ -35,13 +35,13 @@ L’interrupteur MH-S412-EU peut contrôler n’importe quel type de charge, un 
 L’interrupteur est également  équipé d’un voyant LED qui indique son état.
 {nbsp} +
 
-=== Fonctions
+=== Funktionen
 
 {nbsp} +
 
 * Commander deux lampes ou appareils à distance
 * S’installe à la place d’un interrupteur existant (s'insère parfaitement dans une boite d'encastrement de 40mm)
-* Fonction ON / OFF
+* Funktion AN/AUS
 * Supporte les commandes d’association (Groupe 1 et Groupe 2)
 * Contrôle des deux charges en local
 * LED de statut
@@ -51,7 +51,7 @@ L’interrupteur est également  équipé d’un voyant LED qui indique son éta
 {nbsp} +
 
 
-=== Caractéristiques techniques
+=== Technische Daten
 
 {nbsp} +
 
@@ -61,27 +61,27 @@ L’interrupteur est également  équipé d’un voyant LED qui indique son éta
 * Câblage : 3 fils, neutre nécessaire
 * Puissance maximum : 5A (1100W) pour chaque canal
 * Fréquence : 868,42 Mhz
-* Portée : jusqu’à 30 m
+* Reichweite : bis zu 30 m
 * Dimensions : 86 x 86 x 43 mm
 * Affichage: LED bleue/rouge
 
 {nbsp} +
 
 
-=== Données du module
+=== Moduldaten
 
 {nbsp} +
 
 
 * Marque : MC HOME
-* Nom : MH-S412 Double
-* Fabricant ID : 351
-* Type Produit : 16642
-* Produit ID : 514
+* Name : MH-S412 Touch Panel Switch (Schalter 2-fach)
+* Hersteller-ID : 351
+* Produkttyp : 16642
+* Produkt-ID : 514
 
 {nbsp} +
 
-=== Configuration
+=== Konfiguration
 
 {nbsp} +
 
@@ -93,7 +93,7 @@ Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion
 [IMPORTANT]
 Pour mettre ce module en mode inclusion il faut appuyer sur un seul des 2 boutons en face avant pendant 3 sec, conformément à sa documentation papier.
 
-[underline]#Une fois inclus vous devriez obtenir ceci :#
+[underline]#Einmal Includiert, sollten Sie folgendes erhalten :#
 
 {nbsp} +
 
@@ -102,12 +102,12 @@ image::../images/mco.mhs412/information.jpg[Plugin Zwave,align="center"]
 {nbsp} +
 
 
-==== Commandes
+==== Befehle
 
 {nbsp} +
 
 
-Une fois le module reconnu, les commandes associées au module seront disponibles.
+Nachdem das Modul erkannt wurde, werden die zugeordneten Modul-Befehle verfügbar sein.
 
 {nbsp} +
 
@@ -116,8 +116,8 @@ image::../images/mco.mhs412/commandes.jpg[Commandes,align="center"]
 
 {nbsp} +
 
-Ensuite si vous voulez effectuer la configuration du module en fonction de votre installation,
-il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
+Wenn Sie später die Konfiguration des Moduls gemäß Ihrer Funktion durchführen wollen, 
+erfolgt das in Jeedom über die Schaltfläche „Konfiguration“, des OpenZwave Plugin.
 
 {nbsp} +
 
@@ -127,7 +127,7 @@ image::../images/plugin/bouton_configuration.jpg[Configuration plugin Zwave,alig
 {nbsp} +
 
 
-[underline]#Vous arriverez sur cette page# (après avoir cliqué sur l'onglet paramètres)
+[underline]#Sie werden auf diese Seite kommen# (nach einem Klick auf die Registerkarte Parameter)
 
 {nbsp} +
 
@@ -138,7 +138,7 @@ image::../images/mco.mhs412/config1.jpg[Config1,align="center"]
 {nbsp} +
 
 
-[underline]#Détails des paramètres :#
+[underline]#Parameterdetails :#
 
 {nbsp} +
 
@@ -148,11 +148,11 @@ image::../images/mco.mhs412/config1.jpg[Config1,align="center"]
 
 {nbsp} +
 
-==== Groupes
+==== Gruppen
 
 {nbsp} +
 
-Ce module possède 3 groupes d'association. Seul le troisieme est indispensable.
+Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist unerlässlich.
 
 {nbsp} +
 
@@ -167,7 +167,7 @@ image::../images/mco.mhs412/groupe.jpg[Groupe]
 {nbsp} +
 
 
-==== Spécificités
+==== Spezifikationen
 
 1) les boutons tactiles ont un halo de couleur bleu lorsque la charge est pilotée
 
