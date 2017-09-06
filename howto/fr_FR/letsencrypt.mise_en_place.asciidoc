@@ -12,15 +12,15 @@ cd letsencrypt
 ./letsencrypt-auto --help
 ----
 
-Pour faire une demande de certificat vous devez posséder un nom de domaine pour lequel il sera généré.
+Pour faire une demande de certificat, vous devez posséder un nom de domaine pour lequel il sera généré.
 
 == Configuration d'Apache
 
-Pour que le processus de letsEncrypt se termine correctement, il est necessaire d'effectuer les trois étapes ci-dessous aux préalables.
+Pour que le processus de letsEncrypt se termine correctement, il est nécessaire d'effectuer les trois étapes ci-dessous au préalable.
 
 - Activer le module SSL d'apache de la box Jeedom.
 - Activer le VirtualHost HTTPS d'apache de la box Jeedom .
-- Configurer un portForwarding des requetes HTTPS sur votre Box internet pour les rediriger vers votre Box Jeedom.
+- Configurer un portForwarding des requêtes HTTPS sur votre Box internet pour les rediriger vers votre Box Jeedom.
 
 ==== Activation du virtualHost et du module SSL
 [NOTE]
@@ -32,16 +32,16 @@ a2ensite default-ssl.conf
 service apache2 restart
 ----
 [NOTE]
-Aucun certificat ne sera delivré par LetsEncrypt tant que votre site en HTTPS ne sera pas joignable de l'extérieur.
+Aucun certificat ne sera délivré par LetsEncrypt tant que votre site en HTTPS ne sera pas joignable de l'extérieur.
 ----
 /opt/letsencrypt/letsencrypt-auto --apache --email email@domaine.com -d domaine.com
 ----
 Vous devez remplacer les paramètres email et domaine par vos valeurs.
-Normalement les paramètres d'ajout du protocole https sont ajoutés par le script dans Apache.
+Normalement, les paramètres d'ajout du protocole https sont ajoutés par le script dans Apache.
 
 [NOTE]
-Si vous utilisez la methode de renouvellement automatique ci-dessous, vous pouvez desactiver le virtualHost **default-ssl.conf** avec la commande **a2dissite default-ssl.conf**
-Pensez à reporter le code par defaut ci-dessous dans le virtualHost crée par le script de renouvellement : _/etc/apache2/sites-available/000-default-le-ssl.conf_
+Si vous utilisez la méthode de renouvellement automatique ci-dessous, vous pouvez désactiver le virtualHost **default-ssl.conf** avec la commande **a2dissite default-ssl.conf**
+Pensez à reporter le code par défaut ci-dessous dans le virtualHost créé par le script de renouvellement : _/etc/apache2/sites-available/000-default-le-ssl.conf_
 ----
 <FilesMatch "\.(cgi|shtml|phtml|php)$">
    SSLOptions +StdEnvVars
@@ -99,14 +99,14 @@ Le renouvellement se fait avec la commande :
 Vous recevez un mail automatiquement à l'arrivée à échéance du certificat qui vous rappellera de passer la commande
 
 === Methode automatique
-C'est quand même mieux quand c'est automatique. Pour ce faire voici les étapes à suivre.
+C'est quand même mieux quand c'est automatique. Pour ce faire, voici les étapes à suivre.
 
 Créer un fichier, son emplacement est libre
 ----
 nano /bin/certletsencryptrenew.sh
 ----
 
-Saisir les lignes ci-dessous dans le fichier créé précedemment. Le copier/coller fonctionne via putty.
+Saisir les lignes ci-dessous dans le fichier créé précédemment. Le copier/coller fonctionne via putty.
 Ce script vérifie l'expiration du certificat et le renouvelle automatiquement si la date d'expiration est à moins de 30 jours.
 ----
 curl -L -o /usr/local/sbin/le-renew http://do.co/le-renew
@@ -114,7 +114,7 @@ chmod +x /usr/local/sbin/le-renew
 le-renew domaine.fr
 ----
 
-Sauvegarder le fichier puis quitter l'editeur de texte (nano)
+Sauvegarder le fichier puis quitter l'éditeur de texte (nano)
 ----
 ctrl+o -> Entrée     (permet de sauvegarder)
 ctrl+x -> Entrée     (permet de quitter)
