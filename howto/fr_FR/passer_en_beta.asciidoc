@@ -1,7 +1,7 @@
 = Passer sur la bêta de Jeedom et des plugins
 
 [IMPORTANT]
-L'activation des bêtas est très très risquée et vous INTERDIT TOUT ACCES AU SUPPORT. IL faut aussi obligatoirement passer Jeedom en bêta et faire des mises à jour fréquentes même s'il n'y a pas de nouvelles mises à jour proposées. IMPORTANT, les versions bêtas sont souvent instables et peuvent causer de nombreux soucis, il ne faut surtout pas les mettre sur un système de production. EN CAS DE SOUCIS, L'EQUIPE JEEDOM NE SERA PAS ET NE POURRA PAS ETRE TENUE POUR RESPONSABLE.
+L'activation des bêtas est très très risquée et vous INTERDIT TOUT ACCES AU SUPPORT. Il faut aussi obligatoirement passer Jeedom en bêta et faire des mises à jour fréquentes même s'il n'y a pas de nouvelles mises à jour proposées. IMPORTANT, les versions bêtas sont souvent instables et peuvent causer de nombreux soucis, il ne faut surtout pas les mettre sur un système de production. EN CAS DE SOUCIS, L'EQUIPE JEEDOM NE SERA PAS ET NE POURRA PAS ETRE TENUE POUR RESPONSABLE.
 
 [NOTE]
 Cette documentation est volontairement peu detaillée pour que l'opération ne soit pas facile, en effet être en bêta nécessite des compétences aussi bien en informatique qu'en déchiffrage de logs ou documentation.
@@ -42,4 +42,4 @@ Un plugin en version stable peut ne pas marcher sur un Jeedom bêta.
 Un plugin en version bêta NE FONCTIONNE PAS sur un Jeedom stable.
 
 [IMPORTANT]
-Toute demande de support portant sur comment passer en bêta, ou un souci avec un composant en bêta, ou sur un systeme ayant déja eu un core ou un plugin en bêta, sera immediatement fermé sans aucune réponse de notre part.
+Toute demande de support portant sur comment passer en bêta, ou un souci avec un composant en bêta, ou sur un système ayant déja eu un core ou un plugin en bêta, sera immédiatement fermé sans aucune réponse de notre part.
