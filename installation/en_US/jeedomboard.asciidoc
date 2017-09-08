@@ -30,4 +30,4 @@ You just have to put the SD card into the Jeedomboard  (or Hummingboard), to con
 [TIP]
 SSH username/password are jeedom/Mjeedom96
 
-For the rest you can follow the documentation https://www.jeedom.fr/doc/documentation/premiers-pas/en_US/doc-premiers-pas.html[Getting Started with Jeedom]
+Pour la suite vous pouvez suivre la documentationhttps://github.com/jeedom/documentation/blob/master/premiers-pas/fr_FR/index.asciidoc[Premier pas avec Jeedom]

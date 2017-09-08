@@ -69,7 +69,7 @@ Il vous faut ensuite installer Jeedom en allant sur : IP_DOCKER:9080 et entrer l
 
 image::../images/install_other.PNG[]
 
-Per il resto della documentazione è possibile accedere a https://www.jeedom.fr/doc/documentation/premiers-pas/en_US/doc-premiers-pas.html[Inizia con Jeedom]
+Pour la suite vous pouvez suivre la documentation https://github.com/jeedom/documentation/blob/master/premiers-pas/fr_FR/index.asciidoc[Premier pas avec Jeedom]
 
 [IMPORTANTE]
 Pour le nom de l'hote MySql il faut mettre jeedom-mysql

@@ -99,5 +99,4 @@ Les arguments suivants sont utilisables :
 -----
 
 
-
-Ensuite, vous pouvez suivre la documentation https://www.jeedom.fr/doc/documentation/premiers-pas/fr_FR/doc-premiers-pas.html[Premier pas avec Jeedom]
+Ensuite vous pouvez suivre la documentation https://github.com/jeedom/documentation/blob/master/premiers-pas/fr_FR/index.asciidoc[Premier pas avec Jeedom]
