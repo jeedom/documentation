@@ -23,7 +23,7 @@ D'autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
 
-|image:../images/compatibility_list/dotti.jpg[width=150,align="center"]|Dotti|Dotti|DOTTI|Afficheur|Fonctionnera beaucoup mieux avec option garder la connection |Mode inclusion| 
+|image:../images/compatibility_list/dotti.jpg[width=150,align="center"]|Dotti|Dotti|DOTTI|Afficheur|Fonctionnera beaucoup mieux avec option 'garder la connection' |Mode inclusion| 
 // 
 
 
@@ -35,7 +35,7 @@ D'autres modules non présents sur cette liste peuvent être compatibles.
 |===
 |Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
 
-|image:../images/compatibility_list/tb05.jpg[width=150,align="center"]|E-Diffuser|Tb05|TB05|Diffuseur|Il est recommandé d'utiliser l'option garder la connection. Obligatoire pour tenter expérimentalement l'accès au couleur direct |Mode inclusion| 
+|image:../images/compatibility_list/tb05.jpg[width=150,align="center"]|E-Diffuser|Tb05|TB05|Diffuseur|Il est recommandé d'utiliser l'option 'garder la connection'. Obligatoire pour tenter expérimentalement l'accès aux couleurs direct |Mode inclusion| 
 // 
 
 
@@ -75,7 +75,7 @@ _[small]#Piles : 1x3V CR2032#_|Mode inclusion|
 |===
 |Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
 
-|image:../images/compatibility_list/hector.jpg[width=150,align="center"]|Hector|Hector|HECTOR|Capteurs|Ne dois pas rester connecté en permanence sur votre téléphone si vous voulez l'interaction dans Jeedom 
+|image:../images/compatibility_list/hector.jpg[width=150,align="center"]|Hector|Hector|HECTOR|Capteurs|Ne doit pas rester connecté en permanence sur votre téléphone si vous voulez l'interaction dans Jeedom 
 
 _[small]#Piles : 1x3V CR2032#_|Mode inclusion| 
 // 
@@ -89,7 +89,7 @@ _[small]#Piles : 1x3V CR2032#_|Mode inclusion|
 |===
 |Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
 
-|image:../images/compatibility_list/default.jpg[width=150,align="center"]|Inconnu|Inconnu|DEFAULT|Defaut|Uniquement pour les équipements non encore rajouté dans le plugin, pour a minima avoir la présence et les rssi ainsi que la data brute |Mode inclusion avec option 'Inconnu'| 
+|image:../images/compatibility_list/default.jpg[width=150,align="center"]|Inconnu|Inconnu|DEFAULT|Defaut|Uniquement pour les équipements non encore rajoutés dans le plugin, pour à minima, avoir la présence et les rssi ainsi que la data brute |Mode inclusion avec option 'Inconnu'| 
 // 
 
 
@@ -101,27 +101,27 @@ _[small]#Piles : 1x3V CR2032#_|Mode inclusion|
 |===
 |Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
 
-|image:../images/compatibility_list/itag_blanc.jpg[width=150,align="center"]|Itag|Itag Blanc|ITAG|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission) 
+|image:../images/compatibility_list/itag_blanc.jpg[width=150,align="center"]|Itag|Itag Blanc|ITAG|Boutons|Attention, pour que le bouton fonctionne, il faut cocher 'garder la connection'. A partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisie en émission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
 
 _[small]#Piles : 1x3V CR2032#_|Mode inclusion auto et appui sur le bouton| 
 // 
 
-|image:../images/compatibility_list/itag_bleu.jpg[width=150,align="center"]|Itag|Itag Bleu|ITAG|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission) 
+|image:../images/compatibility_list/itag_bleu.jpg[width=150,align="center"]|Itag|Itag Bleu|ITAG|Boutons|Attention, pour que le bouton fonctionne, il faut cocher 'garder la connection'. A partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
 
 _[small]#Piles : 1x3V CR2032#_|Mode inclusion auto et appui sur le bouton| 
 // 
 
-|image:../images/compatibility_list/itag.jpg[width=150,align="center"]|Itag|Itag Noir|ITAG|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission) 
+|image:../images/compatibility_list/itag.jpg[width=150,align="center"]|Itag|Itag Noir|ITAG|Boutons|Attention, pour que le bouton fonctionne, il faut cocher 'garder la connection'. A partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
 
 _[small]#Piles : 1x3V CR2032#_|Mode inclusion auto et appui sur le bouton| 
 // 
 
-|image:../images/compatibility_list/itag_rose.jpg[width=150,align="center"]|Itag|Itag Rose|ITAG|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission) 
+|image:../images/compatibility_list/itag_rose.jpg[width=150,align="center"]|Itag|Itag Rose|ITAG|Boutons|Attention, pour que le bouton fonctionne, il faut cocher 'garder la connection'. A partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
 
 _[small]#Piles : 1x3V CR2032#_|Mode inclusion auto et appui sur le bouton| 
 // 
 
-|image:../images/compatibility_list/itag_vert.jpg[width=150,align="center"]|Itag|Itag Vert|ITAG|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission) 
+|image:../images/compatibility_list/itag_vert.jpg[width=150,align="center"]|Itag|Itag Vert|ITAG|Boutons|Attention, pour que le bouton fonctionne, il faut cocher 'garder la connection'. A partir de ce moment là, la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas là, il faut bien évidemment choisir la même en réception et émission) 
 
 _[small]#Piles : 1x3V CR2032#_|Mode inclusion auto et appui sur le bouton| 
 // 
@@ -138,13 +138,13 @@ _[small]#Piles : 1x3V CR2032#_|Mode inclusion auto et appui sur le bouton|
 |image:../images/compatibility_list/logiswitch_blanc.jpg[width=150,align="center"]|Logitech|Logitech Pop blanc|LOGISWITCH|Boutons|Ne doit absolument pas être connecté sur un autre appareil |Mode inclusion et appui sur le bouton| 
 // 
 
-|image:../images/compatibility_list/logiswitch_gris.jpg[width=150,align="center"]|Logitech|Logitech Pop gris|LOGISWITCH|Boutons|Ne doit absolument pas être connecté sur un autre appareil |Mode inclusion et appui sur le bouton| 
+|image:../images/compatibility_list/logiswitch_gris.jpg[width=150,align="center"]|Logitech|Logitech Pop gris|LOGISWITCH|Boutons|Ne doit absolument pas être connecté sur un autre appareil. |Mode inclusion et appui sur le bouton| 
 // 
 
-|image:../images/compatibility_list/logiswitch.jpg[width=150,align="center"]|Logitech|Logitech Pop rouge|LOGISWITCH|Boutons|Ne doit absolument pas être connecté sur un autre appareil |Mode inclusion et appui sur le bouton| 
+|image:../images/compatibility_list/logiswitch.jpg[width=150,align="center"]|Logitech|Logitech Pop rouge|LOGISWITCH|Boutons|Ne doit absolument pas être connecté sur un autre appareil. |Mode inclusion et appui sur le bouton| 
 // 
 
-|image:../images/compatibility_list/logiswitch_vert.jpg[width=150,align="center"]|Logitech|Logitech Pop vert|LOGISWITCH|Boutons|Ne doit absolument pas être connecté sur un autre appareil |Mode inclusion et appui sur le bouton| 
+|image:../images/compatibility_list/logiswitch_vert.jpg[width=150,align="center"]|Logitech|Logitech Pop vert|LOGISWITCH|Boutons|Ne doit absolument pas être connecté sur un autre appareil. |Mode inclusion et appui sur le bouton| 
 // 
 
 
@@ -254,34 +254,34 @@ _[small]#Piles : 1x3V CR2032#_|Mode inclusion|
 |===
 |Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
 
-|image:../images/compatibility_list/bluelabel.jpg[width=150,align="center"]|Playbulb|BlueLabel|BLUELABEL|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant |Mode inclusion| 
+|image:../images/compatibility_list/bluelabel.jpg[width=150,align="center"]|Playbulb|BlueLabel|BLUELABEL|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb. Si c'est le cas, changez dans le menu déroulant. |Mode inclusion| 
 // 
 
-|image:../images/compatibility_list/candle.jpg[width=150,align="center"]|Playbulb|Candle|CANDLE|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant |Mode inclusion| 
+|image:../images/compatibility_list/candle.jpg[width=150,align="center"]|Playbulb|Candle|CANDLE|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb. Si c'est le cas, changez dans le menu déroulant. |Mode inclusion| 
 // 
 
-|image:../images/compatibility_list/color.jpg[width=150,align="center"]|Playbulb|Color|COLOR|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant |Mode inclusion| 
+|image:../images/compatibility_list/color.jpg[width=150,align="center"]|Playbulb|Color|COLOR|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb. Si c'est le cas changez dans le menu déroulant. |Mode inclusion| 
 // 
 
-|image:../images/compatibility_list/garden19.jpg[width=150,align="center"]|Playbulb|Garden v1.9|GARDEN19|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant |Mode inclusion| 
+|image:../images/compatibility_list/garden19.jpg[width=150,align="center"]|Playbulb|Garden v1.9|GARDEN19|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb. Si c'est le cas, changez dans le menu déroulant. |Mode inclusion| 
 // 
 
-|image:../images/compatibility_list/garden.jpg[width=150,align="center"]|Playbulb|Garden|GARDEN|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant |Mode inclusion| 
+|image:../images/compatibility_list/garden.jpg[width=150,align="center"]|Playbulb|Garden|GARDEN|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb. Si c'est le cas, changez dans le menu déroulant. |Mode inclusion| 
 // 
 
-|image:../images/compatibility_list/original.jpg[width=150,align="center"]|Playbulb|Original|ORIGINAL|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant |Mode inclusion| 
+|image:../images/compatibility_list/original.jpg[width=150,align="center"]|Playbulb|Original|ORIGINAL|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb. Si c'est le cas, changez dans le menu déroulant. |Mode inclusion| 
 // 
 
-|image:../images/compatibility_list/rainbow.jpg[width=150,align="center"]|Playbulb|Rainbow|RAINBOW|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant |Mode inclusion| 
+|image:../images/compatibility_list/rainbow.jpg[width=150,align="center"]|Playbulb|Rainbow|RAINBOW|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb. Si c'est le cas changez dans le menu déroulant |Mode inclusion| 
 // 
 
-|image:../images/compatibility_list/smart.jpg[width=150,align="center"]|Playbulb|Smart|SMART|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant |Mode inclusion| 
+|image:../images/compatibility_list/smart.jpg[width=150,align="center"]|Playbulb|Smart|SMART|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas, changez dans le menu déroulant. |Mode inclusion| 
 // 
 
-|image:../images/compatibility_list/sphere.jpg[width=150,align="center"]|Playbulb|Sphere|SPHERE|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant |Mode inclusion| 
+|image:../images/compatibility_list/sphere.jpg[width=150,align="center"]|Playbulb|Sphere|SPHERE|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb. Si c'est le cas, changez dans le menu déroulant |Mode inclusion| 
 // 
 
-|image:../images/compatibility_list/sphere17.jpg[width=150,align="center"]|Playbulb|Sphère|SPHERE17|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant |Mode inclusion| 
+|image:../images/compatibility_list/sphere17.jpg[width=150,align="center"]|Playbulb|Sphère|SPHERE17|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb. Si c'est le cas, changez dans le menu déroulant. |Mode inclusion| 
 // 
 
 
@@ -326,22 +326,22 @@ _[small]#Piles : 1x3V CR2032#_|Mode inclusion|
 _[small]#Piles : 4x1.5V AA#_|Mode inclusion| 
 // 
 
-|image:../images/compatibility_list/mibandcolor.jpg[width=150,align="center"]|Xiaomi|Miband (avec led couleur)|MIBANDCOLOR|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth 
+|image:../images/compatibility_list/mibandcolor.jpg[width=150,align="center"]|Xiaomi|Miband (avec led couleur)|MIBANDCOLOR|Santé|Selon les firmwares, peut ne plus fonctionner. Attention, si le bracelet est connecté à votre smartphone, il n'est plus visible en bluetooth. 
 
 _[small]#Piles : Batterie#_|Mode inclusion| 
 // 
 
-|image:../images/compatibility_list/miband1s.jpg[width=150,align="center"]|Xiaomi|Miband1s|MIBAND1S|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth 
+|image:../images/compatibility_list/miband1s.jpg[width=150,align="center"]|Xiaomi|Miband1s|MIBAND1S|Santé|Selon les firmwares, peut ne plus fonctionner. Attention, si le bracelet est connecté à votre smartphone, il n'est plus visible en bluetooth. 
 
 _[small]#Piles : Batterie#_|Mode inclusion| 
 // 
 
-|image:../images/compatibility_list/miband2.jpg[width=150,align="center"]|Xiaomi|Miband2|MIBAND2|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth 
+|image:../images/compatibility_list/miband2.jpg[width=150,align="center"]|Xiaomi|Miband2|MIBAND2|Santé|Selon les firmwares, peut ne plus fonctionner. Attention, si le bracelet est connecté à votre smartphone il n'est plus visible en bluetooth. 
 
 _[small]#Piles : Batterie#_|Mode inclusion| 
 // 
 
-|image:../images/compatibility_list/miband1.jpg[width=150,align="center"]|Xiaomi|Miband|MIBAND1|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth 
+|image:../images/compatibility_list/miband1.jpg[width=150,align="center"]|Xiaomi|Miband|MIBAND1|Santé|Selon les firmwares, peut ne plus fonctionner. Attention, si le bracelet est connecté à votre smartphone il n'est plus visible en bluetooth. 
 
 _[small]#Piles : Batterie#_|Mode inclusion| 
 // 
@@ -360,7 +360,7 @@ _[small]#Piles : 1x3V CR2032#_|Mode inclusion|
 |===
 |Image|Marque|Nom|Profil|Type|Remarque|Inclusion|Lien
 
-|image:../images/compatibility_list/yeelight_bed.jpg[width=150,align="center"]|Yeelight|Bed|YEELIGHT BED|Lumières|Il faut valider l'appairage en appuyant sur le bouton. Si éteint il faut allumer avant de choisir une couleur |Mode inclusion| 
+|image:../images/compatibility_list/yeelight_bed.jpg[width=150,align="center"]|Yeelight|Bed|YEELIGHT BED|Lumières|Il faut valider l'appairage en appuyant sur le bouton. Si éteint, il faut allumer avant de choisir une couleur. |Mode inclusion| 
 // 
 
 
@@ -368,4 +368,4 @@ _[small]#Piles : 1x3V CR2032#_|Mode inclusion|
 
 
 [NOTE]
-Cette liste est basee sur des retours utilisateurs, l'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
+Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels.

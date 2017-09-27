@@ -15,7 +15,7 @@ image::../images/install_humming_1.PNG[]
 
 === Etape 3 : Décompression de l'image de Jeedom
 
-Décompresser l'image de Jeedom (si vous n'avez rien pour le décompresser vous pouvez installer link:http://www.clubic.com/telecharger-fiche9632-winrar.html[winrar]), vous devez obtenir : 
+Décompressez l'image de Jeedom (si vous n'avez rien pour le décompresser, vous pouvez installer link:http://www.clubic.com/telecharger-fiche9632-winrar.html[winrar]), vous devez obtenir : 
 
 image::../images/install_humming_2.PNG[]
 
@@ -23,7 +23,7 @@ image::../images/install_humming_8.PNG[]
 
 === Etape 4 : Gravure de l'image sur la carte SD
 
-Insérer votre carte SD dans votre ordinateur puis lancer le logiciel Ether, donner lui le chemin de l'image, le chemin de la carte SD et cliquez sur "flash". Le logiciel va graver la carte SD et verifier la gravure 
+Insérez votre carte SD dans votre ordinateur puis lancez le logiciel Ether, donnez lui le chemin de l'image, le chemin de la carte SD et cliquez sur "flash". Le logiciel va graver la carte SD et vérifier la gravure. 
 
 Vous n'avez plus qu'à mettre la carte SD dans la Jeedomboard (ou Hummingboard), à brancher le réseau et l'alimentation, votre Jeedom va démarrer (5 min) et vous devriez le voir sur le réseau.
 
