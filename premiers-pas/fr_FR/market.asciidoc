@@ -10,4 +10,4 @@ Remplissez les différents champs et validez. Vous tomberez ensuite sur cette pa
 
 image::../images/premier-market3.png[]
 
-Voila votre compte Market est créé, pour plus de details sur le market cliquez link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html[ici]
+Voila votre compte Market est créé, pour plus de détails sur le market cliquez link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html[ici]

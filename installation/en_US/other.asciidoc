@@ -1,11 +1,11 @@
-You will find here the documentation to install Jeedom on most linux systems (tested and approved on the Debian distribution)
+You will find here the documentation to install Jeedom on most Linux systems (tested and approved on the Debian distribution)
 
 [IMPORTANT]
 Debian 9 (Strecht) est la distribution officiellement supportée pour la version 3.1.7 de jeedom (mais jessie reste parfaitement fonctionnelle).
 Si vous ne maitriser pas un minimum les environnements Linux, nous vous conseillons de partir sur une image officielle (OVF) ou l'utilisation d'une Mini+ ou Smart (disponible prochainement).
 
 [IMPORTANT]
-Le script d'installation peut etre dangereux car il part du principe que votre systeme est vierge. Si ce n'est pas le cas merci de lire le script et de faire une installation à la main
+Le script d'installation peut être dangereux car il part du principe que votre systeme est vierge. Si ce n'est pas le cas merci de lire le script et de faire une installation à la main
 
 Connectez-vous en SSH à votre système et faites : 
 

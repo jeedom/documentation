@@ -211,7 +211,7 @@ A minima Jeedom devrait se retrouver dans les groupes 1 et 4
 
 {nbsp} +
 
-* Il est inutile de s'amuser à brancher/débrancher la prise pour observer l'alarme. Celle ci ne marchera à peu près que 3 fois. Au delà la prise doit rester alimentée un petit moment
+* Il est inutile de s'amuser à brancher/débrancher la prise pour observer l'alarme. Celle ci ne marchera à peu près que 3 fois. Au delà, la prise doit rester alimentée un petit moment
 pour recharger la pile interne.
 
 {nbsp} +

@@ -13,7 +13,7 @@ A noter aussi que l'interface web est toujours en cours de mise en place chez VM
 
 == Connexion à l'interface web
 
-Allez sur IP_ESXI/ui avec votre navigateur internet, vous devez avoir : 
+Allez sur IP_ESXI/ui avec votre navigateur Internet, vous devez avoir : 
 
 image::../images/vmware.createvm3.PNG[]
 

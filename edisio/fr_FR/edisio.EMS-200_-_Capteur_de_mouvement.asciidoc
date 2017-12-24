@@ -12,12 +12,12 @@ image::../images/ems200/ems200.vue-defaut.jpg[align="center"]
 
 Placé dans un couloir, le salon, le garage de votre maison par exemple, le capteur de mouvement détecte une présence, le changement d'état est instantané.
 
-Grâce à son angle de vision étendu et sa portée, il permet de sécuriser un large périmètre. L'indicateur LED intégré signale tout changement d'état. 
+Grâce à son angle de vision étendu et sa portée, il permet de sécuriser un large périmètre. L'indicateur LED intégré signale tout changement d'état.
 
 == Fonctions
 
 * Détecte les mouvements, même dans le noir complet
-* Ultra compact 
+* Ultra compact
 * Signal transmis instantanément lors d'une détection
 * Auto-protection à l'arrachage
 * Facilité d'utilisation et d'installation
@@ -30,7 +30,7 @@ Grâce à son angle de vision étendu et sa portée, il permet de sécuriser un 
 * Alimentation : 3VDC (Pile Lithium ER14250)
 * Fréquence : 868,3 MHz
 * Température de fonctionnement : 0°C +45°C
-* Portée en champs libre : 100M
+* Portée en champs libre : 100m
 * Portée de détection : 6M
 * Dimensions : 25x79x19mm
 * Degré de protection : IP20
@@ -48,8 +48,8 @@ Pour configurer le plugin Edisio et associer un module à Jeedom, référez-vous
 [IMPORTANT]
 Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez pas d'activer l'option dans la configuration du plugin.
 
-[TIP] 
-Le placement est conseillé à une hauteur de 150 cm et à proximité de la température ressentie voulue. 
+[TIP]
+Le placement est conseillé à une hauteur de 150 cm et à proximité de la température ressentie voulue.
 
 === Bouton "E"
 
@@ -57,7 +57,7 @@ Vous trouverez le bouton "E" qui est le bouton d'association du capteur de temp�
 
 image::../images/ems200/ems200.bouton-e.jpg[align="center"]
 
-=== Détection 
+=== Détection
 
 Le capteur détecte le moindre mouvement dans un rayon d'environ 6m
 
@@ -100,7 +100,7 @@ image::../images/ems200/ems200.informations.jpg[Commandes,align="center"]
 * Création : Indique la date à laquelle l'équipement à était créé
 * Communication : Indique la dernière communication enregistrée entre Jeedom et le module
 * Batterie : Indique l'état de la batterie des modules à piles
-* Status : Retourne le status du module
+* Status : Retourne le statut du module
 
 == Visuel alternatif
 
@@ -108,7 +108,7 @@ image::../images/ems200/ems200.vue-alternative.jpg[align="center"]
 
 == F.A.Q.
 
-Comment piloter un récepteur Z-Wave?::
+Comment piloter un récepteur Z-Wave ?::
 Avec le plugin Scénario de Jeedom.
 
 Comment puis-je avoir le même visuel ?::

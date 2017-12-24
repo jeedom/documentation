@@ -245,7 +245,7 @@ Le keypad lit les codes/badges de deux manières :
 {nbsp} +
 
 * lorsque vous appuyez sur home/away pendant les 1 à 2 premières secondes si vous commencez à taper un code, il lira ce code
-* si rien n'est fait dans les 1 à 2 premières secondes, il se met en mode lecture de badge RFID (lumière rouge allumée). A ce moment là il peut lire un badge, pas avant.
+* si rien n'est fait dans les 1 à 2 premières secondes, il se met en mode lecture de badge RFID (lumière rouge allumée). A ce moment-là il peut lire un badge, pas avant.
 
 {nbsp} +
 

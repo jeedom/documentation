@@ -1,4 +1,4 @@
-# Liste des equipements zwave compatibles
+# Liste des équipements zwave compatibles
 
 
 
@@ -844,4 +844,4 @@
 |![image](../images/327.2.3_RaZberry Controller.jpg)|Zwaveme|RaZberry Controller|Contrôleur||[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 
-Cette liste est basee sur des retours utilisateurs, l'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
+Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels

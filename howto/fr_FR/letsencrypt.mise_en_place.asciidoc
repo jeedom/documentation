@@ -20,7 +20,7 @@ Pour que le processus de letsEncrypt se termine correctement, il est necessaire 
 
 - Activer le module SSL d'apache de la box Jeedom.
 - Activer le VirtualHost HTTPS d'apache de la box Jeedom .
-- Configurer un portForwarding des requetes HTTPS sur votre Box internet pour les rediriger vers votre Box Jeedom.
+- Configurer un portForwarding des requetes HTTPS sur votre Box Internet pour les rediriger vers votre Box Jeedom.
 
 ==== Activation du virtualHost et du module SSL
 [NOTE]

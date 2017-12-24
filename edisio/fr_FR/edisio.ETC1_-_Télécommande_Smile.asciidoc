@@ -16,7 +16,7 @@ Les télécommandes “Smile” ont un canal, elles sont idéales pour la table 
 Elles se relient facilement aux différents récepteurs et peuvent donc contrôler les éclairages Marche/Arrêt, les éclairages variables, les volets, portails, portes de garage. Disponibles en 3 coloris.
 
 De plus, l'interaction avec d'autres protocoles est possible, il peut interagir avec les récepteurs de la marque Edisio, avec Jeedom, mais aussi par n'importe quel récepteur Z-Wave de votre réseau.
- 
+
 == Fonctions
 
 * Mode d'usage : Eclairage, Variateur
@@ -29,7 +29,7 @@ De plus, l'interaction avec d'autres protocoles est possible, il peut interagir 
 * Alimentation : 3VDC (Pile Lithium CR2032)
 * Canaux : 1
 * Protocole radio : 868,3 MHz
-* Portée en champs libre : 100 M
+* Portée en champs libre : 100 m
 * Température de fonctionnement : -10°C +50°C
 * Dimensions : 65x18mm
 * Degré de protection : IP64
@@ -91,14 +91,14 @@ image::../images/etc1/etc1.informations.jpg[Commandes,align="center"]
 * Création : Indique la date à laquelle l'équipement à était créé
 * Communication : Indique la dernière communication enregistrée entre Jeedom et le micro-module
 * Batterie : Indique l'état de la batterie des modules à piles
-* Status : Retourne le status du module
+* Status : Retourne le statut du module
 
 === Utilisation
 
 Une fois que votre télécommande est configurée, vous pouvez avec le plugin Scénario de Jeedom, interagir avec votre télécommande sur Jeedom et ses équipements.
 
 [NOTE]
-La télécommande à un retour d'état binaire. 
+La télécommande à un retour d'état binaire.
 
 
 #_@Jamsta_#

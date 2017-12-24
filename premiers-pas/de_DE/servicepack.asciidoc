@@ -6,7 +6,7 @@ Es ist wichtig, mal nachzuschauen, da dieser Code Ihnen Zugang zu einigen kosten
 [WICHTIG]
 Wenn sie ein Service Pack vom Jeedom Markt kaufen haben sie nichts zu tun, es wird automatisch zugewiesen. 
 
-Une fois le code recupéré dans le mail il vous suffit d'aller sur le link:https://market.jeedom.fr[market Jeedom] et de vous identifier.
+Une fois le code récupéré dans le mail il vous suffit d'aller sur le link:https://market.jeedom.fr[market Jeedom] et de vous identifier.
 
 Dann gehen Sie zu Ihrer Profilseite :
 
@@ -20,7 +20,7 @@ Geben Sie Ihre Service Pack-Nummer ein und bestätigen sie :
 
 image::../images/premier-servicepack3.png[]
 
-Voilà votre service pack est enregistré. Pour plus de details sur le Market cliquez link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html[ici]
+Voilà votre service pack est enregistré. Pour plus de détails sur le Market cliquez link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html[ici]
 
 [icon="../images/plugin/tip.png"]
 [TIP]

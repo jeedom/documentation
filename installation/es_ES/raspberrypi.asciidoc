@@ -77,7 +77,7 @@ wget -O- https://raw.githubusercontent.com/jeedom/core/stable/install/install.sh
 
 [NOTE]
 ====
-En fonction de votre débit internet, l'installation peut prendre de 45 à 90 minutes. Vous ne devez surtout pas interrompre le processus avant la fin. A défaut, il faudra reprendre la totalité de la procédure.
+En fonction de votre débit Internet, l'installation peut prendre de 45 à 90 minutes. Vous ne devez surtout pas interrompre le processus avant la fin. A défaut, il faudra reprendre la totalité de la procédure.
 ====
 
 Il vous suffit ensuite d'aller sur IP_MACHINE_JEEDOM

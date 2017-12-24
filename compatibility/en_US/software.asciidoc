@@ -1,5 +1,5 @@
 [IMPORTANT]
-Jeedom ne supporte que Debian Jessie (stable) et Stretch (stable). Toute autre version (Wheezy...) ou distribution (Ubuntu...) n'est pas supportée par Jeedom. 
+Jeedom ne supporte que Debian Jessie (old) et Stretch (stable). Toute autre version (Wheezy...) ou distribution (Ubuntu...) n'est pas supportée par Jeedom. 
 
 [cols="3*", options="header"] 
 |===

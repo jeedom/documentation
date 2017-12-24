@@ -1,9 +1,9 @@
 Vous pouvez retrouver toutes les images Jeedom link:https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog[ici], puis dans le dossier Images
 
 [NOTE]
-Une image netinstall va lors du premier démarrage installer la dernière version stable de Jeedom, ce démarrage est donc un peu plus long et nécessite d'avoir accès à internet. Vous pouvez suivre l'avancement de celui-ci en allant sur l'IP de votre Jeedom avec votre navigateur
+Une image netinstall va lors du premier démarrage installer la dernière version stable de Jeedom, ce démarrage est donc un peu plus long et nécessite d'avoir accès à Internet. Vous pouvez suivre l'avancement de celui-ci en allant sur l'IP de votre Jeedom avec votre navigateur
 
-[cols="5*", options="header"] 
+[cols="5*", options="header"]
 |===
 |Images|Hardware|Etat|Accès SSH|Remarques
 |Jeedomboard netinstall|jeedomboard et hummingboard|Beta|root/Mjeedom96|
@@ -11,4 +11,4 @@ Une image netinstall va lors du premier démarrage installer la dernière versio
 |Docker||Beta|root/Mjeedom96|
 |===
 
-Toutes les autres images téléchargeables précédemment ne sont plus maintenues, il vaut mieux passer par l'installation manuelle de Jeedom link:https://jeedom.github.io/documentation/installation/fr_FR/#_autre_diy[Doc] après avoir installé une distribution linux correspondant à votre matériel : Debian (vm, pc,...), Raspbian Lite (Raspberry pi), Armbian (Ordoid,...), ...
+Toutes les autres images téléchargeables précédemment ne sont plus maintenues, il vaut mieux passer par l'installation manuelle de Jeedom link:https://jeedom.github.io/documentation/installation/fr_FR/#_autre_diy[Doc] après avoir installé une distribution Linux correspondant à votre matériel : Debian (vm, pc,...), Raspbian Lite (Raspberry pi), Armbian (Ordoid,...), ...

@@ -10,7 +10,7 @@
 == Prérequis
 
 - Savoir se connecter en SSH sur la box (vous trouverez les identifiants sur la documentation d'installation)
-- Etre connecté à internet.
+- Etre connecté à Internet.
 
 [IMPORTANT]
 En cas de soucis l'équipe Jeedom ne pourra être tenue responsable et pourra refuser toute demande de support. La manipulation est à vos risques et périls.

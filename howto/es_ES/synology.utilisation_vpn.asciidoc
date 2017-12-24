@@ -32,7 +32,7 @@ Puis faire apply
 
 image::../images/synology.utilisation_vpn3.png[]
 
-Un message indique alors les ports qui doivent être redirigés sur votre Box internet vers votre NAS.
+Un message indique alors les ports qui doivent être redirigés sur votre Box Internet vers votre NAS.
 
 image::../images/synology.utilisation_vpn4.png[]
 
@@ -104,7 +104,7 @@ Cliquer sur le + en haut à droite
 
 image::../images/synology.utilisation_vpn15.png[]
 
-Donner un nom à l’accès VPN, mettre comme type L2TP/IPSec PSK, entrer l’adresse publique de votre box internet (ou un nom DNS si vous en avvez un) et entrer la clef partagée renseignée dans la partie Configurer un serveur VPN : 
+Donner un nom à l’accès VPN, mettre comme type L2TP/IPSec PSK, entrer l’adresse publique de votre box Internet (ou un nom DNS si vous en avvez un) et entrer la clef partagée renseignée dans la partie Configurer un serveur VPN : 
 
 image::../images/synology.utilisation_vpn16.png[]
 

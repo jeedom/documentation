@@ -1,3 +1,3 @@
-Jeedom a la particularité d'être sans abonnement et sans cloud, ce qui permet de garantir le fonctionnement de votre domotique même si vous n'avez plus internet. Ceci garantit aussi la sécurité de vos données (évite les risques de piratage en masse des comptes).
+Jeedom a la particularité d'être sans abonnement et sans cloud, ce qui permet de garantir le fonctionnement de votre domotique même si vous n'avez plus Internet. Ceci garantit aussi la sécurité de vos données (évite les risques de piratage en masse des comptes).
 
 Le projet étant ouvert et open source cela lui garantit aussi un fort taux d'évolution grâce aux nombreux développeurs qui participent.

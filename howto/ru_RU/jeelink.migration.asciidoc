@@ -17,7 +17,7 @@ NOTE: Pour une meilleure lecture et compréhension de ce tutoriel, voici les ter
    +
 - *Jeedom Source* : Serveur (votre/vos ancien(s) Jeedom Esclave(s)) qui remonte vos équipements sur le *Jeedom Cible*. +
    +
-- Les notions de *Jeedom Maître* et *Jeedom Esclave* ne sont plus d'actualité. Le nouveau mode de fonctionnement de synchronisation d'équipements entre plusieurs Jeedoms peut être bidirectionnel. Un serveur Jeedom peut être désormais *Source* et *Cible* alors que l'ancien mode ne permettait que la remontée des équipements de *l'Esclave* vers *le Maître*. Avec le nouveau mode il est aussi possible d'avoir plusieurs *Jeedom Cibles* pour un même *Jeedom Source*. La communication entre les Jeedoms peut désormais aussi s'effectuer à distance via internet (DNS Jeedom ou autre). +
+- Les notions de *Jeedom Maître* et *Jeedom Esclave* ne sont plus d'actualité. Le nouveau mode de fonctionnement de synchronisation d'équipements entre plusieurs Jeedoms peut être bidirectionnel. Un serveur Jeedom peut être désormais *Source* et *Cible* alors que l'ancien mode ne permettait que la remontée des équipements de *l'Esclave* vers *le Maître*. Avec le nouveau mode il est aussi possible d'avoir plusieurs *Jeedom Cibles* pour un même *Jeedom Source*. La communication entre les Jeedoms peut désormais aussi s'effectuer à distance via Internet (DNS Jeedom ou autre). +
   +
 
 image::../images/jeelink.migration9.png[]

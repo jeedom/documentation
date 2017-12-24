@@ -427,7 +427,7 @@ Et ajouter la ligne suivante :
 192.168.0.162 ojn.raspberry.pi
 ----
 
-Ensuite tous se passe dans Jeedom, après avoir créer votre lapin voilà la configuration à mettre: 
+Ensuite tous se passe dans Jeedom, après avoir créer votre lapin voilà, la configuration à mettre: 
 
 image::../images/installation.openjabnab10.PNG[]
 

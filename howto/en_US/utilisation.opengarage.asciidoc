@@ -14,7 +14,7 @@ Afin de récupérer l'état du relais et du capteur de distance, l'url à utilis
 http://addropengarage/jc
 ---
 
-Le résultat est un json. Il faut donc utiliser un equipement de type Script et une commande info de type json
+Le résultat est un json. Il faut donc utiliser un équipement de type Script et une commande info de type json
 
 Pour l'état du relais le nom de la propriété du json : door
 

@@ -1,3 +1,3 @@
-Jeedom is subscription free and with no dependence to the cloud, which ensures the operation and configuration of your home automation even without internet access. This also guarantees the safety of your data (avoiding the risk of mass account thief).
+Jeedom is subscription free and with no dependence to the cloud, which ensures the operation and configuration of your home automation even without Internet access. This also guarantees the safety of your data (avoiding the risk of mass account thief).
 
 Le projet étant ouvert et open source cela lui garantit aussi un fort taux d'évolution grâce aux nombreux développeurs qui participent.

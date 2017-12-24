@@ -13,7 +13,7 @@ Jeedom wird Sie nach den Namen für das Objekt fragen :
 
 image::../images/premier-objet3.png[]
 
-Validez, voila votre premier objet est créé (facile non ?) :
+Validez, voilà votre premier objet est créé (facile non ?) :
 
 image::../images/premier-objet4.png[]
 

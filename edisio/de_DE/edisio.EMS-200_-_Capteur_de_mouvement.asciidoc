@@ -100,7 +100,7 @@ image::../images/ems200/ems200.informations.jpg[Commandes,align="center"]
 * Création : Indique la date à laquelle l'équipement à était créé
 * Communication : Indique la dernière communication enregistrée entre Jeedom et le module
 * Batterie : Indique l'état de la batterie des modules à piles
-* Status : Retourne le status du module
+* Status : Retourne le statut du module
 
 == visuelle Alternative
 
@@ -108,7 +108,7 @@ image::../images/ems200/ems200.vue-alternative.jpg[align="center"]
 
 == F.A.Q.
 
-Comment piloter un récepteur Z-Wave?::
+Comment piloter un récepteur Z-Wave ?::
 Avec le plugin Scénario de Jeedom.
 
 Wie kann ich die selben Ansicht haben ?::

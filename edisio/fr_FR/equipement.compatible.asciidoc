@@ -1,6 +1,6 @@
 = Liste des équipements compatible Edisio
 
-[cols="3*", options="header"] 
+[cols="3*", options="header"]
 |===
 |Nom|Remarque|Lien
 
@@ -26,7 +26,7 @@
 
 |Edisio - EMS-200 - Capteur de mouvement||link:++https://www.jeedom.fr/doc/documentation/edisio-modules/fr_FR/doc-edisio-modules-edisio.EMS-200_-_Capteur_de_mouvement.html++[Documentation] link:++http://www.domadoo.fr/fr/peripheriques/2789-edisio-capteur-de-mouvement-8683mhz-5420074900832.html++[Acheter]
 
-|Edisio - Interrupteur|Tous les interrupteurs sont compatible|link:++http://www.domadoo.fr/fr/recherche?controller=search&orderby=position&orderway=desc&search_query=EDISIO+Interrupteur&submit_search=++[Acheter]
+|Edisio - Interrupteur|Tous les interrupteurs sont compatibles|link:++http://www.domadoo.fr/fr/recherche?controller=search&orderby=position&orderway=desc&search_query=EDISIO+Interrupteur&submit_search=++[Acheter]
 
 |Edisio - EDR-B4 - Récepteur DIN RAIL - Marche/Arrêt/Impulsionnel - 4 x 10A||link:++http://www.domadoo.fr/fr/peripheriques/2773-edisio-recepteur-din-rail-8683-mhz-marchearretimpulsionnel-4-x-10a-5420074900030.html++[Acheter]
 

@@ -9,4 +9,4 @@ image::../images/premier-dns2.png[]
 Une fois ici, il vous suffit d'activer "Utiliser les DNS Jeedom" puis sur la ligne "Gestion" de faire "Rédemarrer" et votre URL apparaitra au niveau de statut HTTP, vous pouvez bien sûr la personnaliser à partir de la page profil du Market
 
 [IMPORTANT]
-Si vous venez de lier votre Jeedom à votre compte Market il faut attendre 24 à 48h avant de pouvoir utiliser le service DNS
+Si vous venez de lier votre Jeedom à votre compte Market, il faut attendre 24 à 48h avant de pouvoir utiliser le service DNS

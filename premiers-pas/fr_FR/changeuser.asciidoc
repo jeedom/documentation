@@ -8,4 +8,4 @@ Une fenêtre va vous demander le mot de passe, attention à bien le retenir sino
 
 image::../images/premier-changeuser3.png[]
 
-Voila vous avez changé le mot de passe du compte admin, pour plus d'information sur cette page cliquez link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-user.html[ici]
+Voilà, vous avez changé le mot de passe du compte admin, pour plus d'information sur cette page cliquez link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-user.html[ici]

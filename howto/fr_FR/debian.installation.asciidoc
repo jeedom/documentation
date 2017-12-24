@@ -4,7 +4,7 @@ Nous allons voir ici comment installer une Debian, aussi bien en tant que VM ou 
 
 == Récupération des sources
 
-Vous pouvez trouver la dernière version Debian en netinstall (taille minimale mais besoin d'internet pour l'installation) https://www.debian.org/CD/netinst[ici] (il faut prendre l'image en amd64) ou cliquer directement http://cdimage.debian.org/debian-cd/9.1.0/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso[ici] pour télécharger l'iso.
+Vous pouvez trouver la dernière version Debian en netinstall (taille minimale mais besoin d'Internet pour l'installation) https://www.debian.org/CD/netinst[ici] (il faut prendre l'image en amd64) ou cliquer directement http://cdimage.debian.org/debian-cd/9.1.0/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso[ici] pour télécharger l'iso.
 
 
 == Lancement de l'installation

@@ -6,7 +6,7 @@ Il est important de le renseigner car ce code vous donne accès à certains plug
 [IMPORTANTE]
 Si vous achetez un service pack depuis le Market Jeedom vous n'avez rien à faire, celui-ci vous est automatiquement affecté.
 
-Une fois le code recupéré dans le mail il vous suffit d'aller sur le link:https://market.jeedom.fr[market Jeedom] et de vous identifier.
+Une fois le code récupéré dans le mail il vous suffit d'aller sur le link:https://market.jeedom.fr[market Jeedom] et de vous identifier.
 
 Puis allez sur votre page de profil :
 
@@ -20,7 +20,7 @@ Renseignez votre numéro de service pack et validez :
 
 image::../images/premier-servicepack3.png[]
 
-Voilà votre service pack est enregistré. Pour plus de details sur le Market cliquez link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html[ici]
+Voilà votre service pack est enregistré. Pour plus de détails sur le Market cliquez link:https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html[ici]
 
 [icon="../images/plugin/tip.png"]
 [TIP]

@@ -14,7 +14,7 @@ Le carton de la Jeedom Mini+ que vous avez reçu doit contenir :
 
 image::../images/mini.demarrage01.png[]
 
-Avant de pouvoir l'utiliser, vous devez brancher votre box Jeedom Mini+ sur votre réseau local (sur routeur, switch ou votre box internet...), et sur le secteur.
+Avant de pouvoir l'utiliser, vous devez brancher votre box Jeedom Mini+ sur votre réseau local (sur routeur, switch ou votre box Internet...), et sur le secteur.
 
 image::../images/mini.demarrage02.png[]
 

@@ -10,10 +10,10 @@ image::../images/etc4/vue_default.jpg[align="center"]
 
 == Résumé
 
-La mini télécommande e-Trendy de 4 canaux est simple, robuste et design, elle a été crée pour plaire. Elle se relie facilement aux récepteurs et peut contrôler vos éclairages Marche/Arrêt et dimmables, motorisations, stores, volets, portails, portes de garage. Elle comporte deux modes de programmation.
+La mini télécommande e-Trendy de 4 canaux est simple, robuste et design, elle a été créée pour plaire. Elle se relie facilement aux récepteurs et peut contrôler vos éclairages Marche/Arrêt et dimmables, motorisations, stores, volets, portails, portes de garage. Elle comporte deux modes de programmation.
 
 De plus, l'interaction avec d'autres protocoles est possible, elle peut interagir avec les récepteurs de la marque Edisio, avec Jeedom, mais aussi par n'importe quel récepteur Z-Wave de votre réseau.
- 
+
 == Fonctions
 
 * Mode d'usage :  Marche/Arrêt, Ouvrir/Stop/Fermer, Variateur, Motorisation, Stores, Volets, Portails, Portes de garage
@@ -46,7 +46,7 @@ Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez pas d'ac
 === Les modes
 
 Contrôler et centraliser vos éclairages Marche/Arrêt et variateurs, ouvrants, moteurs, sur la même touche ou sur 2 boutons séparés.
-Les télécommandes e-Trendy ont 2 modes de fonctionnements, MODE 1 et MODE 2 :
+Les télécommandes e-Trendy ont 2 modes de fonctionnement, MODE 1 et MODE 2 :
 
 * MODE 1 : Contrôle sur 1 touche : Marche/Arrêt, Ouvrir/Fermer, Variation+/Variation-, Impulsionnel
 
@@ -105,14 +105,14 @@ image::../images/etc4/infos.jpg[Commandes,align="center"]
 * Création : Indique la date à laquelle l'équipement à été créé
 * Communication : Indique la dernière communication enregistrée entre Jeedom et le micro-module
 * Batterie : Indique l'état de la batterie pour les modules à piles
-* Status : Retourne le status du module
+* Status : Retourne le statut du module
 
 === Utilisation
 
 Une fois que votre télécommande est configurée, vous pouvez avec le plugin Scénario de Jeedom interagir avec votre télécommande sur Jeedom.
 
 [NOTE]
-Chaque touche à un retour d'état binaire. 
+Chaque touche à un retour d'état binaire.
 
 == F.A.Q.
 

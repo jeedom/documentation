@@ -6,7 +6,7 @@ Nous allons voir ici comment faire une mise à jour manuellement sur Jeedom.
 
 - savoir se connecter en SSH à Jeedom
 - connaître les identifiants SSH (voir documentation d'installation)
-- avoir internet sur la box Jeedom
+- avoir Internet sur la box Jeedom
 
 [IMPORTANT]
 Pensez bien à faire et récupérer un backup avant toute mise à jour manuelle.

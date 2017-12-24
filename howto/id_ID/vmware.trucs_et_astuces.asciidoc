@@ -111,7 +111,7 @@ esxcli software vib update -v http://download3.vmware.com/software/vmw-tools/esx
 
 Cette partie est facultative si vous n'avez pas besoin de gérer l'USB.
 
-Il vous faut aller, avec votre navigateur internet, sur l'IP de l'ESXi puis cliquer sur le lien "Download vSphere Client for Windows" : 
+Il vous faut aller, avec votre navigateur Internet, sur l'IP de l'ESXi puis cliquer sur le lien "Download vSphere Client for Windows" : 
 
 image::../images/vmware.createvm.PNG[]
 

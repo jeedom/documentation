@@ -56,4 +56,4 @@ L'équipe jeedom vous recommande (en fonction de votre budget) :
 
 - Jeedom Smart (tout est préinstallé, vous n'avez rien à faire)
 - Odroid C2 (meilleur rapport performance/prix)
-- Intel Nuc gen6 (des performances extrêmes, voir la catégorie tuto pour le choix dans les differents modèles et l'installation)
+- Intel Nuc gen6 (des performances extrêmes, voir la catégorie tuto pour le choix dans les différents modèles et l'installation)

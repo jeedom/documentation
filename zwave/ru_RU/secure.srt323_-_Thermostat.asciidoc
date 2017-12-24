@@ -31,7 +31,7 @@ Le thermostat peut recevoir la température de consigne depuis un autre contrôl
 
 Il peut être utilisé comme un remplaçant direct pour les thermostats existants, sans devoir effectuer de changements de câblage. L'algorythme TPI va permettre d'optimiser l'allumage et l'extinction de la chaudière afin de maintenir au mieux la température de consigne, sans "dépassement" de celle-ci. Il à été démontré que les contrôleurs TPI peuvent fournir des économies d'énergie considérables par rapport aux régulateurs de chauffage traditionnels.
 
-Le SRT323 est un partenaire idéal pour une utilisation avec passerelle domotique, vous permettant de contrôler à distance votre système de chauffage. Vous n'aurez plus à vous soucier de rentrer chez vous dans une maison froide, tant que vous avez un smartphone, une tablette ou un PC à portée de main et connecté à internet.
+Le SRT323 est un partenaire idéal pour une utilisation avec passerelle domotique, vous permettant de contrôler à distance votre système de chauffage. Vous n'aurez plus à vous soucier de rentrer chez vous dans une maison froide, tant que vous avez un smartphone, une tablette ou un PC à portée de main et connecté à Internet.
 
 {nbsp} +
 

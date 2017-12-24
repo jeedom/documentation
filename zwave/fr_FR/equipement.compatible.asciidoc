@@ -1,4 +1,4 @@
-= Liste des equipements Z-Wave compatibles 
+= Liste des équipements Z-Wave compatibles 
 :linkattrs:
 
 [green]*Actuellement Jeedom est compatible avec* [red]*54* [green]*marques de modules différentes, soit un total de* [red]*349* [green]*modules.*
@@ -1576,4 +1576,4 @@ D'autres modules non présents sur cette liste peuvent être compatibles. Pour u
 
 
 [NOTE]
-Cette liste est basee sur des retours utilisateurs, l'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
+Cette liste est basée sur des retours utilisateurs, l'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels

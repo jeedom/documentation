@@ -30,7 +30,7 @@ Grâce à son angle de vision étendu et sa portée, il permet de sécuriser un 
 * Alimentation : 3VDC (Pile Lithium ER14250)
 * Fréquence : 868,3 MHz
 * Température de fonctionnement : 0°C +45°C
-* Portée en champs libre : 100M
+* Portée en champs libre : 100m
 * Portée de détection : 6M
 * Dimensions : 25x79x19mm
 * Degré de protection : IP20
@@ -100,7 +100,7 @@ image::../images/ems200/ems200.informations.jpg[Commandes,align="center"]
 * Création : Indique la date à laquelle l'équipement à était créé
 * Communication : Indique la dernière communication enregistrée entre Jeedom et le module
 * Batterie : Indique l'état de la batterie des modules à piles
-* Status : Retourne le status du module
+* Status : Retourne le statut du module
 
 == Visuel alternatif
 
@@ -108,7 +108,7 @@ image::../images/ems200/ems200.vue-alternative.jpg[align="center"]
 
 == F.A.Q.
 
-Comment piloter un récepteur Z-Wave?::
+Comment piloter un récepteur Z-Wave ?::
 Avec le plugin Scénario de Jeedom.
 
 Comment puis-je avoir le même visuel ?::

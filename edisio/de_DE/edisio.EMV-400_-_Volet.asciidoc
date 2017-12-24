@@ -14,7 +14,7 @@ Le micromodule EMV-400 va vous permettre de gérer un moteur bidirectionnel ou d
 
 De plus, l'interaction avec d'autres protocoles est possible, il est contrôlable par des interrupteurs et/ou télécommandes de la marque Edisio, directement depuis Jeedom, mais aussi par n'importe quel émetteur Z-Wave de votre réseau.
  
-Chaque module Edisio sur réseau électrique, à la possibilité de fonctionner comme un répéteur sans fil avec les autres modules, afin d'assurer une couverture totale de votre habitation.
+Chaque module Edisio sur réseau électrique, a la possibilité de fonctionner comme un répéteur sans fil avec les autres modules, afin d'assurer une couverture totale de votre habitation.
 
 Pour finir, chaque module peut être utilisé en mode déporté, c'est très pratique car cela permet d'associer un émetteur sans devoir accéder au récepteur.
 
@@ -157,7 +157,7 @@ image::../images/emv.400/infos_moteur.jpg[Commandes,align="center"]
 * Création : Indique la date à laquelle l'équipement à était créé
 * Communication : Indique la dernière communication enregistrée entre Jeedom et le micro-module
 * Batterie : Indique l'état de la batterie pour les modules à piles
-* Status : Retourne le status du module
+* Status : Retourne le statut du module
 
 == Association du micromodule à Jeedom
 
@@ -217,7 +217,7 @@ image::../images/emv.400/vue_alt_moteur.jpg[align="center"]
 Comment effacer la mémoire du récepteur ?::
 Appuyez et maintenez 10 sec sur le "R", jusqu'au bip sonore continu.
 
-Comment piloter le récepteur via un émetteur Z-Wave?::
+Comment piloter le récepteur via un émetteur Z-Wave ?::
 Avec le plugin Scénario de Jeedom.
 
 Wie kann ich die selben Ansicht haben ?::
