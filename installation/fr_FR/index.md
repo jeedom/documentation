@@ -349,6 +349,24 @@ Il vous suffit ensuite d’aller sur IP\_MACHINE\_JEEDOM
 
     ./install.sh -w /var/www/html -z -m Jeedom
 
+**8/ Optimisation système
+
+Si vous utiliser votre Raspberry pour Jeedom sans écran connecté, il est recommandé d'effectuer le minimum de RAM à la partie vidéo.
+
+Il suffit de se connecter en **SSH** et de modifier le fichier config : `sudo nano /boot/config.txt`
+
+Ajoutez **et/ou** De-commentez (en supprimant le #) **et/ou** Modifiez les lignes : 
+
+`gpu_mem=16`
+
+`disable_l2cache=0`
+
+`gpu_freq=250`
+
+Quitter en sauvegardant : `CTRL+X` puis `O `puis `ENTREE`
+
+Rebooter votre RPI
+
 Ensuite vous pouvez suivre la documentation [Premier pas avec
 Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
 
