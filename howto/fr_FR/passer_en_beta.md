@@ -22,9 +22,8 @@
 Passer le core en bêta 
 ======================
 
-Il faut d’abord passer Jeedom en version bêta. Pour cela, vérifiez que
-vous êtes bien en mode expert, puis Adminitration→Configuration→Mises à
-jour. Dans l’onglet **URL**, cliquez sur **Activer URL** :
+Il faut d’abord passer Jeedom en version bêta. Aller dans le menu Adminitration→Configuration→Mises
+à jour. Dans l’onglet **URL**, cliquez sur **Activer URL** :
 
 -   URL core Jeedom : <https://github.com/jeedom/core/archive/beta.zip>
 
