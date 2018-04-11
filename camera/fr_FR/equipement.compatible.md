@@ -3,8 +3,8 @@
 | Android IP webcam       |                         |                          |
 | Alcatel portier vidéo   |                         |                          |
 | Axis 207W               |                         |                          |
-| Bluestork               | Tous les modèles (validé sur BS-IPCAM/TP,BS-IPCAM-W, BS-CAM-IND) |                          |
-| D-link DCS              |                         |                          |
+| Bluestork               | Tous les modèles (validé sur BS-IPCAM/TP, BS-IPCAM-W, BS-CAM-IND) |                          |
+| D-Link DCS              |                         |                          |
 | D-Link DCS-5020L        |                         |                          |
 | D-Link EyeOn baby       |                         |                          |
 | Monitor                 |                         |                          |
@@ -14,7 +14,7 @@
 | Foscam C1               |                         |                          |
 | Foscam HD motorisée     |                         |                          |
 | Foscam motorisée        |                         |                          |
-| Foscam FI9803EP/FI9803P | Attention il faut mettre [ce patch](:https://drive.google.com/file/d/0B9gdDNCtvjAITEs0UjduRV9zSG8/view?usp=sharing) pour que la caméra fonctionne
+| Foscam FI9803EP/FI9803P | Attention, il faut mettre [ce patch](:https://drive.google.com/file/d/0B9gdDNCtvjAITEs0UjduRV9zSG8/view?usp=sharing) pour que la caméra fonctionne.
 | Heden CAMHED05IPWN      |                         |                          |
 | (V5.5)                  |                         |                          |
 | Heden Visioncam 22      |                         |                          |
@@ -25,10 +25,8 @@
 | Hikvision DS-2CD2232-I5 |                         |                          |
 | Hikvision               |                         |                          |
 | DS-2CD2732F-IS          |                         |                          |
-| Hikvision.DS-7216HWI-SH |                         |                          |
-| -A                      |                         |                          |
-| IP\_Linkcom portier     |                         |                          |
-| vidéo                   |                         |                          |
+| Hikvision.DS-7216HWI-SH/A |                         |                          |
+| IP\_Linkcom portier vidéo |                         |                          |
 | Konx portier vidéo      |                         |                          |
 | Mustcam HD motorisée    |                         |                          |
 | Panasonic BL-C121       |                         |                          |
