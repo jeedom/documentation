@@ -61,11 +61,15 @@ maîtrise complète de son installation.
 > [ici](https://blog.jeedom.fr/?p=1215) les avantages des service packs.
 
 
-Jeedomboard
+Jeedom Smart
 ===========
 
-Vous trouverez ici la documentation pas à pas pour installer Jeedom sur
-les Jeedomboard (ou Hummingboard).
+Vous trouverez ici la documentation pas à pas pour installer ou restaurer Jeedom 
+
+https://jeedom.github.io/documentation/howto/fr_FR/recovery_mode_jeedom_smart
+
+Jeedom mini+
+===========
 
 > **Tip**
 >
@@ -119,128 +123,6 @@ démarrer (5 min) et vous devriez le voir sur le réseau.
 Pour la suite, vous pouvez suivre la documentation [Premier pas avec
 Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index.html)
 
-Miniplus/Hummingboard
-=====================
-
-Vous trouverez ici la documentation pas à pas pour installer Jeedom sur
-la mini plus (carte Hummingboard Solid-Run).
-
-![jeedom](../images/jeedom.jpg)
-
-Etape 1 : Installation de Etcher 
----
-
-Vous devez télécharger le logicel Etcher [ici](https://etcher.io/) puis
-l’installer sur votre pc
-
-Etape 2 : 
----
-
-Récupération de l’image Jessie. Attention la humingboard n’est pas
-un raspberry. **Vous devez impérativement récupérer cet iso spécifique
-qui est une jessie pour IMX6.**
-
-Vous devez aller
-[ici](https://images.solid-build.xyz/IMX6/Debian/sr-imx6-debian-jessie-cli-20171108.img.xz),
-et sauvegarder cette image sur votre PC.
-
-Etape 3 : Décompression de l’image 
----
-
-Décompresser l’image de Jeedom (si vous n’avez rien pour la décompresser,
-vous pouvez installer
-[winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)).
-
-Etape 4 : Gravure de l’image sur la carte SD 
----
-
-Insérer votre carte SD dans votre ordinateur puis lancer le logiciel
-Etcher, donnez-lui le chemin de l’image, le chemin de la carte SD et
-cliquez sur "Flash!". Le logiciel va graver la carte SD et vérifier la
-gravure.
-
-Vous n’avez plus qu’à mettre la carte SD dans la Mini + à brancher le
-réseau et l’alimentation, votre Jeedom va démarrer.
-
-Etape 5 : installation de jeedom - Lancement du script 
----
-
-Ouvrez une console SSH avec putty par exemmple.
-
-> **Tip**
->
-> login debian / mot de passe debian
-
-> **Tip**
->
-> le mot de passe root est debian
-
-1/ Configuration du swap sur la Mini+ car inactif par défaut avec cette
-distribution.
-
-Connectez-vous en SSH à votre système et faites :
-
-    sudo imx6-config
-
-Entrez le mot de passe root ("debian")
-
-Cliquez sur OK (votre IP local apparaît - notez-là pour vous connecter à
-la fin)
-
-Appuyer sur Enter
-
-Choisissez la rubrique 4 swap avec les flèches du clavier, puis intall
-Swap (un Swap de 512 est préconisé, vous pouvez le modifier à la fin de
-la création du swap par défaut). Suivez la procédure.
-
-**Rebooter** et vérifier l’activation du Swap avec la commande
-
-    sudo reboot
-
-    free -  m
-
-2/ Enfin lancez le script officiel avec ces 3 commandes :
-
-    wget https://raw.githubusercontent.com/jeedom/core/stable/install/install.sh
-
-    chmod +x install.sh
-
-    sudo ./install.sh
-
-**La durée d’installation varie de 60 à 120 minutes**. Vous ne devez pas
-interrompre cette procédure. A défaut il faut tout reprendre. Il est
-vivement conseillé de rebooter à la fin de l’installation.
-
-Les arguments suivants sont utilisables :
-
--w = dossier webserver
-
--z = installation dependances z-wave
-
--m = mot de passe root mysql désiré
-
-    ./install.sh -w /var/www/html -z -m Jeedom
-
-Il est conseillé de faire un reboot de la mini+
-
-    sudo reboot
-
-Il vous suffit ensuite d’aller sur IP\_MACHINE\_JEEDOM dans votre
-navigateur.
-
-> **Note**
->
-> Les identifiants par défaut sont admin/admin
-
-> **Important**
->
-> Si vous devez réinjecter un backup, vous devez patienter entre 5 et 10
-> minutes pour que tout rentre dans l’ordre (votre utilisateur admin /
-> admin n’existe plus…​). Vous ne devez surtout pas éteindre
-> électriquement votre mini-plus.
-
-Pour la suite vous pouvez suivre la documentation [Premier pas avec
-Jeedom](https://www.jeedom.fr/doc/documentation/premiers-pas/fr_FR/doc-premiers-pas.html)
 
 Raspberrypi
 ===========
