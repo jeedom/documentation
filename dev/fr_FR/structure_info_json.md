@@ -33,7 +33,7 @@ maxDependancyInstallTime | Temps maximum imparti pour l’installation des dépe
 **Exemple** :
 
 Fichier plugin-template/plugin_info/info.json
-https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json
+(https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 
 
 
