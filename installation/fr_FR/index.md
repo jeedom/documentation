@@ -138,7 +138,7 @@ raspberry PI **avec une carte SD.**
 
 **1/ Télécharger le dernière image "lite", c’est à dire sans interface
 graphique**
-[ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2017-12-01/2017-11-29-raspbian-stretch-lite.zip)
+[ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
 
 **2/ Décompresser l’image avec winrar** [Ici](http://www.win-rar.com)
 
