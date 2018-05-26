@@ -66,7 +66,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Récepteur Z-Wave
+-   Modultyp : Z-Wave-Empfänger
 
 -   Alimentation : 230 V, 50 Hz
 
@@ -90,13 +90,13 @@ Données du module
 
  \
 
--   Marque : Everspring
+-   Marke : Everspring
 
--   Nom : Miniplug Dimmer
+-   Name : Miniplug Dimmer
 
 -   Hersteller-ID : 96
 
--   Type Produit : 3
+-   Produkttyp : 3
 
 -   Produit ID : 3
 

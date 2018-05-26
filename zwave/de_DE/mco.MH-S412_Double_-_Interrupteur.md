@@ -64,7 +64,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Récepteur Z-Wave
+-   Modultyp : Z-Wave-Empfänger
 
 -   Couleur : Blanc
 
@@ -89,13 +89,13 @@ Données du module
 
  \
 
--   Marque : MC HOME
+-   Marke : MC HOME
 
--   Nom : MH-S412 Double
+-   Name : MH-S412 Double
 
 -   Hersteller-ID : 351
 
--   Type Produit : 16642
+-   Produkttyp : 16642
 
 -   Produit ID : 514
 

@@ -58,7 +58,7 @@ Caractéristiques techniques
 
  \
 
--   Alimentation : Pile CR2032 – Autonomie 1,5 - 2ans
+-   Batterie : CR2032 - Batterie 1,5-2 Jahre
 
 -   4 boutons
 
@@ -94,13 +94,13 @@ Données du module
 
  \
 
--   Marque : Nodon
+-   Marke : Nodon
 
--   Nom : CWS-3-1-01 Wall Switch
+-   Name : CWS-3-1-01 Wandschalter
 
 -   Hersteller-ID : 357
 
--   Type Produit : 2
+-   Produkttyp : 2
 
 -   Produit ID : 3
 

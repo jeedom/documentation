@@ -82,7 +82,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Récepteur Z-Wave
+-   Modultyp : Z-Wave-Empfänger
 
 -   Alimentation : 230V, 50 Hz
 
@@ -116,13 +116,13 @@ Données du module
 
  \
 
--   Marque : Fibar Group
+-   Marke : Fibar Group
 
--   Nom : Fibaro FGMS-001 \[Motion Sensor\]
+-   Name : Fibaro FGMS-001 [Bewegungsmelder]
 
 -   Hersteller-ID : 271
 
--   Type Produit : 256
+-   Produkttyp : 256
 
 -   Produit ID : 4106
 

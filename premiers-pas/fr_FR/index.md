@@ -253,18 +253,19 @@ En cliquant sur un plugin vous obtenez sa fiche :
 
 ![premier plugin4](../images/premier-plugin4.png)
 
-Vous retrouvez alors : \* des boutons pour installer le plugin : la
-version stable est fortement recommandée, \* un bouton pour supprimer le
-plugin, \* une brève description, \* un lien vers la documentation du
-plugin, \* un lien vers le changelog (les dernières modifications
-apportées), \* la compatibilité avec les différentes plateformes, \* les
-avis des utilisateurs, \* la façon d’utiliser le plugin, \* des
-informations complémentaires comme l’auteur, le lien vers la discussion
-du forum concernant ce plugin, la date de dernière mise à jour, etc.
+Vous retrouvez alors : 
 
-Pour plus d’informations sur les plugins cliquez
-[ici](https://github.com/jeedom/core/blob/master/doc/fr_FR/plugin.asciidoc)
-.
+- des boutons pour installer le plugin : la version stable est fortement recommandée, 
+- un bouton pour supprimer le plugin, 
+- une brève description, 
+- un lien vers la documentation du plugin, 
+- un lien vers le changelog (les dernières modifications apportées), 
+- la compatibilité avec les différentes plateformes, 
+- les avis des utilisateurs, 
+- la façon d’utiliser le plugin, 
+- des informations complémentaires comme l’auteur, le lien vers la discussion du forum concernant ce plugin, la date de dernière mise à jour, etc.
+
+Pour plus d’informations sur les plugins cliquez [ici](https://jeedom.github.io/core/fr_FR/plugin).
 
 Support 
 =======

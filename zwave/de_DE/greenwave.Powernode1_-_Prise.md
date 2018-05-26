@@ -103,7 +103,7 @@ Caractéristiques techniques
 
 -   Protection contre les surintensités : 10A fusible interne
 
--   Type de prise : DIN49440 / CEE 7/7 (Schuko)
+-   Steckertyp : DIN49440 / CEE 7/7 (Schuko)
 
 -   Radio Fréquence Z-Wave : 868.42MHz
 
@@ -124,13 +124,13 @@ Données du module
 
  \
 
--   Marque : GreenWave
+-   Marke : GreenWave
 
--   Nom : GreenWave\[1 x prise\]
+-   Name : GreenWave [1 x Steckdose]
 
 -   Hersteller-ID : 153
 
--   Type Produit : 2
+-   Produkttyp : 2
 
 -   Produit ID : 2
 

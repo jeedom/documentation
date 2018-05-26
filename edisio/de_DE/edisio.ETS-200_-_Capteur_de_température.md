@@ -60,9 +60,9 @@ Technische Daten
 Données du module 
 =================
 
--   Marque : Edisio Smart Home
+-   Marke : Edisio Smart Home
 
--   Nom : ETS-200
+-   Name : EMS-200
 
 Configuration générale 
 ======================

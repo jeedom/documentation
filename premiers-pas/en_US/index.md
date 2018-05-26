@@ -253,109 +253,110 @@ By clicking on a plugin you get the form:
 
 ![premier plugin4](../images/premier-plugin4.png)
 
-Vous retrouvez alors : \* des boutons pour installer le plugin : la
-version stable est fortement recommandée, \* un bouton pour supprimer le
-plugin, \* une brève description, \* un lien vers la documentation du
-plugin, \* un lien vers le changelog (les dernières modifications
-apportées), \* la compatibilité avec les différentes plateformes, \* les
-avis des utilisateurs, \* la façon d’utiliser le plugin, \* des
-informations complémentaires comme l’auteur, le lien vers la discussion
-du forum concernant ce plugin, la date de dernière mise à jour, etc.
+Vous retrouvez alors : 
 
-For more information on plugins click
-[Here] (https://github.com/jeedom/core/blob/master/doc/fr_FR/plugin.asciidoc)
-.
+- des boutons pour installer le plugin : la version stable est fortement recommandée, 
+- un bouton pour supprimer le plugin, 
+- une brève description, 
+- un lien vers la documentation du plugin, 
+- un lien vers le changelog (les dernières modifications apportées), 
+- la compatibilité avec les différentes plateformes, 
+- les avis des utilisateurs, 
+- la façon d’utiliser le plugin, 
+- des informations complémentaires comme l’auteur, le lien vers la discussion du forum concernant ce plugin, la date de dernière mise à jour, etc.
 
-Support
+Pour plus d’informations sur les plugins cliquez [ici](https://jeedom.github.io/core/fr_FR/plugin).
+
+Support 
 =======
 
-Jeedom approaches very large fields and evolving from day to day.
-However, many ways are available to you to find
-help and ask your questions.
+Jeedom aborde des champs très vastes et évoluant de jour en jour.
+Cependant, de nombreux moyens sont mis à votre disposition pour trouver
+de l’aide et poser vos questions.
 
-The Jeedom documentation
+La documentation de Jeedom 
 --------------------------
 
-You will find a complete documentation [here] (https://jeedom.fr/doc):
+Vous trouverez une documentation complète [ici](https://jeedom.fr/doc) :
 
-This one consists of several categories:
+Celle-ci se compose de plusieurs catégories :
 
--   Core: a part for the "heart" of Jeedom,
+-   Core : une partie pour le "coeur" de Jeedom,
 
--   First steps: A part (where you are currently) for
-    first things to know,
+-   Premiers-pas : Une partie (où vous êtes actuellement) pour les
+    premiers éléments à connaître,
 
--   Installation: Everything about installing Jeedom,
+-   Installation : Tout ce qui concerne l’installation de Jeedom,
 
--   Howto: Tutorials to progress in various areas,
+-   Howto : Des tutoriels pour progresser dans divers domaines,
 
--   Plugins: The documentation of the different official plugins of
+-   Plugins : Les documentations des différents plugins officiels de
     Jeedom,
 
--   the others: various pages on the different protocols used
-    in Jeedom, Jeedom's presentation, lists of
-    compatibility, etc.
+-   les autres : diverses pages sur les différents protocoles utilisés
+    dans Jeedom, la présentation de Jeedom, des listes de
+    compatibilité, etc.
 
-You will also find below the list of documentation for
-third party plugins.
+Vous trouverez également en dessous la liste des documentations pour les
+plugins tiers.
 
-Feel free to use **search** at the top right of
-the page to find the pages according to a specific word.
+N’hésitez pas à utiliser la fonction **rechercher** en haut à droite de
+la page pour trouver les pages en fonction d’un mot précis.
 
-The forum
+Le forum 
 --------
 
-You'll find it [here] (https://jeedom.com/forum).
+Vous le trouverez [ici](https://jeedom.com/forum) .
 
-The forum is very active and contains a lot of information. If you
-have a question, do not hesitate to ask it. You will have an answer in
-less than an hour (on average). Be careful though, the forum is
-maintained by the Jeedom community, composed of volunteers, and not by the
-Jeedom company.
+Le forum est très actif et contient énormément d’informations. Si vous
+avez une question, n’hésitez pas à la poser. Vous aurez une réponse en
+moins d’une heure (en moyenne). Attention cependant, le forum est
+maintenu par la communauté Jeedom, composée de bénévoles, et non par la
+société Jeedom.
 
 ![premier support3](../images/premier-support3.png)
 
-Support requests (or tickets)
+Les demandes de support (ou tickets) 
 ------------------------------------
 
 > **Important**
 >
-> Attention, any request of support requires obligatorily to have
-> an account on the Market.
+> Attention, toute demande de support nécessite obligatoirement d’avoir
+> un compte sur le Market.
 
-If you have not found a solution to your problem, last
-recourse, you can make a support request to the Jeedom team.
-This request goes through a ticket. It is possible to open one of
-many ways :
+Si vous n’avez pas trouvé de solution à votre problème, en dernier
+recours, vous pouvez faire une demande de support à l’équipe Jeedom.
+Cette demande passe par un ticket. Il est possible d’en ouvrir un de
+plusieurs façons :
 
--   Directly from Jeedom (recommended method): wherever you
-    be in Jeedom, there is an exclamation mark on the top right
-    which makes it possible to make a request for support:
+-   Directement à partir de Jeedom (méthode conseillée) : où que vous
+    soyez dans Jeedom, il y a un point d’exclamation en haut à droite
+    qui permet de faire une demande de support :
 
 ![premier support4](../images/premier-support4.png)
 
--   If for one reason or another you do not have access to your
-    Jeedom, you can always open a ticket from the Market:
+-   Si pour une raison ou pour une autre vous n’avez pas accès à votre
+    Jeedom, vous pouvez toujours ouvrir un ticket à partir du Market :
 
-    -   with the exclamation mark at the top right,
+    -   soit avec le point d’exclamation en haut à droite,
 
-    -   either by going to your profile (then click on the button
-        "Open a support request").
+    -   soit en allant sur votre profil (cliquez ensuite sur le bouton
+        "Ouvrir une demande de support").
 
 ![premier support5](../images/premier-support5.png)
 
-All the following exchanges will be made by mail.
+Toute la suite des échanges se fera par mail.
 
 > **Tip**
 >
-> If, when opening a ticket, you get an error indicating
-> that you have reached your quota is that you are limited to one
-> number of support requests per month, depending on your
+> Si, lors de l’ouverture d’un ticket, vous obtenez une erreur indiquant
+> que vous avez atteint votre quota, c’est que vous êtes limités à un
+> certain nombre de demandes de support par mois, en fonction de votre
 > service pack.
 
-The different service packs are: \ * Community (free): 2
-tickets / month (on paid plugins only) \ * Power: 10 tickets / month
-\ * Pro: 100 tickets / month
+Les différents services packs sont : \* Community (gratuit) : 2
+tickets/mois (sur plugins payants uniquement) \* Power : 10 tickets/mois
+\* Pro : 100 tickets/mois
 
-You can find the details of the service packs
-[Here] (https://www.jeedom.com/site/fr/soft.html#obtenir)
+Vous pouvez retrouver le détail des services packs
+[ici](https://www.jeedom.com/site/fr/soft.html#obtenir)

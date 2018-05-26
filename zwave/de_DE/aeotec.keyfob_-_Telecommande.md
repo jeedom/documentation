@@ -65,7 +65,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Emetteur Z-Wave
+-   Modultyp : Z-Wave-Sender
 
 -   Alimentation : 1 pile Lithium 3V CR2450
 
@@ -86,13 +86,13 @@ Données du module
 
  \
 
--   Marque : Aeotec
+-   Marke : Aeotec
 
--   Nom : Key Fob
+-   Name : Key Fob
 
 -   Hersteller-ID : 134
 
--   Type Produit : 1
+-   Produkttyp : 1
 
 -   Produit ID : 22
 

@@ -38,9 +38,9 @@ Official website: <http://www.methods.co.nz/asciidoc/>
 AsciiDoc & Jeedom
 -----------------
 
-The Jeedom documentation is based on AsciiDoc and the addition of the
-Bootstap by Laurent Laville:
-<Http://laurent-laville.org/asciidoc/bootstrap/>
+La documentation Jeedom s’appuie sur l’AsciiDoc et sur l’adjonction du
+bootstrap de Laurent Laville :
+<http://laurent-laville.org/asciidoc/bootstrap/>
 
 This feature allows additional functions to be added to
 functions present in AsciiDoc. But also requires
@@ -52,8 +52,8 @@ to validate the formatting.
 A little syntax
 -----------------
 
-This link is a stupid thought of asciidoc syntax:
-<Http://powerman.name/doc/asciidoc>
+Ce lien est un pense-bête des syntaxes asciidoc :
+<http://powerman.name/doc/asciidoc>
 
 AsciiDoc file structure
 ===============================

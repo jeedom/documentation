@@ -76,7 +76,7 @@ Caractéristiques techniques
 
 -   Garantie 2 ans
 
--   Type EU
+-   Typ EU
 
  \
 
@@ -85,13 +85,13 @@ Données du module
 
  \
 
--   Marque : Nodon
+-   Marke : Nodon
 
--   Nom : Smartplug
+-   Name : SmartPlug
 
 -   Hersteller-ID : 357
 
--   Type Produit : 1
+-   Produkttyp : 1
 
 -   Produit ID : 1
 

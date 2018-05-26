@@ -91,7 +91,7 @@ Données du module
 
  \
 
--   Marque : D-Link
+-   Marke : D-Link
 
 -   Modèle : DCH-Z110 Détecteur d’ouverture de porte et de fenêtre
     mydlink™ Home

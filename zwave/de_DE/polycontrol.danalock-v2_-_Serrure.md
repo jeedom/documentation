@@ -155,13 +155,13 @@ Données du module
 
  \
 
--   Marque : Poly-Control
+-   Marke : Poly-Control
 
--   Nom : Danalock V2 BTZE
+-   Name : Danalock V2 BTZE
 
 -   Hersteller-ID : 010e
 
--   Type Produit : 1
+-   Produkttyp : 1
 
 -   Produit ID : 1
 

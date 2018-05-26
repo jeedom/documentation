@@ -76,7 +76,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Emetteur Z-Wave+
+-   Modultyp : Z-Wave+ -Sender
 
 -   Alimentation : Pile CR123A 3,6VDC
 
@@ -106,13 +106,13 @@ Données du module
 
  \
 
--   Marque : Fibar Group
+-   Marke : Fibar Group
 
--   Nom : Fibaro FGMS-001-ZW5 \[Motion Sensor\]
+-   Name : Fibaro FGMS-001-ZW5 [Bewegungsmelder]
 
 -   Hersteller-ID : 271
 
--   Type Produit : 2048
+-   Produkttyp : 2048
 
 -   Produit ID : 4097
 

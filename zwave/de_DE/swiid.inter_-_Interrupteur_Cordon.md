@@ -79,7 +79,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Récepteur Z-Wave
+-   Modultyp : Z-Wave-Empfänger
 
 -   Couleur : noire
 
@@ -112,13 +112,13 @@ Données du module
 
  \
 
--   Marque : Swiid
+-   Marke : Swiid
 
--   Nom : Swiidinter
+-   Name : Swiidinter
 
 -   Hersteller-ID : 358
 
--   Type Produit : 256
+-   Produkttyp : 256
 
 -   Produit ID : 256
 

@@ -68,7 +68,7 @@ Caractéristiques techniques
 
  \
 
--   Type : Esclave Z-Wave
+-   Typ : Z-Wave Slave
 
 -   Alimentation : 2x AA 1,5V batteries
 
@@ -99,13 +99,13 @@ Données du module
 
  \
 
--   Marque : Zipato
+-   Marke : Zipato
 
--   Nom : Zipato Mini Keypad RFID
+-   Name : Zipato Mini Keypad RFID
 
 -   Hersteller-ID : 151
 
--   Type Produit : 24881
+-   Produkttyp : 24881
 
 -   Produit ID : 17665
 

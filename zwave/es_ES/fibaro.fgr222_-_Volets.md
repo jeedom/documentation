@@ -1,35 +1,35 @@
-Fibaro FGR-222 "del obturador rodante"
+Fibaro FGR-222 "Persiana"
 ==============================
 
-\
+ \
 
--   ** ** El módulo
+-   **El módulo**
 
-\
+ \
 
 ![module](../images/fibaro.fgr222/module.jpg)
 
-\
+ \
 
 -   **El Jeedom visual**
 
-\
+ \
 
 ![vuedefaut1](../images/fibaro.fgrm222/vuedefaut1.jpg)
 
-\
+ \
 
-resumen
+Resumen
 ------
 
-\
+ \
 
-El micromódulo FGR-222 le permitirá gestionar del sistema de propulsión
-dejar de obturador electrónico, persianas o puertas venecianas
-Garaje con el protocolo Z-Wave, manteniendo su conmutador
-existente. Por lo que será capaz de hacer funcionar el motor conectado
+El micromódulo FGR-222 le permitirá administrar los motores de
+persiana con parada electrónica, las persianas venecianas o las puertas de
+garaje, gracias al protocolo Z-Wave, manteniendo su interruptor
+existente. Podrá operar el motor
 usando el interruptor existente, un transmisor Z-Wave o directamente
-ya que este botón en el micromódulo.
+desde el botón en el micromódulo.
 
 Además, este micro-módulo es capaz de transmitir el consumo
 instantánea eléctrica (W) y acumulativo (kWh) del equipo que es

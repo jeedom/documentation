@@ -77,7 +77,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Récepteur et émetteur Z-Wave+ série 500
+-   Modultyp : Z-Wave+ Serie 500 Empfänger und Sender 
 
 -   Alimentation : Actionneur : 5 VDC (adaptateur fourni) Capteur : Pile
     Lithium 3V 800mA CR2
@@ -107,13 +107,13 @@ Données du module
 
  \
 
--   Marque : Aeotec
+-   Marke : Aeotec
 
--   Nom : Garage Door Controller (ZW062)
+-   Name : Garage Tür-Controller (ZW062)
 
 -   Hersteller-ID : 134
 
--   Type Produit : 3
+-   Produkttyp : 3
 
 -   Produit ID : 62
 

@@ -64,7 +64,7 @@ Caractéristiques Techniques
 
  \
 
--   Type: Minuteur électronique
+-   Typ: Elektronische Zeitschaltuhr
 
 -   Relais: 13(3)A, 230V AC, approprié pour des charges allants jusqu’à
     3kW
@@ -84,9 +84,9 @@ Données du module
 
  \
 
--   Marque : Horstmann
+-   Marke : Hortsmann
 
--   Nom : SIR 321 RF Countdown Timer
+-   Name : SIR 321 RF Zeitschaltuhr 
 
 -   Hersteller-ID : 89
 

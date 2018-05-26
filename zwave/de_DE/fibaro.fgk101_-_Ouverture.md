@@ -78,7 +78,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Emetteur Z-Wave
+-   Modultyp : Z-Wave-Sender
 
 -   Couleur : Blanc (FGK-101/102/103/104/105/106/107 selon couleur)
 
@@ -99,13 +99,13 @@ Données du module
 
  \
 
--   Marque : Fibar Group
+-   Marke : Fibar Group
 
--   Nom : Fibaro FGK-101 avec sonde de température (DS18B20)
+-   Name : Fibaro FGK-101 mit Temperatursonde (DS18B20)
 
 -   Hersteller-ID : 271
 
--   Type Produit : 1792
+-   Produkttyp : 1792
 
 -   Produit ID : 4096
 

@@ -60,7 +60,7 @@ Funktionen
 Caractéristiques Techniques 
 ===========================
 
--   Type de module: Récepteur Edisio
+-   Modultyp : Edisio Empfänger
 
 -   Alimentation: 230VAC, 50Hz
 
@@ -85,9 +85,9 @@ Caractéristiques Techniques
 Données du module 
 =================
 
--   Marque : Edisio Smart Home
+-   Marke : Edisio Smart Home
 
--   Nom : EMV-400
+-   Name  EMV-400
 
 Configuration générale 
 ======================

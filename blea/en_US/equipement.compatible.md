@@ -22,6 +22,13 @@ Dotti
 |---|---|---|---|---|---|
 |<img src="../images/dotti.jpg" width="60" />|Dotti|Dotti|Afficheur|Fonctionnera beaucoup mieux avec option garder la connection|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
+Dreamscreen
+=====
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../images/dreamscreen.jpg" width="60" />|DreamScreen|DreamScreen|Lumières||[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+
 Fitbit
 =====
 

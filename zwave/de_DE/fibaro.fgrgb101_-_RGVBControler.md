@@ -106,13 +106,13 @@ Caractéristiques techniques
 Données du module 
 -----------------
 
--   Marque : Fibar Group
+-   Marke : Fibar Group
 
--   Nom : Fibaro FGRGB-101 RGBW
+-   Name : Fibaro FGRGB-101 RGBW
 
 -   Hersteller-ID : 271
 
--   Type Produit : 2304
+-   Produkttyp : 2304
 
 -   Produit ID : 4096
 

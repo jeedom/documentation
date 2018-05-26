@@ -38,7 +38,7 @@ Sobald die Inclusion läuft wird eine Meldung angezeigt, das es notwendig ist zu
 
  \
 
-> **Tip**
+> **Tipp**
 >
 > Es ist am besten, eine Exclusion vor einer Inclusion vorzunehmen. Die
 > Exclusion ist nicht kompliziert durchzuführen, einfach auf

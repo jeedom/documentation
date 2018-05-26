@@ -83,7 +83,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Contrôleur Z-Wave
+-   Modultyp : Z-Wave-Controller
 
 -   Algorythme TPI intégré
 
@@ -112,13 +112,13 @@ Données du module
 
  \
 
--   Marque : Horstmann
+-   Marke : Hortsmann
 
--   Nom : SRT 323 Electronic Room Thermostat and Temperature
+-   Name : SRT 323 Electronic Raumthermostat und Temperatursensor
 
 -   Hersteller-ID : 89
 
--   Type Produit : 1
+-   Produkttyp : 1
 
 -   Produit ID : 4
 

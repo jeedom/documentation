@@ -1,24 +1,24 @@
-Nous allons voir ici comment faire une mise à jour manuellement sur
-Jeedom, via la console SSH.
+Hier werden Sie sehen, wie man Jeedom manuell, über die
+SSH-Konsole aktualisiert.
 
-Prérequis 
+Voraussetzungen 
 =========
 
--   savoir se connecter en SSH à Jeedom
+-   Sie wissen, wie Sie sich mit SSH in Jeedom einloggen können 
 
--   connaître les identifiants SSH (voir documentation d’installation)
+-   dass, sie das SSH Passwort kennen (siehe Installationsdokumentation)
 
--   avoir un accès Internet depuis la box Jeedom
+-   Sie haben Internetzugang von der Jeedom-Box aus
 
-> **Important**
+> **Wichtig**
 >
-> Pensez bien à faire et exporter une sauvegarde avant toute mise à jour
-> manuelle.
+> Denken Sie daran, vor jedem manuellen Update ein Backup zu
+> erstellen und zu exportieren.
 
-Téléchargement et décompression 
+Herunterladen und Entpacken
 ===============================
 
-En SSH, faites :
+In SSH eingeben :
 
     sudo su -
     cd /root
@@ -30,7 +30,7 @@ En SSH, faites :
 Aktualisieren 
 ===========
 
-Toujours en SSH:
+Weiterhin in SSH :
 
     sudo su -
     php /var/www/html/install/update.php mode=force
@@ -39,5 +39,5 @@ Toujours en SSH:
 
 > **Important**
 >
-> Si votre installation de Jeedom est un peu ancienne, il faut remplacer
-> tous les /var/www/html par /usr/share/nginx/www/jeedom
+> Wenn Ihre Jeedom Installation etwas älter ist, ersetzen Sie alle
+> /var/www/html Verzeichnis durch /usr/share/nginx/www/jeedom

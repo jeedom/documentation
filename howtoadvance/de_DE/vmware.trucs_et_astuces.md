@@ -123,8 +123,8 @@ permet dans 95% des cas de se passer du client lourd. Elle est présente
 par défaut dans la version 6.0 update 2, mais en version 1.0, il est
 vivement conseillé de la mettre à jour.
 
-Vous trouverez toutes les information
-[ici](https://labs.vmware.com/flings/esxi-embedded-host-client)
+Sie werden alle Informationen 
+[hier](https://labs.vmware.com/flings/esxi-embedded-host-client) finden.
 
 Pour voir si vous disposez de l’interface web, il suffit d’aller avec
 votre navigateur sur IP\_ESXI/ui si vous n’avez rien il faut
@@ -149,7 +149,7 @@ puis cliquer sur le lien "Download vSphere Client for Windows" :
 Une fois téléchargé il vous suffit de lancer l’installation (je passe
 volontairement sur cette partie car il suffit de tout valider).
 
-Ensuite lancez VMware vSphere Client, vous devez avoir :
+Starten Sie anschließend den VMware vSphere Client. Sie benötigen :
 
 ![vmware.createvm1](../images/vmware.createvm1.PNG)
 

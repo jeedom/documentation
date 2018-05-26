@@ -80,7 +80,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Récepteur Z-Wave
+-   Modultyp : Z-Wave-Empfänger
 
 -   Alimentation : 230V, 50 Hz
 
@@ -111,13 +111,13 @@ Données du module
 
  \
 
--   Marque : Fibar Group
+-   Marke : Fibar Group
 
--   Nom : Fibaro FGR-222
+-   Name : Fibaro FGR-222
 
 -   Hersteller-ID : 271
 
--   Type Produit : 770
+-   Produkttyp : 770
 
 -   Produit ID : 4096
 

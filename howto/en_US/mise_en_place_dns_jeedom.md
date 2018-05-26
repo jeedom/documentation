@@ -65,3 +65,7 @@ Voila votre Jeedom est accessible de l'exterieure en https
 > **J'ai changé le port d'écoute interne de mon Jeedom et les DNS Jeedom ne marchent plus**
 >
 > Effectivement le DNS Jeedom ne marche que si votre Jeedom écoute sur le port local 80 (tous les autres ports sont fermées sur l'interface du VPN lors de la connexion). Cela ne pose pas de soucis de sécurité car le VPN crée un tunnel crypté, donc meme si le flux est en clair sur le port 80 il est crypté dans le tunnel du VPN.
+
+> **J'ai pas la page de connexion mais impossible de me connecter**
+>
+> Vérifiez que vous avez bien changé les identifiants par defaut de jeedom (admin/admin) et que votre utilisateur n'est pas restreint en local seulement.

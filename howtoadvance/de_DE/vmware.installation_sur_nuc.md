@@ -108,7 +108,7 @@ Téléchargement de VMware
 >
 > Si vous mettez vmware 6.5, il y a un soucis avec la nouvelle gestion
 > de l’USB et les clefs Zwave, pour que cela marche il faut appliquer ce
-> [KB](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2147650)
+> [KB](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2147650). Attention cette manipulation n'est plus à faire en vmware 6.7
 
 C’est le plus dur en fait je crois, pour vous simplifier la vie il faut
 :

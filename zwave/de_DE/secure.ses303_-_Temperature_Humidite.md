@@ -70,7 +70,7 @@ Caractéristiques techniques
 
  \
 
--   Type: Portable/fixation murale
+-   Typ : Portable/Wandhalterung
 
 -   Plage de mesure de température: ±0.5°C pour 0°C à 40°C
 
@@ -93,13 +93,13 @@ Données du module
 
  \
 
--   Marque : Horstmann
+-   Marke : Hortsmann
 
--   Nom : SES 303 Temperature and Humidity Sensor
+-   Name : SES 303 Temperatur und Feuchtigkeits Sensor
 
 -   Hersteller-ID : 89
 
--   Type Produit : 13
+-   Produkttyp : 13
 
 -   Produit ID : 3
 

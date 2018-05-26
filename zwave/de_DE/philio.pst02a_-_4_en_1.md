@@ -90,7 +90,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Emetteur Z-Wave
+-   Modultyp : Z-Wave-Sender
 
 -   Alimentation : 1 pile 3V CR123A
 
@@ -131,13 +131,13 @@ Données du module
 
  \
 
--   Marque : Philio Technology Corporation
+-   Marke : Philio Technology Corporation
 
--   Nom : PST02-A 4 in 1 Multi-Sensor
+-   Name : PST02-A 4 in 1 Multi-Sensor
 
 -   Hersteller-ID : 316
 
--   Type Produit : 2
+-   Produkttyp : 2
 
 -   Produit ID : 12
 

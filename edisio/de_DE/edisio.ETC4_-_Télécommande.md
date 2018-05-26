@@ -51,9 +51,9 @@ Technische Daten
 Données du module 
 =================
 
--   Marque : Edisio Smart Home
+-   Marke : Edisio Smart Home
 
--   Nom : ETC4
+-   Name : ETC4
 
 Configuration générale 
 ======================

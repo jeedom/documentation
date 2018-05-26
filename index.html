@@ -45,7 +45,7 @@
  	</div>
 
 
- 	<div class="parallax-container valign-wrapper" style="height:275px">
+ 	<div class="parallax-container valign-wrapper" style="height:375px">
  		<div class="parallax"><img src="img/background5.jpg"></div>
  		<div class="container">
  			<div class="section">
@@ -58,6 +58,7 @@
  							<option value="en_US" data-icon="img/flag/flag_en.png" class="left circle">English</option>
  							<option value="es_ES" data-icon="img/flag/flag_es.png" class="left circle">Español</option>
  							<option value="fr_FR" data-icon="img/flag/flag_fr.png" class="left circle" selected>Français</option>
+ 							<option value="de_DE" data-icon="img/flag/flag_de.png" class="left circle">Deutsch</option>
  						</select>
  						<label class="white-text" style="font-size:1.2rem"><i class="material-icons jeedomcolor circle" style="background-color:white;">language</i> Choisissez votre langue<br/><i style="font-size:1rem">Choose your language</i></label>
  					</div>
@@ -78,11 +79,11 @@
  					var s = document.getElementsByTagName('script')[0];
  					s.parentNode.insertBefore(gcse, s);
  				})();
-     window.onload = function(){
-      $('#gsc-i-id1').removeAttr( 'style' );
-      $('#gsc-i-id1').attr('style','width: 100%; padding: 0px; border: none; margin: -0.0625em 0px 0px; height: 1.25em; outline: none; background-image: url(https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png); text-indent: 48px; background-position: left center; background-repeat: no-repeat no-repeat;');
-      $('#gsc-i-id1').attr('placeholder','Rechercher sur la documentation');
-     };
+ 				window.onload = function(){
+ 					$('#gsc-i-id1').removeAttr( 'style' );
+ 					$('#gsc-i-id1').attr('style','width: 100%; padding: 0px; border: none; margin: -0.0625em 0px 0px; height: 1.25em; outline: none; background-image: url(https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png); text-indent: 48px; background-position: left center; background-repeat: no-repeat no-repeat;');
+ 					$('#gsc-i-id1').attr('placeholder','Rechercher sur la documentation');
+ 				};
  			</script>
  			<gcse:search></gcse:search>
  		</div>
@@ -93,12 +94,12 @@
  			<div class="row">
  				<div class="col s12">
  					<ul class="tabs">
- 						<li class="tab col s2"><a class="active" href="#home">Accueil</a></li>
- 						<li class="tab col s2"><a href="#firststep">Pas à pas</a></li>
- 						<li class="tab col s2"><a href="#core">Général (Core)</a></li>
- 						<li class="tab col s2"><a href="#plugin">Plugins</a></li>
- 						<li class="tab col s2"><a href="#equipment">Equipements</a></li>
- 						<li class="tab col s2"><a href="#developer">Développeurs</a></li>
+ 						<li class="tab col s2"><a class="active" href="#home">Accueil <i style="font-size: 0.8em;">Home</i></a></li>
+ 						<li class="tab col s2"><a href="#firststep">Pas à pas <i style="font-size: 0.8em;">Step by step</i></a></li>
+ 						<li class="tab col s2"><a href="#core">Core <i style="font-size: 0.8em;">Core</i></a></li>
+ 						<li class="tab col s2"><a href="#plugin">Plugins <i style="font-size: 0.8em;">Plugins</i></a></li>
+ 						<li class="tab col s2"><a href="#equipment">Equipements <i style="font-size: 0.8em;">Devices</i></a></li>
+ 						<li class="tab col s2"><a href="#developer">Développeurs <i style="font-size: 0.8em;">Developers</i></a></li>
  					</ul>
  				</div>
  				
@@ -110,7 +111,8 @@
  									<span class="card-title">Accueil</span>
  									<p>Bienvenue sur le site de documentation Jeedom. Vous retrouverez toutes les documentations relatives à Jeedom.</br>
  									En espérant que vous y trouverez toutes les réponses à vos questions, nous vous souhaitons une bonne navigation.</p>
- 									<i>Welcome on Jeedom's documentation website. You will find all documentation related to Jeedom. We hope that you will find all the answers you need.</i>
+ 									<span class="card-title"><i>Home</i></span>
+ 									<p><i>Welcome on Jeedom's documentation website. You will find all documentation related to Jeedom. We hope that you will find all the answers you need.</i></p>
  								</div>
  							</div>
  						</div>
@@ -118,9 +120,9 @@
  							<div class="card blue-grey lighten-1">
  								<div class="card-content white-text">
  									<span class="card-title">Actualité</span>
- 									<p>L'équipe est heureuse de vous accueillir sur la nouvelle version du site de documentation.</br>
- 										<i>The team is glad to welcome you on its new documentation's website.</i>
- 									</p>
+ 									<p>L'équipe est heureuse de vous accueillir sur la nouvelle version du site de documentation.</br></p>
+ 									<span class="card-title"><i>News</i></span>
+ 									<p><i>The team is glad to welcome you on its new documentation's website.</i></p>
  								</div>
  							</div>
  						</div>
@@ -174,7 +176,8 @@
  						<div class="card-content white-text">
  							<span class="card-title">Pas à pas</span>
  							<p>Vous venez d'arriver ? Vous êtes un peu perdu ? Laissez-nous vous guider dans l'utilisation de Jeedom.</p></br>
- 										<i>You're new to Jeedom ? You seem to be lost ? Let us guide you in the use of Jeedom.</i>
+ 							<span class="card-title"><i>Step by step</i></span>
+ 							<p><i>You're new to Jeedom ? You seem to be lost ? Let us guide you in the use of Jeedom.</i></p>
  						</div>
  					</div>
  					<h4>Pas à pas</h4>
@@ -229,7 +232,8 @@
  						<div class="card-content white-text">
  							<span class="card-title">Général (Core)</span>
  							<p>Ici vous retrouverez toutes les docs relatives à l'utilisation du core de Jeedom.</p></br>
- 										<i>Here you will find all the documentations related to Jeedom's core.</i>
+ 							<span class="card-title"><i>Core</i></span>
+ 							<p><i>Here you will find all the documentations related to Jeedom's core.</i></p>
  						</div>
  					</div>
  					<div class="row" style="max-height:600px;overflow-y: auto;">
@@ -253,7 +257,8 @@
  						<div class="card-content white-text">
  							<span class="card-title">Plugins</span>
  							<p>Vous ne savez pas comment utiliser votre nouveau plugin ? Pas d'inquiétude vous êtes au bon endroit pour apprendre !</p></br>
- 										<i>You don't know how to use your new plugin ? Don't worry, you're in the right place !</i>
+ 							<span class="card-title"><i>Plugins</i></span>
+ 							<p><i>You don't know how to use your new plugin ? Don't worry, you're in the right place !</i></p>
  						</div>
  					</div>
  					<ul class="tabs">
@@ -299,7 +304,8 @@
  						<div class="card-content white-text">
  							<span class="card-title">Equipements compatibles</span>
  							<p>Vous souhaitez acheter un nouvel équipement mais vous n'êtes pas sûr qu'il soit compatible Jeedom ! Vous voulez en savoir plus sur un équipement ? C'est là qu'il faut regarder.</p></br>
- 										<i>You want to buy a new device, but you want to be sure of it's compatibility ! This is the right place to answer your questions.</i>
+ 							<span class="card-title"><i>Devices</i></span>
+ 							<p><i>You want to buy a new device, but you want to be sure of it's compatibility ! This is the right place to answer your questions.</i></p>
  						</div>
  					</div>
  					<h4>Zwave <div class="chip" style="position:relative;top:-7px;"><a id="bt_eqCompZwave" target="_blank">Voir les équipements compatibles</a></div></h4>
@@ -399,12 +405,27 @@
  						<div class="card-content white-text">
  							<span class="card-title">Développeurs</span>
  							<p>Vous voulez développer un plugin pour Jeedom ? Vous êtes exactement là où il faut être !</p></br>
- 										<i>You want to develop a plugin for Jeedom ? You are exactly where you need to be !</i>
+ 							<span class="card-title"><i>Developers</i></span>
+ 							<p><i>You want to develop a plugin for Jeedom ? You are exactly where you need to be !</i></p>
  						</div>
  					</div>
  					Accès documentation du code du core <a href="phpdoc/index.html">ici</a><br/>
  					Documentation développement plugin <a href="https://jeedom.github.io/plugin-template/fr_FR/">ici</a><br/>
  					Plugin template <a href="https://github.com/jeedom/plugin-template">ici</a>
+      <div class="row" style="max-height:600px;overflow-y: auto;">
+ 						<div class="input-field col s12 m3" >
+ 							<ul class="collection" id='ul_listDev0'></ul>
+ 						</div>
+ 						<div class="input-field col s12 m3">
+ 							<ul class="collection" id='ul_listDev1'></ul>
+ 						</div>
+ 						<div class="input-field col s12 m3">
+ 							<ul class="collection" id='ul_listDev2'></ul>
+ 						</div>
+ 						<div class="input-field col s12 m3">
+ 							<ul class="collection" id='ul_listDev3'></ul>
+ 						</div>
+ 					</div>
  				</div>
  			</div>
  		</div>

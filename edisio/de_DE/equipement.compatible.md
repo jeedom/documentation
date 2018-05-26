@@ -1,4 +1,4 @@
-| Nom                     | Remarque                | Link                     |
+| Name                     | Bemerkungen                | Link                     |
 |-------------------------|-------------------------|--------------------------|
 | DIO2 - Module pour Luminaire     |                         | [Acheter](http://www.domadoo.fr/fr/peripheriques/3161-dio2-module-sans-fil-pour-luminaire-5411478001423.html)            |
 | DIO2 - Module pour Volet Roulant     |                         | [Acheter](http://www.domadoo.fr/fr/home/3165-dio2-module-sans-fil-pour-volet-roulant-5411478001416.html)                 |

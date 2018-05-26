@@ -253,109 +253,110 @@ Al hacer clic en un plugin se obtiene su tarjeta:
 
 ![premier plugin4](../images/premier-plugin4.png)
 
-Volverá: \ * Botones para instalar el plugin: la
-versión estable es muy recomendable, \ * un botón para borrar el
-plug-in \ * una breve descripción, \ * un enlace a la documentación
-plug-in \ * Enlace a la lista de cambios (últimos cambios
-hecho), \ * compatibilidad con diferentes plataformas, \ * la
-Comentario de usuario, \ * cómo utilizar el plug-in, \ * la
-información adicional, como el autor, el enlace a la discusión
-Foro sobre este plugin, fecha de última actualización, etc.
+Vous retrouvez alors : 
 
-Para obtener más información, haga clic en complementos
-[Aquí] (https://github.com/jeedom/core/blob/master/doc/fr_FR/plugin.asciidoc)
-.
+- des boutons pour installer le plugin : la version stable est fortement recommandée, 
+- un bouton pour supprimer le plugin, 
+- une brève description, 
+- un lien vers la documentation du plugin, 
+- un lien vers le changelog (les dernières modifications apportées), 
+- la compatibilité avec les différentes plateformes, 
+- les avis des utilisateurs, 
+- la façon d’utiliser le plugin, 
+- des informations complémentaires comme l’auteur, le lien vers la discussion du forum concernant ce plugin, la date de dernière mise à jour, etc.
 
-apoyo
+Pour plus d’informations sur les plugins cliquez [ici](https://jeedom.github.io/core/fr_FR/plugin).
+
+Support 
 =======
 
-Jeedom cubre campos muy amplios y que evoluciona cada día.
-Sin embargo, numerosos medios están a su disposición para encontrar
-ayudar y hacer preguntas.
+Jeedom aborde des champs très vastes et évoluant de jour en jour.
+Cependant, de nombreux moyens sont mis à votre disposition pour trouver
+de l’aide et poser vos questions.
 
-La documentación Jeedom
+La documentation de Jeedom 
 --------------------------
 
-Encontrará documentación completa [aquí] (https://jeedom.fr/doc)
+Vous trouverez une documentation complète [ici](https://jeedom.fr/doc) :
 
-Se compone de varias categorías:
+Celle-ci se compose de plusieurs catégories :
 
--   Núcleo: un partido para el "corazón" de Jeedom,
+-   Core : une partie pour le "coeur" de Jeedom,
 
--   Primer paso: Una parte (donde está ahora) para
-    primeras cosas a saber,
+-   Premiers-pas : Une partie (où vous êtes actuellement) pour les
+    premiers éléments à connaître,
 
--   Instalación: Todo lo relacionado con la instalación de Jeedom,
+-   Installation : Tout ce qui concerne l’installation de Jeedom,
 
--   COMO: tutoriales para el progreso en diversos campos,
+-   Howto : Des tutoriels pour progresser dans divers domaines,
 
--   Plugins: La documentación de los diversos plugins oficiales
+-   Plugins : Les documentations des différents plugins officiels de
     Jeedom,
 
--   otros: varias páginas en los diferentes protocolos utilizados
-    en Jeedom, presentando Jeedom, listas de
-    compatibilidad, etc.
+-   les autres : diverses pages sur les différents protocoles utilisés
+    dans Jeedom, la présentation de Jeedom, des listes de
+    compatibilité, etc.
 
-También a encontrar más adelante la lista de documentos para
-plugins de terceros.
+Vous trouverez également en dessous la liste des documentations pour les
+plugins tiers.
 
-No dude en utilizar el ** ** de búsqueda en la parte superior derecha de
-página para encontrar las páginas en base a una palabra específica.
+N’hésitez pas à utiliser la fonction **rechercher** en haut à droite de
+la page pour trouver les pages en fonction d’un mot précis.
 
-El foro
+Le forum 
 --------
 
-Usted encontrará que es [aquí] (https://jeedom.com/forum).
+Vous le trouverez [ici](https://jeedom.com/forum) .
 
-El foro es muy activo y tiene un montón de información. Si usted
-¿Tiene alguna pregunta, no dude en preguntar. Tendrá una respuesta
-menos de una hora (en promedio). Tenga cuidado sin embargo, es el foro
-Jeedom mantenido por la comunidad de voluntarios y no por el
-la sociedad Jeedom.
+Le forum est très actif et contient énormément d’informations. Si vous
+avez une question, n’hésitez pas à la poser. Vous aurez une réponse en
+moins d’une heure (en moyenne). Attention cependant, le forum est
+maintenu par la communauté Jeedom, composée de bénévoles, et non par la
+société Jeedom.
 
 ![premier support3](../images/premier-support3.png)
 
-Las solicitudes de soporte (o entradas)
+Les demandes de support (ou tickets) 
 ------------------------------------
 
-> **Importante**
+> **Important**
 >
-> Atención a todos solicitud de soporte requiere necesariamente tener
-> Una cuenta en el mercado.
+> Attention, toute demande de support nécessite obligatoirement d’avoir
+> un compte sur le Market.
 
-Si no ha encontrado una solución a su problema, la última
-recurso, puede hacer una solicitud de asistencia al equipo de Jeedom.
-Esta aplicación requiere un boleto. Es posible abrir una de
-varias maneras:
+Si vous n’avez pas trouvé de solution à votre problème, en dernier
+recours, vous pouvez faire une demande de support à l’équipe Jeedom.
+Cette demande passe par un ticket. Il est possible d’en ouvrir un de
+plusieurs façons :
 
--   Directamente desde Jeedom (método): donde
-    Jeedom se encuentra, hay un signo de exclamación parte superior derecha
-    lo que permite una solicitud de soporte:
+-   Directement à partir de Jeedom (méthode conseillée) : où que vous
+    soyez dans Jeedom, il y a un point d’exclamation en haut à droite
+    qui permet de faire une demande de support :
 
 ![premier support4](../images/premier-support4.png)
 
--   Si por una razón u otra no tiene acceso a su
-    Jeedom, siempre se puede abrir un ticket de Mercado:
+-   Si pour une raison ou pour une autre vous n’avez pas accès à votre
+    Jeedom, vous pouvez toujours ouvrir un ticket à partir du Market :
 
-    -   ya sea con el signo de exclamación en la parte superior derecha,
+    -   soit avec le point d’exclamation en haut à droite,
 
-    -   ya sea yendo a su perfil (clic en el botón
-        "Abrir una solicitud de soporte").
+    -   soit en allant sur votre profil (cliquez ensuite sur le bouton
+        "Ouvrir une demande de support").
 
 ![premier support5](../images/premier-support5.png)
 
-Todos los siguientes intercambios serán por correo electrónico.
+Toute la suite des échanges se fera par mail.
 
 > **Tip**
 >
-> Si, en la apertura de un billete, se obtiene un error diciendo
-> Ha llegado a su cuota es que está limitado a una
-> El número de solicitudes de soporte al mes, dependiendo de su
-> Service pack.
+> Si, lors de l’ouverture d’un ticket, vous obtenez une erreur indiquant
+> que vous avez atteint votre quota, c’est que vous êtes limités à un
+> certain nombre de demandes de support par mois, en fonction de votre
+> service pack.
 
-Los diferentes paquetes de servicios son: \ * Comunidad (gratis): 2
-entradas / mes (plugins pagados solamente) \ * alimentación: 10 entradas / mes
-\ * Pro: 100 entradas / mes
+Les différents services packs sont : \* Community (gratuit) : 2
+tickets/mois (sur plugins payants uniquement) \* Power : 10 tickets/mois
+\* Pro : 100 tickets/mois
 
-Puede encontrar los detalles de los paquetes de servicios
-[Aquí] (https://www.jeedom.com/site/fr/soft.html#obtenir)
+Vous pouvez retrouver le détail des services packs
+[ici](https://www.jeedom.com/site/fr/soft.html#obtenir)

@@ -74,7 +74,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Récepteur Z-Wave
+-   Modultyp : Z-Wave-Empfänger
 
 -   Alimentation : 230 V, 50 Hz
 
@@ -98,13 +98,13 @@ Données du module
 
  \
 
--   Marque : SmartHome by Everspring
+-   Marke : SmartHome By Everspring
 
--   Nom : In Wall On Off
+-   Name : In der Wand An Aus
 
 -   Hersteller-ID : 96
 
--   Type Produit : 4
+-   Produkttyp : 4
 
 -   Produit ID : 8
 

@@ -39,7 +39,7 @@ AsciiDoc & Jeedom
 -----------------
 
 La documentation Jeedom s’appuie sur l’AsciiDoc et sur l’adjonction du
-bootstap de Laurent Laville :
+bootstrap de Laurent Laville :
 <http://laurent-laville.org/asciidoc/bootstrap/>
 
 Cette particularité permet d’ajouter des fonctions supplémentaires aux
@@ -52,7 +52,7 @@ pour valider la mise en forme.
 Un peu de syntaxe 
 -----------------
 
-Ce lien est un pense bête des syntaxes asciidoc :
+Ce lien est un pense-bête des syntaxes asciidoc :
 <http://powerman.name/doc/asciidoc>
 
 Structure des fichiers AsciiDoc 

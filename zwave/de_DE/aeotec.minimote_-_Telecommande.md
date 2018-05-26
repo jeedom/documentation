@@ -61,7 +61,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Contrôleur Z-Wave
+-   Modultyp : Z-Wave-Controller
 
 -   Couleur : Blanc
 
@@ -84,13 +84,13 @@ Données du module
 
  \
 
--   Marque : Aeotec
+-   Marke : Aeotec
 
--   Nom : Minimote
+-   Name : Minimote
 
 -   Hersteller-ID : 134
 
--   Type Produit : 1
+-   Produkttyp : 1
 
 -   Produit ID : 3
 

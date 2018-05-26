@@ -3,7 +3,7 @@
 | IP Webcam Android       |                         |                          |
 | la entrada de vídeo de Alcatel   |                         |                          |
 | 207W eje               |                         |                          |
-| Bluestork               | Todos los modelos (BS-cámara IP validados / TP, BS-cámara IP-W, BS-CAM-IND) |                          |
+| Bluestork               | Tous les modèles (validé sur BS-IPCAM/TP, BS-IPCAM-W, BS-CAM-IND) |                          |
 | D-Link DCS              |                         |                          |
 | D-Link DCS-5020L        |                         |                          |
 | D-Link bebé eyeon       |                         |                          |
@@ -14,7 +14,7 @@
 | FOSCAM C1               |                         |                          |
 | Foscam motorizado HD     |                         |                          |
 | motorizado FOSCAM        |                         |                          |
-| Foscam FI9803EP / FI9803P | Se debe tener cuidado puso [el parche] (https:? //drive.google.com/file/d/0B9gdDNCtvjAITEs0UjduRV9zSG8/view USP = compartir) Para que la cámara funciona
+| Foscam FI9803EP / FI9803P | Attention, il faut mettre [ce patch](:https://drive.google.com/file/d/0B9gdDNCtvjAITEs0UjduRV9zSG8/view?usp=sharing) pour que la caméra fonctionne.
 | heden CAMHED05IPWN      |                         |                          |
 | (V5.5)                  |                         |                          |
 | Heden VisionCam 22      |                         |                          |
@@ -25,28 +25,26 @@
 | Hikvision DS-2CD2232-I5 |                         |                          |
 | Hikvision               |                         |                          |
 | DS-2CD2732F-IS          |                         |                          |
-| Hikvision.DS-7216HWI-SH |                         |                          |
-| -A                      |                         |                          |
-| IP \ _Linkcom Porter     |                         |                          |
-| vídeo                   |                         |                          |
-| entrada de vídeo Konx      |                         |                          |
-| Mustcam HD motorizado    |                         |                          |
+| Hikvision.DS-7216HWI-SH/A |                         |                          |
+| IP\_Linkcom portier vidéo |                         |                          |
+| Konx portier vidéo      |                         |                          |
+| Mustcam HD motorisée    |                         |                          |
 | Panasonic BL-C121       |                         |                          |
 | RPI Cam                 |                         |                          |
 | Tenvis                  |                         |                          |
-| TRENDnet TV-IP310PI     |                         |                          |
-| Vera leva 700 Vista      |                         |                          |
+| TrendNet TV-IP310PI     |                         |                          |
+| Vera vista cam 700      |                         |                          |
 | Secomm                  |                         |                          |
 | Homelive                |                         |                          |
-| Tiandy 7xxx            |                         |                          |
-| Tiandy 8xxx            |                         |                          |
+| Vivotek 7xxx            |                         |                          |
+| Vivotek 8xxx            |                         |                          |
 | Wanscam HW00XX          |                         |                          |
-| motorizado Wanscam       |                         |                          |
+| Wanscam motorisée       |                         |                          |
 | Y-Cam                   |                         |                          |
 | Zavio F3115             |                         |                          |
 
-> **Nota**
+> **Note**
 >
-> La lista es compilada gracias a la retroalimentación del usuario, el equipo
-> Jeedom no puede garantizar que todas las cámaras en esta lista
-> Son 100% funcional.
+> Cette liste est dressée grâce aux retours utilisateurs, l’équipe
+> Jeedom ne peut donc garantir que toutes les caméras de cette liste
+> sont 100% fonctionnelles.

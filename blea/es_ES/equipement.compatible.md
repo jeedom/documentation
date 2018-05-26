@@ -4,67 +4,74 @@ Awoxmesh
 
 |imagen|marca|apellido|tipo|observación|enlace|
 |---|---|---|---|---|---|
-|<img src="../images/awox.jpg" width="60" />|Awox Eglo|SmartLight Mesh|Lumières|Compatible avec Awox Mesh technologie.|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/awox.jpg" width="60" />|Awox Eglo|Eglo Fueva|Lumières|Compatible avec Awox Mesh technologie.|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/awoxremote.jpg" width="60" />|Awox Eglo|Télécommande|Lumières|Compatible avec Awox Mesh technologie. Il faut activer le mode bluetooth pour utiliser les commande.|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/awox.jpg" width="60" />|Awox Eglo|SmartLight Mesh|Luces|Compatible con la tecnología Awox Mesh.|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/awox.jpg" width="60" />|Awox Eglo|Eglo Fueva|Luces|Compatible con la tecnología Awox Mesh.|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/awoxremote.jpg" width="60" />|Awox Eglo|Mando a distancia|Luces|Compatible con la tecnología Awox Mesh. Debes activar el modo bluetooth para usar el comando.|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
 
-Default
+Por defecto
 =====
 
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Imagen|Marca|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../images/default.jpg" width="60" />|Inconnu|Inconnu|Defaut|Uniquement pour les équipements non encore rajouté dans le plugin, pour a minima avoir la présence et les rssi ainsi que la data brute|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/default.jpg" width="60" />|Desconocido|Desconocido|Por defecto|Sólo para equipos que aún no se agregaron en el plugin, para que al menos tengan la presencia y rssi y los datos brutos|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Dotti
 =====
 
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Imagen|Marca|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../images/dotti.jpg" width="60" />|Dotti|Dotti|Afficheur|Fonctionnera beaucoup mieux avec option garder la connection|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/dotti.jpg" width="60" />|Dotti|Dotti|Visualización|Funcionará mucho mejor con la opción mantener conexión|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
+
+Dreamscreen
+=====
+
+|Imagen|Marca|Nombre|Tipo|Observación|Enlace|
+|---|---|---|---|---|---|
+|<img src="../images/dreamscreen.jpg" width="60" />|DreamScreen|DreamScreen|Luces||[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Fitbit
 =====
 
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Imagen|Marca|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../images/fitbit.jpg" width="60" />|Fitbit|Badge|Bracelet|Uniquement pour de la présence|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/fitbit.jpg" width="60" />|Fitbit|Badge|Pulsera|Solo por la presencia|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Gigaset
 =====
 
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Imagen|Marca|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../images/gigaset.jpg" width="60" />|Gigaset|G-Tag|Présence|Uniquement pour de la présence|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/gigaset.jpg" width="60" />|Gigaset|G-Tag|Presencia|Solo por la presencia|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Hector
 =====
 
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Imagen|Marca|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../images/hector.jpg" width="60" />|Hector|Hector|Capteurs|Ne dois pas rester connecté en permanence sur votre téléphone si vous voulez l'interaction dans Jeedom|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/hector.jpg" width="60" />|Hector|Hector|Sensores|No tienes que estar permanentemente conectado a tu teléfono para interactuar con Jeedom|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Itag
 =====
 
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Imagen|Marca|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../images/itag.jpg" width="60" />|Itag|Itag Noir|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/itag.jpg" width="60" />|Itag|Itag Blanc|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/itag.jpg" width="60" />|Itag|Itag Vert|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/itag.jpg" width="60" />|Itag|Itag Bleu|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/itag.jpg" width="60" />|Itag|Itag Negro|Botones|Atención: para que el botón funcione es necesario marcar mantener la conexión, a partir de este momento se mantiene la conexión y el botón ya no es visible desde las otras antenas. La conexión se realiza en 20 segundos desde que el botón está visible  (se puede confirmar al detenerse el parpadeo) y sólo en la antena elegida en emisión (en este caso, obviamente es necesario elegir la misma en recepción y emisión)|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/itag.jpg" width="60" />|Itag|Itag Blanco|Botones|Atención: para que el botón funcione es necesario marcar mantener la conexión, a partir de este momento se mantiene la conexión y el botón ya no es visible desde las otras antenas. La conexión se realiza en 20 segundos desde que el botón está visible  (se puede confirmar al detenerse el parpadeo) y sólo en la antena elegida en emisión (en este caso, obviamente es necesario elegir la misma en recepción y emisión)|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/itag.jpg" width="60" />|Itag|Itag Rosa|Botones|Atención: para que el botón funcione es necesario marcar mantener la conexión, a partir de este momento se mantiene la conexión y el botón ya no es visible desde las otras antenas. La conexión se realiza en 20 segundos desde que el botón está visible  (se puede confirmar al detenerse el parpadeo) y sólo en la antena elegida en emisión (en este caso, obviamente es necesario elegir la misma en recepción y emisión)|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/itag.jpg" width="60" />|Itag|Itag Verde|Botones|Atención: para que el botón funcione es necesario marcar mantener la conexión, a partir de este momento se mantiene la conexión y el botón ya no es visible desde las otras antenas. La conexión se realiza en 20 segundos desde que el botón está visible  (se puede confirmar al detenerse el parpadeo) y sólo en la antena elegida en emisión (en este caso, obviamente es necesario elegir la misma en recepción y emisión)|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/itag.jpg" width="60" />|Itag|Itag Azul|Botones|Atención: para que el botón funcione es necesario marcar mantener la conexión, a partir de este momento se mantiene la conexión y el botón ya no es visible desde las otras antenas. La conexión se realiza en 20 segundos desde que el botón está visible  (se puede confirmar al detenerse el parpadeo) y sólo en la antena elegida en emisión (en este caso, obviamente es necesario elegir la misma en recepción y emisión)|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Jinlin
 =====
 
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Imagen|Marca|Nombre|Tipo|Observación|Enlace|
 |---|---|---|---|---|---|
-|<img src="../images/jinlin.jpg" width="60" />|Lyl Smart|Jinlin|Lumière|Uniquement pour de la présence (le reste viendra)|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/jinlin.jpg" width="60" />|Lyl Smart|Jinlin|Lámpara|Solo por presencia (por el momento)|[Comprar](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Logiswitch
 =====
 
-|Image|Marque|Nom|Type|Remarque|Lien|
+|Imagen|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../images/logiswitch.jpg" width="60" />|Logitech|Logitech Pop rouge|Boutons|Ne doit absolument pas être connecté sur un autre appareil|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 |<img src="../images/logiswitch.jpg" width="60" />|Logitech|Logitech Pop blanc|Boutons|Ne doit absolument pas être connecté sur un autre appareil|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|

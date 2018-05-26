@@ -82,7 +82,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Emetteur Z-Wave
+-   Modultyp : Z-Wave-Sender
 
 -   Alimentation : 1 pile 3V CR123A
 
@@ -119,13 +119,13 @@ Données du module
 
  \
 
--   Marque : Philio Technology Corporation
+-   Marke : Philio Technology Corporation
 
--   Nom : Philio PSP01
+-   Name : Philio PSP01
 
 -   Hersteller-ID : 316
 
--   Type Produit : 2
+-   Produkttyp : 2
 
 -   Produit ID : 2
 

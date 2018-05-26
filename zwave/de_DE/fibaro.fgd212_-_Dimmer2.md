@@ -99,7 +99,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Récepteur Z-Wave
+-   Modultyp : Z-Wave-Empfänger
 
 -   Alimentation : 230V +/- 10%, 50Hz
 
@@ -137,13 +137,13 @@ Données du module
 
  \
 
--   Marque : Fibar Group
+-   Marke : Fibar Group
 
--   Nom : FGD212 Dimmer 2
+-   Name : FGD212 Dimmer 2
 
 -   Hersteller-ID : 271
 
--   Type Produit : 258
+-   Produkttyp : 258
 
 -   Produit ID : 4096
 

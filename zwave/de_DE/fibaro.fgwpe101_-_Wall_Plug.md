@@ -58,7 +58,7 @@ Caractéristiques techniques
 
  \
 
--   Type de module : Récepteur Z-Wave
+-   Modultyp : Z-Wave-Empfänger
 
 -   Alimentation : 230V, 50Hz
 
@@ -85,13 +85,13 @@ Données du module
 
  \
 
--   Marque : Fibar Group
+-   Marke : Fibar Group
 
--   Nom : Wall Plug FGWPE-101
+-   Name : FGWPE-101  (Netzstecker-Adapter)
 
 -   Hersteller-ID : 271
 
--   Type Produit : 1536
+-   Produkttyp : 1536
 
 -   Produit ID : 4096
 

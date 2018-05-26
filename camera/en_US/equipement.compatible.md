@@ -3,8 +3,8 @@
 | Android IP webcam       |                         |                          |
 | Alcatel video door entry system   |                         |                          |
 | Axis 207W               |                         |                          |
-| Bluestork               | All models (validated on BS-IPCAM / TP, BS-IPCAM-W, BS-CAM-IND) |                          |
-| D-link DCS              |                         |                          |
+| Bluestork               | Tous les modèles (validé sur BS-IPCAM/TP, BS-IPCAM-W, BS-CAM-IND) |                          |
+| D-Link DCS              |                         |                          |
 | D-Link DCS-5020L        |                         |                          |
 | D-Link EyeOn baby       |                         |                          |
 | Monitor                 |                         |                          |
@@ -14,7 +14,7 @@
 | Foscam C1               |                         |                          |
 | Foscam HD motorized     |                         |                          |
 | Motorized Foscam        |                         |                          |
-| Foscam FI9803EP / FI9803P | Warning, you must put [this patch] (: https: //drive.google.com/file/d/0B9gdDNCtvjAITEs0UjduRV9zSG8/view?usp=c sharing) for the camera to work
+| Foscam FI9803EP / FI9803P | Attention, il faut mettre [ce patch](:https://drive.google.com/file/d/0B9gdDNCtvjAITEs0UjduRV9zSG8/view?usp=sharing) pour que la caméra fonctionne.
 | Heden CAMHED05IPWN      |                         |                          |
 | (V5.5)                  |                         |                          |
 | Heden Visioncam 22      |                         |                          |
@@ -25,12 +25,10 @@
 | Hikvision DS-2CD2232-I5 |                         |                          |
 | Hikvision               |                         |                          |
 | DS-2CD2732F-IS          |                         |                          |
-| Hikvision.DS-7216HWI-SH |                         |                          |
-| -AT                      |                         |                          |
-| IP \ _Linkcom gatekeeper     |                         |                          |
-| video                   |                         |                          |
-| Konx video doorman      |                         |                          |
-| Motorized HD Mustcam    |                         |                          |
+| Hikvision.DS-7216HWI-SH/A |                         |                          |
+| IP\_Linkcom portier vidéo |                         |                          |
+| Konx portier vidéo      |                         |                          |
+| Mustcam HD motorisée    |                         |                          |
 | Panasonic BL-C121       |                         |                          |
 | RPI Cam                 |                         |                          |
 | Tenvis                  |                         |                          |
@@ -41,12 +39,12 @@
 | Vivotek 7xxx            |                         |                          |
 | Vivotek 8xxx            |                         |                          |
 | Wanscam HW00XX          |                         |                          |
-| Motorized Wanscam       |                         |                          |
+| Wanscam motorisée       |                         |                          |
 | Y-Cam                   |                         |                          |
 | Zavio F3115             |                         |                          |
 
 > **Note**
 >
-> This list is drawn up thanks to the user feedback, the team
-> Jeedom can not guarantee that all cameras in this list
-> are 100% functional.
+> Cette liste est dressée grâce aux retours utilisateurs, l’équipe
+> Jeedom ne peut donc garantir que toutes les caméras de cette liste
+> sont 100% fonctionnelles.

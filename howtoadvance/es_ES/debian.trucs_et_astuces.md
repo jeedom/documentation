@@ -212,3 +212,9 @@ Suppression des librairies non nécessaires
 
     apt -y remove `aptitude -F %p search '~o' | grep -E -v ^lib`
     apt -y remove `aptitude -F %p search '~o'`----
+
+Note : Si lorsque vous ouvrez votre page Jeedom vous obtenez un code php, activez-le en lançant les commandes suivantes :
+
+    a2enmod php7.0 
+    systemctl restart apache2.service
+
