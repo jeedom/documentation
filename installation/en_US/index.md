@@ -29,13 +29,13 @@ Here is a configuration "type" to start well with Jeedom Z-Wave:
 
 1.  Raspberry pi 3:
 
-    -   Un raspberry+boitier \~ 50 €
+    -   A Raspberry Pi and case \~ 50 €
 
-    -   Une clef Aeon Gen 5 \~ 60 €
+    -   U Aeon Gen 5 Z-wave USB key \~ 60 €
 
-    -   Une micro carte SD \~ 7 €
+    -   A micro SD card \~ 7 €
 
-    -   Une alimentation USB \~ 8 €
+    -   A 3A usb charger \~ 8 €
 
 That's a total of 125 € for an open source home automation box with a
 complete control of his installation.
@@ -64,7 +64,7 @@ complete control of his installation.
 Jeedom Smart
 ===========
 
-Vous trouverez ici la documentation pas à pas pour installer ou restaurer Jeedom 
+Here you can find the French documentation for installing the Jeedom Smart:
 
 [ici](https://jeedom.github.io/documentation/howto/fr_FR/recovery_mode_jeedom_smart)
 
@@ -72,45 +72,41 @@ Jeedom mini+
 ===========
 
 > **Tip**
->
-> Le nom de l’image Jeedom peut être différent de celui des captures
-> faites dans cette documentation
+> 
+> The name of the actual software image might be slightly different from what is mentioned in this documentation.
 
-Etape 1 : Installation de Etcher 
+
+Step 1 : Install Etcher
 ---
 
-Vous devez télécharger le logicel Etcher [ici](https://etcher.io/) puis
-l’installer sur votre pc
+Download Etcher [here](https://etcher.io/) and install it on your PC.
 
-Etape 2 : Récupération de l’image de Jeedom 
+step 2 : Download the Jeedom image
 ---
 
-Vous devez aller
-[ici](https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog),
-puis dans le dossier Images récuperer l’image jeedom-jeeboard-\*.rar ou
+Grab it 
+[here](https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog),
+From the list select jeedom-jeeboard-\*.rar or
 Jeedomboard\_\_Debian\_Jessie\*.rar
 
 ![install humming 1](../images/install_humming_1.PNG)
 
-Etape 3 : Décompression de l’image de Jeedom 
+Step 3 : Unzip the image file
 ---
 
-Décompresser l’image de Jeedom (si vous n’avez rien pour la décompresser
-vous pouvez installer
-[winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), vous
-devez obtenir :
+Use
+[winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)) to unzip the image. You will then get :
 
 ![install humming 2](../images/install_humming_2.PNG)
 
 ![install humming 8](../images/install_humming_8.PNG)
 
-Etape 4 : Gravure de l’image sur la carte SD 
+Step 4 : Write the image to an SD card
 ---
 
-Insérez votre carte SD dans votre ordinateur puis lancez le logiciel
-Etcher, donnez-lui le chemin de l’image, le chemin de la carte SD et
-cliquez sur "Flash!". Le logiciel va graver la carte SD et vérifier la
-gravure.
+Insert the SD card into your computer and start Ether. There, select the image you unzipped. Ether will try to find your SD card by itself, make sure it has found it. Make sure Etcher has not selected your computers own hard drive! Click on "Flash!" when all settings look ok. After writing the image Etcher will also do a quick check to see if it went ok, which will take a bit more time.
+
+Insert the flashed SD card into your Jeedom hardware and plug in its power. It will take at least 5 minutes to boot up, so be patient.
 
 Vous n’avez plus qu’à mettre la carte SD dans la Jeedomboard (ou
 Hummingboard), à brancher le réseau et l’alimentation, votre Jeedom va
@@ -118,7 +114,7 @@ démarrer (5 min) et vous devriez le voir sur le réseau.
 
 > **Tip**
 >
-> Les identifiants SSH sont jeedom/Mjeedom96
+> SSH username and password are: jeedom/Mjeedom96
 
 Pour la suite, vous pouvez suivre la documentation [Premier pas avec
 Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index.html)
