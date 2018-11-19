@@ -2,7 +2,7 @@
 
 ## Description
 
-C'est un service Jeedom SAS, gratuit le temps des tests en beta, qui deviendra payant par la suite une fois celui-ci stabilisé. Il prends en compte les assistants vocaux de Google pour le moment et prochainement d'Amazon
+C'est un service Jeedom SAS, gratuit le temps des tests en beta, qui deviendra payant par la suite une fois celui-ci stabilisé. Il prend en compte les assistants vocaux de Google pour le moment et prochainement d'Amazon
 
 ## Comment l'utiliser 
 

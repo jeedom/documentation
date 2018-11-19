@@ -71,7 +71,7 @@ Il faudra commencer par télécharger un logiciel tiers par exemple :
         vous voulez créer ainsi que l’endroit où il sera enregistré.
 
     -   Enfin cliquez sur le bouton *Read*, afin de créer l’image.
-        image::../images/save-restore09.jpg\[align="center"\]
+        ![save-restore09](C:\Users\bronc\Documents\GitHub\documentation\howto\images\save-restore09.jpg)
 
 2.  **Restauration**
 

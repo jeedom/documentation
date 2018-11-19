@@ -6,25 +6,25 @@ Mettre en place le DNS Jeedom pour avoir un accès à son Jeedom en externe par 
 
 ## Pré-requis
 
-Pour avoir accès aux DNS Jeedom il faut absolument avoir un service pack power ou plus.
+Pour avoir accès aux DNS Jeedom il faut **absolument avoir un service pack power ou plus**. Vous pouvez souscrire [ICI](https://www.jeedom.com/market/index.php?v=d&p=register)
 
 ## Principe
 
-Le principe du DNS Jeedom est très simple, votre Jeedom va se connecter sur un de nos serveurs en VPN (connexion cryptée). Ensuite ce serveur en question chez nous fait du "reverse proxy" lors de la demande : il prend votre demande de connexion a votre jeedom et la transfert vers celui-ci.
+Le principe du DNS Jeedom est très simple, votre Jeedom va se connecter sur un de nos serveurs en VPN (connexion cryptée). Ensuite ce serveur en question chez nous fait du "reverse proxy" lors de la demande : il prend votre demande de connexion à votre jeedom et la transfère vers celui-ci.
 
-Ce principe à l'avantage de ne pas exposer votre Jeedom sur internet, pas d'ouverture de port à faire.
+Ce principe à l'avantage de ne pas exposer votre Jeedom sur internet, pas d'ouverture de port(s) à faire.
 
 > **IMPORTANT**
 >
-> Pour que ca marche il faut que votre box autorise une connexion sortante sur les ports 1194,1195,1996 et 1997. En particulier pour les Livebox et routeur 4g Huawei il faut baisser le niveau du firewall.
+> Pour que ca marche il faut que votre box autorise une connexion sortante sur les ports 1194, 1195, 1996 et 1997. En particulier pour les Livebox et routeur 4g Huawei il faut baisser le niveau du firewall.
 
-Nous avons actuellement 5 serveurs DNS reparti sur 2 machines physique differente, ayant chacun une connexion 1Gbit/s. 
+Nous avons actuellement 5 serveurs DNS reparti sur 2 machines physique differentes, ayant chacun une connexion 1Gbit/s. 
 
 ## Mise en place
 
 ### Jeedom
 
-La c'est super simple, vous devez connecter votre Jeedom au market (voir documentation premier-pas). 
+Là c'est super simple, vous devez connecter votre Jeedom au [market](https://www.jeedom.com/market/index.php?v=d&p=register) (voir documentation premier-pas). 
 
 ### Market
 
@@ -56,7 +56,7 @@ Voila votre Jeedom est accessible de l'exterieure en https
 
 > **Y a-t-il besoin d'ouvrir des ports sur ma box**
 >
-> Non il n'y a pas besoin d'ouvrir de port de votre box internet vers votre Jeedom. La connexion est dans le sens Jeedom -> VPN, c'est donc une connexion sortant (sur les ports 1194,1195,1996 et 1997) et non une connexion entrante.
+> Non il n'y a pas besoin d'ouvrir de port de votre box internet vers votre Jeedom. La connexion est dans le sens Jeedom -> VPN, c'est donc une connexion sortant (sur les ports 1194, 1195, 1996 et 1997) et non une connexion entrante.
 
 > **Pourquoi les DNS Jeedom protege mon accès à celui-ci**
 >
