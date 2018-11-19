@@ -3,11 +3,11 @@ Hardware
 
 Jeedom peut être installé sur différents composants hardware :
 
--   un Raspberry pi 2 ou 3
+-   un Raspberry pi 2 B ou B+, un Raspberry pi 3B ou 3B+
 
 -   un NAS Synology
 
--   tout système Linux basé sur Debian
+-   tout système Linux basé sur Debian (version stretch supportée à ce jour)
 
 Vous pouvez aussi acheter une box toute faite avec Jeedom préinstallé
 qui contient en plus un service pack (plus de support et de services) et
@@ -85,8 +85,7 @@ l’installer sur votre pc
 Etape 2 : Récupération de l’image de Jeedom 
 ---
 
-Vous devez aller
-[ici](https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog),
+Vous devez aller [ici](https://www.amazon.fr/clouddrive/share/OwYXPEKiIMdsGhkFeI3eUQ0VcvTEBq0qxQevlXPvPIy/folder/IT3WZ3N0RqGzaLBnBo0qog),
 puis dans le dossier Images récuperer l’image jeedom-jeeboard-\*.rar ou
 Jeedomboard\_\_Debian\_Jessie\*.rar
 
@@ -96,9 +95,7 @@ Etape 3 : Décompression de l’image de Jeedom
 ---
 
 Décompresser l’image de Jeedom (si vous n’avez rien pour la décompresser
-vous pouvez installer
-[winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), vous
-devez obtenir :
+vous pouvez installer [winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), vous devez obtenir :
 
 ![install humming 2](../images/install_humming_2.PNG)
 
@@ -133,12 +130,13 @@ raspberry PI **avec une carte SD.**
 > **Important**
 >
 > Debian 9 (Stretch) est la distribution officiellement supportée pour
-> la version 3.1.5 de jeedom (mais Jessie reste parfaitement
+> la dernière version de jeedom (mais Jessie reste parfaitement
 > fonctionnelle).
 
 **1/ Télécharger le dernière image "lite", c’est à dire sans interface
 graphique**
-[ICI](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-04-19/2018-04-18-raspbian-stretch-lite.zip)
+
+Lien [ICI](https://downloads.raspberrypi.org/raspbian_lite_latest)
 
 **2/ Décompresser l’image avec winrar** [Ici](http://www.win-rar.com)
 
@@ -155,8 +153,8 @@ graphique**
 
 > **Warning**
 >
-> Pour des raisons de sécurité, l’accès SSH n’est plus activé par défaut
-> sur cette distribution. Il faut donc l’activer.
+> **Pour des raisons de sécurité, l’accès SSH n’est plus activé par défaut**
+> **sur cette distribution. Il faut donc l’activer.**
 
 Il faut créer sur la partition boot (la seule accessible sous windows)
 un fichier ssh vide.
@@ -216,13 +214,13 @@ Connectez-vous avec les identifiants **pi / raspberry**
 >
 > En fonction de votre débit internet, l’installation peut prendre de 45
 > à 90 minutes. Vous ne devez surtout pas interrompre le processus avant
-> la fin. A défaut, il faudra reprendre la totalité de la procédure.
+> la fin. A défaut, i**l faudra reprendre la totalité de la procédure**.
 
 Il vous suffit ensuite d’aller sur IP\_MACHINE\_JEEDOM
 
 > **Note**
 >
-> Les identifiants par défaut sont admin/admin
+> Les identifiants par défaut sont **admin/admin**
 
 > **Note**
 >
@@ -359,9 +357,9 @@ Etape 6 : Installation de jeedom
 <!-- -->
 
     wget https://raw.githubusercontent.com/jeedom/core/stable/install/install.sh
-
+    
     chmod +x install.sh
-
+    
     ./install.sh
 
 -   et laissez faire…​
