@@ -691,7 +691,7 @@ Enregistrer un équipement et rafraîchissez le dashboard.
 >
 >C’est un chapitre important et il faut le comprendre avant de passer à la suite.
 
-Pour le moment, nous avons donc utiliser 3 classes du core de jeedom : EqLogic, cmd , cron . Aller pour info , On en ajoute une 4eme avec la class plugin dans le fichier desktop.php que vous ouvrez et laissez ouvert car on va l’éditer . 
+Pour le moment, nous avons donc utiliser 3 classes du core de jeedom : EqLogic, cmd , cron . Aller pour info , On en ajoute une 4eme avec la class plugin dans le fichier vdm.php que vous ouvrez et laissez ouvert car on va l’éditer . 
 
 ```
 $plugin = plugin::byId('vdm'); // appelle la classe plugin du core
