@@ -10,15 +10,15 @@ Pour avoir accès aux DNS Jeedom il faut absolument avoir un service pack power 
 
 ## Principe
 
-Le principe du DNS Jeedom est très simple, votre Jeedom va se connecter sur un de nos serveurs en VPN (connexion cryptée). Ensuite ce serveur en question chez nous fait du "reverse proxy" lors de la demande : il prend votre demande de connexion à votre jeedom et la transfert vers celui-ci.
+Le principe du DNS Jeedom est très simple, votre Jeedom va se connecter sur un de nos serveurs en VPN (connection cryptée). Ensuite ce serveur en question chez nous fait du "reverse proxy" lors de la demande : il prend votre demande de connection à votre jeedom et la transfert vers celui-ci.
 
 Ce principe a l'avantage de ne pas exposer votre Jeedom sur internet, pas d'ouverture de port à faire.
 
 > **IMPORTANT**
 >
-> Pour que cela fonctionne il faut que votre box autorise une connexion sortante sur les ports 1194,1195,1996 et 1997. En particulier pour les Livebox et routeur 4g Huawei il faut baisser le niveau du firewall, pour les Freebox Delta il faut désactiver le contrôle parental
+> Pour que cela fonctionne il faut que votre box autorise une connection sortante sur les ports 1194,1195,1996 et 1997. En particulier pour les Livebox et routeur 4g Huawei il faut baisser le niveau du firewall, pour les Freebox Delta il faut désactiver le contrôle parental
 
-Nous avons actuellement 5 serveurs DNS répartis sur 2 machines physiques différentes, ayant chacun une connexion 1Gbit/s. 
+Nous avons actuellement 5 serveurs DNS répartis sur 2 machines physiques différentes, ayant chacun une connection 1Gbit/s. 
 
 ## Mise en place
 
@@ -30,7 +30,7 @@ Là c'est super simple, vous devez connecter votre Jeedom au market (voir docume
 
 Une fois votre Jeedom lié au market, vous allez sur le market; puis sur votre profils (https://www.jeedom.com/market/index.php?v=d&p=profils) et enfin sur l'onglet "Mes Jeedoms".
 
-Vous devriez normalement voir votre Jeedom, avec devant une indication "Statut du DNS", tant que c'est pas vert votre Jeedom ne pourra pas utiliser les services DNS, il faut attendre environ 24h après la première connexion d'un Jeedom au market pour que le status passe à "Connection possible" (vert)
+Vous devriez normalement voir votre Jeedom, avec devant une indication "Statut du DNS", tant que c'est pas vert votre Jeedom ne pourra pas utiliser les services DNS, il faut attendre environ 24h après la première connection d'un Jeedom au market pour que le status passe à "Connection possible" (vert)
 
 > **IMPORTANT**
 >
