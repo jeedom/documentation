@@ -2,7 +2,7 @@
 
 ## Description
 
-C'est un service Jeedom SAS, gratuit le temps des tests en beta, qui deviendra payant par la suite une fois celui-ci stabilisé. Il prends en compte les assistants vocaux de Google pour le moment et prochainement d'Amazon
+C'est un service Jeedom SAS, gratuit le temps des tests en beta, qui deviendra payant par la suite une fois celui-ci stabilisé. Il prends en compte les assistants vocaux de Google et d'Amazon.
 
 ## Comment l'utiliser 
 
@@ -11,6 +11,7 @@ Il faut :
 - avoir du crédit (quand il sera payant)
 - avoir le plugin Dialogflow, [documentation](https://jeedom.github.io/plugin-dialogflow/fr_FR/)
 - ou le plugin Google Smarthome, [documentation](https://jeedom.github.io/plugin-gsh/fr_FR/)
+- ou le plugin Alexa, [documentation](https://jeedom.github.io/plugin-ash//fr_FR/)
 
 Vous trouverez dans la documentation respective des plugins leurs différences.
 
@@ -18,4 +19,4 @@ Ensuite soit vous lancez la configuration automatique directement depuis le plug
 
 >**IMPORTANT**
 >
->Comme répété plusieurs fois dans la documentation toute modification nécessite d'attendre 24h avant d'être effective
+>Comme répété plusieurs fois dans la documentation toute modification nécessite d'attendre 24h avant d'être effective.
