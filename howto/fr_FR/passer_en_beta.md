@@ -1,9 +1,9 @@
 > **Important**
 >
 > L’activation des bêtas des plugins est très très risquée et vous
-> **INTERDIT TOUT ACCES AU SUPPORT**. Il faut aussi, obligatoirement,
+> **INTERDIT TOUT ACCES AU SUPPORT**. Il faut aussi obligatoirement
 > passer Jeedom en bêta et faire des mises à jour fréquentes même s’il
-> n’y a pas de nouvelles mises à jour proposées.
+> n’y a pas de nouvelle mise à jour proposée.
 
 > **Important**
 >
@@ -22,19 +22,12 @@
 Passer le core en bêta 
 ======================
 
-Il faut d’abord passer Jeedom en version bêta. Pour cela, vérifiez que
-vous êtes bien en mode expert, puis Adminitration→Configuration→Mises à
-jour. Dans l’onglet **URL**, cliquez sur **Activer URL** :
+Il faut d’abord passer Jeedom en version bêta. Pour cela rendez-vous
+dans le menu Adminitration→Configuration→Mises àjour.
+Sélectionnez "béta" dans la liste déroulante version du core.
 
--   URL core Jeedom : <https://github.com/jeedom/core/archive/beta.zip>
-
--   URL version core Jeedom :
-    <https://raw.githubusercontent.com/jeedom/core/beta/core/config/version>
-
-Sauvegardez puis réactualisez la page. Toujours dans la partie **Mises à
-jour**, dans **Source de mise à jour** sélectionnez **URL**. Il ne vous
-reste plus qu’à forcer une mise à jour du core pour passer sur la
-version bêta de Jeedom.
+Sauvegardez. Il ne vous reste plus qu’à forcer une mise à jour du
+core pour passer sur la version bêta de Jeedom.
 
 > **Important**
 >
