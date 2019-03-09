@@ -100,7 +100,7 @@ lancer la recherche.
 > dans le code ou la documentation directement.
 
 1.  Le champ de recherche, oui c’est assez mince comme information, la
-    ligne copié est bien plus grande ;).
+    ligne copiée est bien plus grande ;).
 
 ![tuto.github7](../images/tuto.github7.png)
 
@@ -134,7 +134,7 @@ il faut effecter un PR (Pull Request)
 
 ![tuto.github9](../images/tuto.github9.png)
 
-1.  Le PR va lancer une coparaison entre la base de jeedom avec votre
+1.  Le PR va lancer une comparaison entre la base de jeedom avec votre
     repository (le fork).
 
 2.  Celà indique les modifications (le premier c’est parce que je me
@@ -166,16 +166,16 @@ demande.
 
 **C’est terminé.** Il faut attendre que votre PR soit validé.
 
-NB: Il n’y a que les utilisateurs ayant un droit de push sur jeedom qui
+NB: Il n’y a que les utilisateurs ayant un droit de push sur Jeedom qui
 peuvent valider le PR.
 
-Pour vous assurez que votre modification est bien dans la liste, vous
+Pour vous assurer que votre modification est bien dans la liste, vous
 pouvez cliquer sur Pull Requests
 
 ![tuto.github12](../images/tuto.github12.png)
 
-On obtient la liste des PR en attentes de validation On voit bien le
-notre
+On obtient la liste des PR en attentes de validation. On voit bien le
+nôtre
 
 ![tuto.github13](../images/tuto.github13.png)
 
