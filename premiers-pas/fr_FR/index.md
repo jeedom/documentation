@@ -4,14 +4,14 @@ aider à mettre en service votre Jeedom.
 > **Tip**
 >
 > Ce guide n’a pas vocation à se substituer à la documentation complète
-> disponible sur le site Jeedom [ici](https://jeedom.fr/doc).
+> disponible sur le site Jeedom [ici](https://jeedom.github.io/documentation/).
 
 Inscription sur le market 
 =========================
 
 La première chose à faire est de se créer un compte sur le Market pour
 pouvoir enregistrer votre Jeedom sur celui-ci, cliquez
-[ici](https://market.jeedom.fr) pour commencer
+[ici](https://www.jeedom.com/market) pour commencer
 
 ![premier market](../images/premier-market.png)
 
@@ -24,14 +24,14 @@ cette page :
 
 ![premier market3](../images/premier-market3.png)
 
-Voila votre compte Market est créé, pour plus de details sur le market
+Voilà votre compte Market est créé, pour plus de details sur le Market
 cliquez
-[ici](https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html)
+[ici](https://jeedom.github.io/core/fr_FR/market)
 
 Ajout de votre code service pack 
 ================================
 
-Si vous avez acheté une box Jeedom alors vous avez dû recevoir un mail
+Si vous avez acheté une box Jeedom alors vous avez dû recevoir un email
 contenant un code pour votre service pack.
 
 > **Important**
@@ -44,14 +44,14 @@ contenant un code pour votre service pack.
 > Si vous achetez un service pack depuis le Market Jeedom vous n’avez
 > rien à faire, celui-ci vous est automatiquement affecté.
 
-Une fois le code recupéré dans le mail il vous suffit d’aller sur le
-[market Jeedom](https://market.jeedom.fr) et de vous identifier.
+Une fois le code récupéré dans l'email il vous suffit d’aller sur le
+[market Jeedom](https://www.jeedom.com/market) et de vous identifier.
 
 Puis allez sur votre page de profil :
 
 ![premier servicepack](../images/premier-servicepack.png)
 
-Puis cliquez sur l’onglet "Mes Jeedoms"
+Cliquez ensuite sur l’onglet "Mes Jeedoms"
 
 ![premier servicepack2](../images/premier-servicepack2.png)
 
@@ -59,9 +59,9 @@ Renseignez votre numéro de service pack et validez :
 
 ![premier servicepack3](../images/premier-servicepack3.png)
 
-Voilà votre service pack est enregistré. Pour plus de details sur le
+Voilà votre service pack est enregistré. Pour plus de détails sur le
 Market cliquez
-[ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/market.asciidoc)
+[ici](https://jeedom.github.io/core/fr_FR/market)
 
 > **Tip**
 >
@@ -78,9 +78,9 @@ voici comment se connecter sur celui-ci.
 Trouver Jeedom 
 --------------
 
-### Par le market 
+### Par le Market 
 
-Solution la plus simple (mais ne marche pas dans 100% des cas en
+Solution la plus simple (mais ne fonctionne pas dans 100% des cas en
 fonction de la configuration de votre accès internet), il faut démarrer
 la box, attendre environ 10 minutes (attention si vous utilisez une
 image type netinstallation, ça sera plutôt 30min) et aller
@@ -93,12 +93,12 @@ image type netinstallation, ça sera plutôt 30min) et aller
 
 > **Important**
 >
-> En fonction de votre box ADSL cette fonctionalité peut ne pas marcher.
+> En fonction de votre box ADSL cette fonctionalité peut ne pas fonctionner.
 > Si c’est le cas, rien de grave, il vous suffit de vous connecter à
-> votre box ADSL et de trouver l’IP de jeedom dans celle-ci. Cette étape
+> votre box ADSL et de trouver l’IP de Jeedom dans celle-ci. Cette étape
 > ne fait rien d’autre que de vous donner l’IP locale de votre Jeedom.
 > Ce n’est pas à ce moment-là que l’ajout de votre Jeedom à votre compte
-> market est fait.
+> Market est fait.
 
 ### Par votre box internet 
 
@@ -118,13 +118,13 @@ login. Par défaut le login et le mot de passe sont "admin".
 
 ![premier jeedomfinder6](../images/premier-jeedomfinder6.png)
 
-Lier mon Jeedom à mon compte market 
+Lier mon Jeedom à mon compte Market 
 ===================================
 
 Nous allons voir ici comment lier votre Jeedom à votre compte Market.
 
 -   Une fois connecté à votre jeedom, vous devez aller sur
-    Administration → Configuration
+    Réglages → Système → Configuration
 
 -   Cliquez sur l’onglet **Mises à jour**
 
@@ -144,7 +144,7 @@ Nous allons voir ici comment lier votre Jeedom à votre compte Market.
 -   N’oubliez pas de sauvegarder !
 
 Pour plus de détails sur la page de configuration cliquez
-[ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/administration.asciidoc)
+[ici](https://jeedom.github.io/core/fr_FR/administration)
 .
 
 Obtenir mon URL d’accès direct 
@@ -155,14 +155,14 @@ d’accès direct à votre Jeedom sans que vous ayez à ouvrir les ports sur
 votre box ou autre.
 
 Pour la configurer il vous suffit d’aller dans
-Général → Administration → Configuration
+Réglages → Système → Configuration
 
 Puis d’aller sur la partie "Configuration réseaux"
 
 ![premier dns2](../images/premier-dns2.png)
 
 Une fois ici, il vous suffit d’activer "Utiliser les DNS Jeedom" puis
-sur la ligne "Gestion" de faire "Rédemarrer" et votre URL apparaitra au
+sur la ligne "Gestion" de faire "Redémarrer" et votre URL apparaîtra au
 niveau de statut HTTP, vous pouvez bien sûr la personnaliser à partir de
 la page profil du Market
 
@@ -175,8 +175,7 @@ Changer le mot de passe par défaut de Jeedom
 ============================================
 
 Une des étapes importantes est de changer le mot de passe par défaut de
-votre compte Jeedom, pour cela cliquez sur Administration → Utilisateurs
-(en haut à droite) :
+votre compte Jeedom, pour cela cliquez sur Réglages → Système → Utilisateurs:
 
 Une fois dessus vous avez juste à choisir la ligne avec l’utilisateur
 **admin** et à cliquer sur **changer le mot de passe** :
@@ -190,7 +189,7 @@ retenir, sinon vous ne pourrez plus accéder à votre Jeedom :
 
 Voilà, vous avez changé le mot de passe du compte admin, pour plus
 d’information sur cette page cliquez
-[ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/user.asciidoc).
+[ici](https://jeedom.github.io/core/fr_FR/user)
 
 Créer mon premier objet 
 =======================
@@ -224,7 +223,7 @@ Pour créer un objet, rien de plus simple :
 ![premier objet4](../images/premier-objet4.png)
 
 Pour plus d’informations sur cette partie cliquez
-[ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/object.asciidoc)
+[ici](https://jeedom.github.io/core/fr_FR/object)
 
 Installer mon premier plugin 
 ============================
@@ -277,7 +276,7 @@ de l’aide et poser vos questions.
 La documentation de Jeedom 
 --------------------------
 
-Vous trouverez une documentation complète [ici](https://jeedom.fr/doc) :
+Vous trouverez une documentation complète [ici](https://jeedom.github.io/documentation/) :
 
 Celle-ci se compose de plusieurs catégories :
 
@@ -329,9 +328,7 @@ recours, vous pouvez faire une demande de support à l’équipe Jeedom.
 Cette demande passe par un ticket. Il est possible d’en ouvrir un de
 plusieurs façons :
 
--   Directement à partir de Jeedom (méthode conseillée) : où que vous
-    soyez dans Jeedom, il y a un point d’exclamation en haut à droite
-    qui permet de faire une demande de support :
+-   Directement à partir de Jeedom (méthode conseillée) : menu Réglages, demande de support
 
 ![premier support4](../images/premier-support4.png)
 
@@ -349,7 +346,7 @@ Toute la suite des échanges se fera par mail.
 
 > **Tip**
 >
-> Si, lors de l’ouverture d’un ticket, vous obtenez une erreur indiquant
+> Si lors de l’ouverture d’un ticket, vous obtenez une erreur indiquant
 > que vous avez atteint votre quota, c’est que vous êtes limités à un
 > certain nombre de demandes de support par mois, en fonction de votre
 > service pack.
