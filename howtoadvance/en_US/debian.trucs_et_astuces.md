@@ -176,7 +176,7 @@ ou
 -   Passer sur chaque plugin pour réinstaller les dépendances (notamment
     sur ceux ou le daemon est "NOK" KO).
 
-Méthode 1 : Upgrade (moins de chance de succès) 
+Méthode 2 : Upgrade (moins de chance de succès) 
 -----------------------------------------------
 
 Mise à jour de l’OS en version Jessie.
