@@ -18,16 +18,17 @@ licence *                | Art der Lizenz.                                      
 author *                 | Name des Plugin-Autors, wie er nach der Installation des Plugins angezeigt wird, in der Informationen von ihm.         |
 require *                | Minimale Version von Jeedom.                                                                                                |
 category *               | Kategorie-Ranking des Plugins, auf dem Jeedom Markt. **Es ist unbedingt erforderlich, die Kategorie in der Tabelle unten zu beachten** |
-mobile                   | Wenn das Plugin ein eigenes Panel in der Jeedom WebApp verwendet, ist dies der Name der Hauptdatei dieses Panels.   |
-changelog *              | Html Link zum Änderungsprotokoll.                                                                                              |
-documentation *          | Html Link zur Plugin Dokumentation.                                                                                |
-link -> video               | Html  Link zu einer Video-Präsentation.                                                                                 |
-link -> forum               | Html Link zum Forum, zum offiziellen Thema des Plugins.                                                                  |
-languages                | Liste der verfügbaren Sprachen, für das Plugin : Französisch, Englisch, Deutsch, Italienisch, Spanisch, Russisch, Indonesisch            |
-compatibility            | Die Plugin-Kompatibilität : miniplus, smart, docker, rpi, diy, mobileapp.                                                   |
-hasDependency            | «true» wenn das Plugin Abhängigkeiten installieren muss, sonst «false» oder nichts.                                              |
-hasOwnDeamon             | «true» wenn das Plugin Deamons ausführen soll, sonst «false» oder nichts.                                                   |
-maxDependancyInstallTime | Maximale Zeit für die Installation von Abhängigkeiten, ausgedrückt in Minuten.                                            |
+display                  | si le plugin utilise un panel dédié sur le desktop, il s’agit du nom du fichier principal de ce panel.                    |
+mobile                   | Si le plugin utilise un panel dédié sur la webApp Jeedom, il s’agit du nom du fichier principal de ce panel.   |
+changelog *              | Lien Html vers le Changelog.                                                                                              |
+documentation *          | Lien Html vers la documentation du plugin.                                                                                |
+link -> video               | Lien Html vers une vidéo de présentation.                                                                                 |
+link -> forum               | Lien Html vers le forum sur le sujet officiel du plugin.                                                                  |
+languages                | Liste des langues disponibles pour le plugin : french, english, german, italian, spanish , russian, indonesian            |
+compatibility            | Compatibilité du plugin : miniplus, smart, docker, rpi, diy, mobileapp.                                                   |
+hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
+hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
+maxDependancyInstallTime | Temps maximum imparti pour l’installation des dépendances, exprimé en minutes.                                            |
 issue                    | URL vers le bugtracker si externe (si non remplis alors vous receverez un mail)
 
 **Exemple** :

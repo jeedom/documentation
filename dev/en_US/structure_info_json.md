@@ -18,6 +18,7 @@ licence *                | Type de licence.                                     
 author *                 | Nom de l’auteur du plugin, tel qu’il sera affiché une fois le plugin installé, dans les informations de celui-ci.         |
 require *                | Version minimum de Jeedom.                                                                                                |
 category *               | Catégorie de classement du plugin sur le Market jeedom. **Respecter impérativement la nomenclature du tableau ci-dessous** |
+display                  | si le plugin utilise un panel dédié sur le desktop, il s’agit du nom du fichier principal de ce panel.                    |
 mobile                   | Si le plugin utilise un panel dédié sur la webApp Jeedom, il s’agit du nom du fichier principal de ce panel.   |
 changelog *              | Lien Html vers le Changelog.                                                                                              |
 documentation *          | Lien Html vers la documentation du plugin.                                                                                |

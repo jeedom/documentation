@@ -18,17 +18,18 @@ licencia *                | Tipo de licencia.                                   
 autor *                 | Nom de l’auteur du plugin, tel qu’il sera affiché une fois le plugin installé, dans les informations de celui-ci.         |
 requiere *                | Versión mínima de Jeedom.                                                                                                |
 categoría *               | Catégorie de classement du plugin sur le Market jeedom. **Respecter impérativement la nomenclature du tableau ci-dessous** |
-móvil                   | Si le plugin utilise un panel dédié sur la webApp Jeedom, il s’agit du nom du fichier principal de ce panel.   |
+display                  | si le plugin utilise un panel dédié sur le desktop, il s’agit du nom du fichier principal de ce panel.                    |
+mobile                   | Si le plugin utilise un panel dédié sur la webApp Jeedom, il s’agit du nom du fichier principal de ce panel.   |
 changelog *              | Lien Html vers le Changelog.                                                                                              |
-documentación *          | Lien Html vers la documentation du plugin.                                                                                |
-enlace -> video               | Lien Html vers une vidéo de présentation.                                                                                 |
-enlace -> foro               | Lien Html vers le forum sur le sujet officiel du plugin.                                                                  |
-lenguajes                | Liste des langues disponibles pour le plugin : french, english, german, italian, spanish , russian, indonesian            |
-compatibilidad            | Compatibilité du plugin : miniplus, smart, docker, rpi, diy, mobileapp.                                                   |
+documentation *          | Lien Html vers la documentation du plugin.                                                                                |
+link -> video               | Lien Html vers une vidéo de présentation.                                                                                 |
+link -> forum               | Lien Html vers le forum sur le sujet officiel du plugin.                                                                  |
+languages                | Liste des langues disponibles pour le plugin : french, english, german, italian, spanish , russian, indonesian            |
+compatibility            | Compatibilité du plugin : miniplus, smart, docker, rpi, diy, mobileapp.                                                   |
 hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
 hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
 maxDependancyInstallTime | Temps maximum imparti pour l’installation des dépendances, exprimé en minutes.                                            |
-resultado                    | URL vers le bugtracker si externe (si non remplis alors vous receverez un mail)
+issue                    | URL vers le bugtracker si externe (si non remplis alors vous receverez un mail)
 
 **Exemple** :
 
@@ -41,21 +42,21 @@ resultado                    | URL vers le bugtracker si externe (si non remplis
 
 Market Jeedom         | info.json               |
 --------------------- | ----------------------- |
-Comunicación         | comunicación           |
+Communication         | communication           |
 Confort               | wellness                |
-Energía               | energía                  |
-Tiempo                 | tiempo                 |
-Monitoreo            | monitoreo              |
-Multimedia            | multimedia              |
-Naturaleza                | naturaleza                  |
-Objetos conectados      | devicecommunication     |
-Organización          | organización            |
-Pasarela domótica  | home automation protocol|
-Programación         | programación             |
-Protocolo domótico   | protocolo de automatización     |
-Salud                 | salud                  |
-Seguridad              | seguridad                |
-Automatismo           | automatisation          |
+Energie               | energy                  |
+Météo                 | weather                 |
+Monitoring            | monitoring              |
+Multimédia            | multimedia              |
+Nature                | nature                  |
+Objets Connectés      | devicecommunication     |
+Organisation          | organization            |
+Passerelle domotique  | home automation protocol|
+Programmation         | programming             |
+Protocole domotique   | automation protocol     |
+Santé                 | health                  |
+Sécurité              | security                |
+Automatisme           | automatisation          |
 
 
 

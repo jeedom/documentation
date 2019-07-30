@@ -17,7 +17,7 @@ A5-04
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../images/a5-04-01_trio2sys-capteur-temperature-humidite-o2line-blanc.jpg" width="60" />|Trio2sys|Sonde radio humidité et température pour montage interieur|Température||[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/a5-04-02_eltako_temperature_humidite_FAFT60.jpg" width="60" />|Eltako|Sonde radio humidité et température pour montage extérieur - FAFT60|Température||[Buy](http://www.domadoo.fr/fr/peripheriques/1931-eltako-sonde-radio-humidite-et-temperature-montage-exterieur-faft60-4010312310120.html)|
+|<img src="../images/a5-04-02_eltako_temperature_humidite_FAFT60.jpg" width="60" />|Eltako|Sonde radio humidité et température pour montage extérieur - FAFT60|Température||[Acheter](http://www.domadoo.fr/fr/peripheriques/1931-eltako-sonde-radio-humidite-et-temperature-montage-exterieur-faft60-4010312310120.html)|
 
 A5-06
 =====

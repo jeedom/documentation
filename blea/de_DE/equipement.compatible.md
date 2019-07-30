@@ -8,24 +8,37 @@ Awoxmesh
 |<img src="../images/awox.jpg" width="60" />|Awox Eglo|Eglo Fueva|Beleuchtung|Kompatibel mit der Awox Mesh-Technologie.|[kaufen](http://www.domadoo.fr/fr/peripheriques/.html)|
 |<img src="../images/awoxremote.jpg" width="60" />|Awox Eglo|Fernbedienung|Beleuchtung|Compatible avec Awox Mesh technologie. Il faut activer le mode bluetooth pour utiliser les commande.|[kaufen](http://www.domadoo.fr/fr/peripheriques/.html)|
 
-Beewismartdoor
+Beagle
 =====
 
 |Bild|Marke|Name|Typ|Bemerkungen|Link|
 |---|---|---|---|---|---|
-|<img src="../images/beewismartdoor.jpg" width="60" />|BeeWi|capteur d'ouverture|Capteurs|Capteurs d'ouverture de porte|[kaufen](http://www.domadoo.fr/fr/peripheriques/.html)|
+
+Beewismartdoor
+=====
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../images/beewismartdoor.jpg" width="60" />|BeeWi|capteur d'ouverture|Capteurs|Capteurs d'ouverture de porte|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+
+Blpnr
+=====
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../images/blpnr.jpg" width="60" />|Jardibric|BLP NR|Plante||[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Default
 =====
 
-|Bild|Marke|Name|Typ|Bemerkungen|Link|
+|Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../images/default.jpg" width="60" />|Inconnu|Inconnu|Defaut|Uniquement pour les équipements non encore rajouté dans le plugin, pour a minima avoir la présence et les rssi ainsi que la data brute|[kaufen](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/default.jpg" width="60" />|Inconnu|Inconnu|Defaut|Uniquement pour les équipements non encore rajouté dans le plugin, pour a minima avoir la présence et les rssi ainsi que la data brute|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Dotti
 =====
 
-|Bild|Marke|Name|Typ|Bemerkungen|Link|
+|Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../images/dotti.jpg" width="60" />|Dotti|Dotti|Afficheur|Fonctionnera beaucoup mieux avec option garder la connection|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
@@ -55,7 +68,7 @@ Gigaset
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../images/gigaset.jpg" width="60" />|Gigaset|G-Tag|Présence|Uniquement pour de la présence|[kaufen](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/gigaset.jpg" width="60" />|Gigaset|G-Tag|Présence|Uniquement pour de la présence|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Hector
 =====
@@ -73,7 +86,7 @@ Itag
 |<img src="../images/itag.jpg" width="60" />|Itag|Itag Blanc|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 |<img src="../images/itag.jpg" width="60" />|Itag|Itag Rose|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 |<img src="../images/itag.jpg" width="60" />|Itag|Itag Vert|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/itag.jpg" width="60" />|Itag|Itag Bleu|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)|[kaufen](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/itag.jpg" width="60" />|Itag|Itag Bleu|Boutons|Attention pour que le bouton fonctionne il faut cocher garder la connection, a partir de ce moment là la connection est gardée et le bouton n'est plus visible des autres antennes. La connection se fait dès que le bouton est visible dans un délai de 20 secondes (cela se confirme par l'arrêt du clignotement) et cela uniquement sur l'antenne choisi en emission (dans ce cas la il faut bien evidemment choisir la même en réception et émission)|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Jinlin
 =====
@@ -81,6 +94,13 @@ Jinlin
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../images/jinlin.jpg" width="60" />|Lyl Smart|Jinlin|Lumière|Uniquement pour de la présence (le reste viendra)|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+
+Kst1
+=====
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../images/kst1.jpg" width="60" />|Koogeek|Kst1|Santé||[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Logiswitch
 =====
@@ -99,6 +119,13 @@ Lywsd02
 |---|---|---|---|---|---|
 |<img src="../images/lywsd02.jpg" width="60" />|Xiaomi|Température Humidité|Capteurs|Capteurs de Température Humidité avec écran (Lywsd02)|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
+Meyerdom4Contacts
+=====
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../images/meyerdom4contacts.jpg" width="60" />|MeyerDom|4 contacteurs|Contacteurs|4 contacteurs et 2 analogiques|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+
 Miband
 =====
 
@@ -107,6 +134,8 @@ Miband
 |<img src="../images/miband1.jpg" width="60" />|Xiaomi|Miband|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 |<img src="../images/miband1s.jpg" width="60" />|Xiaomi|Miband1s|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 |<img src="../images/miband2.jpg" width="60" />|Xiaomi|Miband2|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/miband3.jpg" width="60" />|Xiaomi|Miband 3|Santé|Uniquement de la présence pour le moment|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/miband4.jpg" width="60" />|Xiaomi|Miband 4|Santé|Uniquement de la présence pour le moment|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 |<img src="../images/mibandcolor.jpg" width="60" />|Xiaomi|Miband (avec led couleur)|Santé|Selon les firmwares peut ne plus fonctionner. Attention si le bracelet est connecté à votre smartphone il est plus visible en bluetooth|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Miflora
@@ -114,7 +143,7 @@ Miflora
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../images/miflora.jpg" width="60" />|Xiaomi|Miflora|Capteurs|Capteurs de plantes|[kaufen](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/miflora.jpg" width="60" />|Xiaomi|Miflora|Capteurs|Capteurs de plantes|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Miscale
 =====
@@ -122,6 +151,14 @@ Miscale
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../images/miscale.jpg" width="60" />|Xiaomi|MiScale|Scale|Gestion de profils complète|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/miscale.jpg" width="60" />|Xiaomi|MiScale 2019|Scale|Gestion de profils complète|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+
+Miscale2
+=====
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../images/miscale2.jpg" width="60" />|Xiaomi|MiScale V2|Scale|Gestion de profils complète|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Myfox
 =====
@@ -169,17 +206,7 @@ Playbulb
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../images/bluelabel.jpg" width="60" />|Playbulb|BlueLabel|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/candle.jpg" width="60" />|Playbulb|Candle|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/candle6.jpg" width="60" />|Playbulb|Candle|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/color.jpg" width="60" />|Playbulb|Color|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/garden.jpg" width="60" />|Playbulb|Garden|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/garden19.jpg" width="60" />|Playbulb|Garden v1.9|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/original.jpg" width="60" />|Playbulb|Original|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/rainbow.jpg" width="60" />|Playbulb|Rainbow|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/smart.jpg" width="60" />|Playbulb|Smart|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/sphere.jpg" width="60" />|Playbulb|Sphere|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/sphere17.jpg" width="60" />|Playbulb|Sphère|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+||Playbulb|Sphère|Lumières|Portée capricieuse, qui peut justifier un traitement des actions un tout petit peu long. Peut être détecté à la place d'un autre playbulb si c'est le cas changez dans le menu déroulant|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Ropot
 =====
@@ -193,7 +220,7 @@ Ruuvi
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Ruuvi|Ruuvi|Beacon|Capteurs beacon|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/ruuvi.jpg" width="60" />|Ruuvi|Ruuvi|Beacon|Capteurs beacon|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Smartplug
 =====
@@ -236,6 +263,7 @@ Xiaomiht
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../images/xiaomiht.jpg" width="60" />|Xiaomi|Température Humidité|Capteurs|Capteurs de Température Humidité avec écran|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/xiaomiht.jpg" width="60" />|Xiaomi|Température Humidité Cleargrass|Micromodule|Capteurs de Température Humidité avec écran e-ink|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Yeelight
 =====

@@ -22,14 +22,14 @@ A5-04
 A5-06
 =====
 
-|Image|Marke|Name|Typ|Bemerkungen|Link|
+|Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../images/a5-06-01_eltako_FAH60_luminosite.jpg" width="60" />|Eltako|Sonde de luminosité extérieure FAH60|Luminosité||[Acheter](http://www.domadoo.fr/fr/peripheriques/3084-eltako-sonde-de-luminosite-exterieure-4010312305218.html)|
 
 A5-07
 =====
 
-|Image|Marke|Name|Typ|Bemerkungen|Link|
+|Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../images/a5-07-01_eosca_mouvement.jpg" width="60" />|Eosca|Détecteur de mouvement EnOcean (position plafond)|Mouvement||[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 |<img src="../images/a5-07-03_nodon_mouvement.jpg" width="60" />|Nodon|Détecteur de mouvement et luminosité EnOcean|Mouvement||[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|

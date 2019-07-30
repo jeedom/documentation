@@ -113,7 +113,7 @@ Assa Abloy
 |<img src="../images/297.3.0_yrl210.doorlock.jpg" width="60" />|Assa Abloy|Yale Push Button Lever Lock (YRL210)|Serrure|Inclusion en mode sécurisé|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 |<img src="../images/297.4.0_yrd210.doorlock.jpg" width="60" />|Assa Abloy|Yale Push Button Deadbolt (YRD210)|Serrure|Inclusion en mode sécurisé|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 |<img src="../images/297.6.0_yrd240.doorlock.jpg" width="60" />|Assa Abloy|Yale Key Free Touchscreen Deadbolt (YRD240)|Serrure|Inclusion en mode sécurisé|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
-|<img src="../images/297.7.0_ysl.doorlock.jpg" width="60" />|Assa Abloy|Yale Keyless Connected Smart Lock (YSL)|Serrure|Inclusion en mode sécurisé|[Buy](http://www.domadoo.fr/fr/peripheriques/.html)|
+|<img src="../images/297.7.0_ysl.doorlock.jpg" width="60" />|Assa Abloy|Yale Keyless Connected Smart Lock (YSL)|Serrure|Inclusion en mode sécurisé|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 |<img src="../images/297.7151.37424_doorlock.jpg" width="60" />|Assa Abloy|Yale Keyless Connected Smart Lock (YSL)|Serrure|Inclusion en mode sécurisé|[Acheter](http://www.domadoo.fr/fr/peripheriques/.html)|
 
 Benext

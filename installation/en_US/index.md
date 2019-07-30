@@ -7,7 +7,7 @@ Jeedom can be installed on different hardware components:
 
 -   a Synology NAS
 
--   any Debian-based Linux system
+-   tout système Linux basé sur Debian 9 (stretch)
 
 You can also buy a ready made box with Jeedom preinstalled
 which also contains a service pack (more support and services) and
@@ -133,8 +133,7 @@ raspberry PI **avec une carte SD.**
 > **Important**
 >
 > Debian 9 (Stretch) est la distribution officiellement supportée pour
-> la version 3.1.5 de jeedom (mais Jessie reste parfaitement
-> fonctionnelle).
+> la version 3.1.5 de jeedom.
 
 **1/ Télécharger le dernière image "lite", c’est à dire sans interface
 graphique**
