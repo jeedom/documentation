@@ -4,14 +4,14 @@ aider à mettre en service votre Jeedom.
 > **Tip**
 >
 > Ce guide n’a pas vocation à se substituer à la documentation complète
-> disponible sur le site Jeedom [ici](https://jeedom.fr/doc).
+> disponible sur le site Jeedom [ici](https://jeedom.github.io/documentation/).
 
 Inscription sur le market 
 =========================
 
 La première chose à faire est de se créer un compte sur le Market pour
 pouvoir enregistrer votre Jeedom sur celui-ci, cliquez
-[ici](https://market.jeedom.fr) pour commencer
+[ici](https://www.jeedom.com/market) pour commencer
 
 ![premier market](../images/premier-market.png)
 
@@ -26,7 +26,7 @@ cette page :
 
 Voila votre compte Market est créé, pour plus de details sur le market
 cliquez
-[ici](https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-market.html)
+[ici](https://jeedom.github.io/core/fr_FR/market)
 
 Ajout de votre code service pack 
 ================================
@@ -45,7 +45,7 @@ contenant un code pour votre service pack.
 > rien à faire, celui-ci vous est automatiquement affecté.
 
 Une fois le code recupéré dans le mail il vous suffit d’aller sur le
-[market Jeedom](https://market.jeedom.fr) et de vous identifier.
+[market Jeedom](https://www.jeedom.com/market) et de vous identifier.
 
 Puis allez sur votre page de profil :
 
@@ -59,9 +59,9 @@ Renseignez votre numéro de service pack et validez :
 
 ![premier servicepack3](../images/premier-servicepack3.png)
 
-Voilà votre service pack est enregistré. Pour plus de details sur le
+Voilà votre service pack est enregistré. Pour plus de détails sur le
 Market cliquez
-[ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/market.asciidoc)
+[ici](https://jeedom.github.io/core/fr_FR/market)
 
 > **Tip**
 >
@@ -144,7 +144,7 @@ Nous allons voir ici comment lier votre Jeedom à votre compte Market.
 -   N’oubliez pas de sauvegarder !
 
 Pour plus de détails sur la page de configuration cliquez
-[ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/administration.asciidoc)
+[ici](https://jeedom.github.io/core/fr_FR/administration)
 .
 
 Obtenir mon URL d’accès direct 
@@ -190,7 +190,7 @@ retenir, sinon vous ne pourrez plus accéder à votre Jeedom :
 
 Voilà, vous avez changé le mot de passe du compte admin, pour plus
 d’information sur cette page cliquez
-[ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/user.asciidoc).
+[ici](https://jeedom.github.io/core/fr_FR/user).
 
 Créer mon premier objet 
 =======================
@@ -224,7 +224,7 @@ Pour créer un objet, rien de plus simple :
 ![premier objet4](../images/premier-objet4.png)
 
 Pour plus d’informations sur cette partie cliquez
-[ici](https://github.com/jeedom/core/blob/stable/doc/fr_FR/object.asciidoc)
+[ici](https://jeedom.github.io/core/fr_FR/object)
 
 Installer mon premier plugin 
 ============================
@@ -277,7 +277,7 @@ de l’aide et poser vos questions.
 La documentation de Jeedom 
 --------------------------
 
-Vous trouverez une documentation complète [ici](https://jeedom.fr/doc) :
+Vous trouverez une documentation complète [ici](https://jeedom.github.io/documentation/) :
 
 Celle-ci se compose de plusieurs catégories :
 
