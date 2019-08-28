@@ -31,7 +31,7 @@ Sauvegarde/Restauration de Jeedom
 
 Une documentation est déjà présente pour expliquer la page
 Administration→Sauvegardes. Vous la trouverez
-[ici](https://github.com/jeedom/documentation/blob/master/howto/fr_FR/sauvegarde.comment_faire.asciidoc).
+[ici](https://jeedom.github.io/core/fr_FR/backup).
 
 Sauvegarde/Restauration de la carte microSD 
 ===========================================

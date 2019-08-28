@@ -190,4 +190,4 @@ sur un hyperviseur ESXi.
     sudo apt-get install -y open-vm-tools
 
 Il ne vous reste plus qu’à installer Jeedom en suivant
-[ceci](https://jeedom.github.io/documentation/installation/fr_FR/doc-installation.html#_autre)
+[ceci](https://jeedom.github.io/documentation/installation/fr_FR/index#tocAnchor-1-27)

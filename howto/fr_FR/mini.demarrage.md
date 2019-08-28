@@ -62,7 +62,7 @@ Par ailleurs, n’oubliez pas que vous disposez de 2 bons de réduction
 (envoyés par courriel), vous permettant d’installer 2 plugins payants
 gratuitement (RFXCOM et Alarme). Pour s’en servir vous devez créer un
 compte sur le Market Jeedom, voir la documentation : [Doc
-Market](https://jeedom.fr/doc_market.php).
+Market](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index).
 
 Dans le courriel que vous avez reçu, figure aussi le numéro du Service
 Pack associé à la Jeedom Mini+. Vous pouvez le renseigner sur votre
@@ -72,15 +72,15 @@ différents services correpondants à votre Service Pack.
 ![mini.demarrage09](../images/mini.demarrage09.png)
 
 Vous pouvez maintenant suivre la documentation : [Premiers pas avec
-Jeedom](https://www.jeedom.fr/doc/documentation/premiers-pas/fr_FR/doc-premiers-pas.html)
+Jeedom](https://jeedom.github.io/documentation/premiers-pas/fr_FR/index)
 Qui vous permettra de trouver l’adresse IP de votre Jeedom Mini+ et de
 vous y connecter afin de commencer à la paramètrer et à l’utiliser.
 
 Pour approfondir la découverte et l’utilisation de Jeedom, vous disposez
 d’une documentation complète : [Documentation
 Jeedom](https://jeedom.fr/doc) et également d’une section répertoriant
-les tutoriels vidéos : [Tutos vidéos](https://jeedom.fr/video.php).
+les tutoriels vidéos : [Tutos vidéos](https://jeedom.github.io/documentation/presentation/fr_FR/index#tocAnchor-1-3).
 N’hésitez pas à vous rendre sur le Forum de Jeedom pour toute autre
-question : [Forum Jeedom](https://forum.jeedom.fr/).
+question : [Forum Jeedom](https://www.jeedom.com/forum/).
 
 Merci, et bonne découverte de la domotique avec Jeedom.
