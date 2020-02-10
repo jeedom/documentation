@@ -39,7 +39,7 @@ Une fois cela fait vous allez avoir dans le dossier docs un dossier fr_FR (le se
 
 ### Mise en ligne
 
-La mise en ligne est assez simple il suffit dans sur votre dépot github puis "Settings" et dans la partie "GitHub Pages" d'activer celle sur "master branch /docs folder" (comme l'indique le libellé seul les fichiers dans le dossier /docs de la branche master de votre plugin seront en ligne). 
+La mise en ligne est assez simple, il suffit d'aller sur votre dépot github puis "Settings" et dans la partie "GitHub Pages" d'activer celle sur "master branch /docs folder" (comme l'indique le libellé seul les fichiers dans le dossier /docs de la branche master de votre plugin seront en ligne). 
 
 ![doc-github](../images/tutoDoc.png)
 
