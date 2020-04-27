@@ -1,9 +1,7 @@
 > **Important**
 >
 > L’activation des bêtas des plugins est très très risquée et vous
-> **INTERDIT TOUT ACCES AU SUPPORT**. Il faut aussi obligatoirement
-> passer Jeedom en bêta et faire des mises à jour fréquentes même s’il
-> n’y a pas de nouvelle mise à jour proposée.
+> **INTERDIT TOUT ACCES AU SUPPORT**. 
 
 > **Important**
 >
@@ -22,35 +20,11 @@
 Passer le core en bêta 
 ======================
 
-Il faut d’abord passer Jeedom en version bêta. Pour cela rendez-vous
-dans le menu Adminitration→Configuration→Mises àjour.
-Sélectionnez "béta" dans la liste déroulante version du core.
-
-Sauvegardez. Il ne vous reste plus qu’à forcer une mise à jour du
-core pour passer sur la version bêta de Jeedom.
-
-> **Important**
->
-> Jeedom ne signale en bêta que les mises à jour importantes, il vous
-> faudra donc souvent forcer la mise à jour de Jeedom pour avoir la
-> dernière version, même si le centre de mise à jour ne vous propose
-> rien.
-
 > **Important**
 >
 > Une mise à jour en bêta peut complètement casser votre Jeedom et le
 > rendre irrécupérable. En cas de soucis vous n’aurez AUCUN SUPPORT, il
 > faudra vous débrouiller par vos propres moyens.
-
-> **Important**
->
-> Le passage d’une version stable à une version bêta est risqué (nous ne
-> garantissons jamais que votre Jeedom continue de fonctionner
-> correctement). Le passage d’une version bêta à une version stable est
-> INTERDIT, en effet, lors d’une telle opération, il est sûr à 100% que
-> votre Jeedom sera cassé. Il n’est pas possible de faire un retour
-> arrière en restaurant une sauvegarde d’une version stable. En cas de
-> soucis, vous ne bénéficierez d’AUCUN SUPPORT.
 
 Passer les plugins en bêta 
 ==========================
@@ -66,14 +40,6 @@ voir un bouton "installer bêta".
 >
 > Tout plugin installé en version bêta interdit l’accès complet au
 > support, même si votre problème ne concerne pas ce plugin.
-
-> **Important**
->
-> Un plugin en version stable peut ne pas marcher sur un Jeedom bêta.
-
-> **Important**
->
-> Un plugin en version bêta NE FONCTIONNE PAS sur un Jeedom stable.
 
 > **Important**
 >
