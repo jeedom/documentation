@@ -55,3 +55,36 @@ main {
 .tabs .tab a:hover {
   color: #d2ef8b !important;
 }
+
+.cookieAcceptBar {
+  display:none;
+  position: fixed;
+  bottom: -50px;
+  left:0;
+  right: 0;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  z-index: 99999;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.cookieAcceptBar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#cookieAcceptBarConfirm {
+  cursor: pointer;
+  border: none;
+  background-color: #2387c0;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 10px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+}
