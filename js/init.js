@@ -161,7 +161,7 @@ function setCookie(cname, cvalue, exdays) {
 function cookiesPolicyBar(){
   if (getCookie('cookiePolicyAccept') != "active") $('#cookieAcceptBar').show();
   $('#cookieAcceptBarConfirm').on('click',function(){
-    setCookie('cookiePolicyAccept', 'active', { expires: 30 });
+    setCookie('cookiePolicyAccept', 'active', 30);
     $('#cookieAcceptBar').fadeOut();
   });
 }
